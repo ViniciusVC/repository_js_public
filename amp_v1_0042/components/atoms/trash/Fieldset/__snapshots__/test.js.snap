@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hr > deve renderizar com tema default 1`] = `
+<div
+  className="sc-bdVaJa kqUjFo"
+/>
+`;
+
+exports[`Hr > deve renderizar com uma borda de 2px 1`] = `
+<div
+  className="sc-bdVaJa kRHifP"
+/>
+`;

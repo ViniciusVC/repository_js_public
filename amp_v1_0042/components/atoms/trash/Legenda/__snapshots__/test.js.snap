@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Legenda > deve renderizar com o tema default, recebendo as props required 1`] = `
+<small>
+  <Row
+    align={null}
+    justify={null}
+    margin={null}
+    padding={null}
+    theme={
+      Object {
+        "flex": "
+  position: relative;
+  display: flex !important;
+  flex-direction: column;
+  ",
+      }
+    }
+  >
+    <Col
+      align={null}
+      justify={null}
+      margin={null}
+      padding={null}
+      theme={
+        Object {
+          "flex": "
+  position: relative;
+  display: flex !important;
+  flex-direction: column;
+  ",
+        }
+      }
+    >
+      <Legend
+        theme={
+          Object {
+            "gradient": "linear-gradient(to right, #ff6d00, #d82482)",
+            "primary": "#d82482",
+            "secondary": "#909090",
+          }
+        }
+      >
+        Consumido: 
+        <strong>
+          3.5
+           GB  [
+          5
+          %]
+        </strong>
+      </Legend>
+      <Legend
+        theme={
+          Object {
+            "gradient": "linear-gradient(to right, #ff6d00, #d82482)",
+            "primary": "#d82482",
+            "secondary": "#909090",
+          }
+        }
+      >
+        Disponivel: 
+        <strong>
+          66.5
+           GB  [
+          95
+          %]
+        </strong>
+      </Legend>
+    </Col>
+    <Muted
+      theme={
+        Object {
+          "secondary": "#909090",
+        }
+      }
+    >
+      Data de renovação: 
+      14/03/2015
+    </Muted>
+  </Row>
+</small>
+`;

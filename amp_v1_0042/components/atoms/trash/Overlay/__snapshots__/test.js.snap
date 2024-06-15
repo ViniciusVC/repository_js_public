@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Overlay > deve renderizar com o rba do tema (1,1,1,1.2) 1`] = `
+<aside
+  className="overlay sc-bdVaJa QMdxG"
+/>
+`;
+
+exports[`Overlay > deve renderizar com o tema default 1`] = `
+<aside
+  className="overlay sc-bdVaJa fOZlDJ"
+/>
+`;

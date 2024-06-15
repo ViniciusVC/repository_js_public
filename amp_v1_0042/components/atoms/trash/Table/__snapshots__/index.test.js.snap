@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table Snapshot renders correctly 1`] = `
+<Table__StyledTable
+  color="primary"
+  disabled={false}
+  fontFamily="Simplon"
+  fontSize={16}
+  fontWeight="Regular"
+  fontcolor="#fff"
+  height="initial"
+  margin={
+    Array [
+      5,
+      10,
+    ]
+  }
+  maxheight="initial"
+  maxwidth="initial"
+  minheight="initial"
+  minwidth="initial"
+  onClick={[Function]}
+  padding={
+    Array [
+      15,
+      50,
+    ]
+  }
+  radius={
+    Array [
+      4,
+    ]
+  }
+  uppercase={false}
+  width="initial"
+>
+  Table
+</Table__StyledTable>
+`;

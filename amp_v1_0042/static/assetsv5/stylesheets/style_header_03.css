@@ -1,0 +1,191 @@
+/* header ------------------------------------------------------------ */
+@font-face {
+  font-family: 'SimplonBP-Regular';
+  src: url('/fontesoi/simplonbp-regular-webfont.woff');
+} 
+@font-face {
+  font-family: 'SimplonBP-Headline';
+  src: url('/fontesoi/simplonvvc-headline-webfont.woff');
+}
+
+html{
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  font-family: sans-serif;
+  padding: 0;
+  top: 0;
+  margin: 0;
+  cursor: default;
+  -webkit-locale: "pt-BR";
+  color: -internal-root-color;
+  box-sizing: border-box;
+  direction: ltr;
+  unicode-bidi: isolate;
+  display: block;
+}  
+
+.page {
+  display: table;
+  margin: -8px;
+ 
+  width: 100%;
+  table-layout: fixed;
+  padding: 0;
+  padding-left: 5%;
+  cursor: default;
+}
+
+
+body{    
+
+  background: #fff none top center no-repeat;
+  background-attachment: fixed;
+  color: #333;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 150%;
+  text-align: left;
+  text-decoration: none;
+}
+
+.headerrow {
+  margin: 3.5rem auto 1.28571429rem auto;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100px;
+}
+
+.divops{
+  padding-left: 0;
+  padding-right: 0;
+  min-height: 0;
+  float: left;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  cursor: default;
+  font-weight: normal;
+  letter-spacing: 0;
+}
+
+.divheadameba{
+  float: right;
+  width: 28px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 8;
+  min-height: 0;
+}
+
+/* header Pequeno */
+@media only screen and (max-width : 780px) {
+  .content {
+      width: 750px;
+  }
+  .divheadameba img{
+      display: block;
+      vertical-align: middle;
+      border: 0;
+  }
+  .divheadameba amp-img{
+      display: block;
+      vertical-align: middle;
+      border: 0;
+  }
+
+  .divheadimglogo{
+      width: 91.66666667%;
+      /*margin-right: 8%;*/
+      font-size: 1.28571429rem;
+      line-height: 1.71428571rem;
+  }
+  .logo{
+      height: 2.57142857rem;
+      width: 2.57142857rem;
+      display: block;
+      /*margin-bottom: .85714286rem;*/
+      vertical-align: middle;
+      border: 0;
+      padding: 0;
+      margin: 0;
+      cursor: default;
+  }  
+}
+
+/* header Medio */
+@media only screen and (min-width : 780px) {
+  .content {
+      width: 750px;
+  }
+  .divheadameba img{
+      display: none;
+  }
+  .divheadameba amp-img{
+      display: none;
+  }
+  .divheadimglogo{
+      width: 91.66666667%;
+      font-size: 1.71428571rem;
+      line-height: 2.28571429rem;
+  }
+  .logo{
+      display: block;
+      vertical-align: middle;
+      border: 0;
+      padding: 0;
+      margin: 0;
+      cursor: default;
+  }
+}
+
+/* header grande */
+@media only screen and (min-width : 992px) {
+  .content {
+      width: 970px;
+  }
+  .divheadameba img{
+      display: none;
+  }
+  .divheadameba amp-img{
+      display: none;
+  }
+  .divheadimglogo{
+      width: 41.66666667%;
+      font-size: 1.71428571rem;
+      line-height: 2.28571429rem;
+  }
+  .logo{
+      display: block;
+      /*margin-bottom: .85714286rem;*/
+      vertical-align: middle;
+      border: 0;
+      padding: 0;
+      margin: 0;
+      cursor: default;
+  }
+}
+
+
+h4 {
+  color: #222;
+  font-weight: normal;
+  letter-spacing: 0;
+  font-family: "SimplonBP-Regular",Arial;
+  font-style: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  padding: 0;
+  margin: 0;
+  cursor: default;
+  box-sizing: border-box;
+  display: block;
+  margin-block-start: 0.7em;
+  margin-block-end: 0.7em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;  
+}

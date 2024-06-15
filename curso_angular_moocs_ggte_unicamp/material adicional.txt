@@ -1,0 +1,17 @@
+$scope.alunos = [{'nome': 'Joãozinho', 'idade': 9},
+                 {'nome': 'Ricardinho', 'idade': 11},
+                 {'nome': 'Felipinho', 'idade': 11},
+                 {'nome': 'Zildinha', 'idade': 14},
+                 {'nome': 'Marianinha', 'idade': 10},
+                 {'nome': 'Luluzinha', 'idade': 12}];
+	
+$scope.submeter = function() {
+	if($scope.novo_aluno_form.$valid) {
+		novo_aluno = {};
+		novo_aluno['nome'] = $scope.nome_aluno;
+		novo_aluno['idade'] = parseInt($scope.idade_aluno);
+		$scope.alunos.push(novo_aluno);
+	} else {
+		alert("Preencha o formulário corretamente");
+	}
+};

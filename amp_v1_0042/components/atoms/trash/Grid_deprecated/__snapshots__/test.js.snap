@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Grid > deve aceitar um tema 1`] = `
+<main
+  className="grid sc-bdVaJa hlxBJy"
+/>
+`;
+
+exports[`Grid > deve renderizar com o tema default 1`] = `
+<main
+  className="grid sc-bdVaJa dQMYgd"
+/>
+`;
+
+exports[`Grid > deve renderizar com um container de 1023px 1`] = `
+<main
+  className="grid sc-bdVaJa dXIQpP"
+/>
+`;

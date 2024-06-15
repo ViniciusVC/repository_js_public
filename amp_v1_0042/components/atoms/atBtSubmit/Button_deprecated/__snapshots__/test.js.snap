@@ -1,0 +1,351 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button > deve renderizar um elemento <Button/> com a cor primária vermelha 1`] = `
+<StyledComponent
+  bold={false}
+  borderless={false}
+  disabled={false}
+  fontSize="0.875rem"
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bdVaJa",
+        "isStatic": false,
+        "rules": Array [
+          "
+  ",
+          [Function],
+          ";
+  ",
+          [Function],
+          ";
+  font: inherit;
+  font-size: ",
+          [Function],
+          ";
+  font-weight: ",
+          [Function],
+          ";
+  font-weight: ",
+          [Function],
+          ";
+  line-height: ",
+          [Function],
+          ";
+  transition: 0.3s ease;
+  white-space: nowrap;
+  &:hover {
+    cursor: pointer; /* mouse com mãozinha */
+  }
+  &:focus {
+    outline: none; /* evita destaque indesejado pós clique !!! */
+  }
+  &:disabled,
+  &.disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+",
+        ],
+      },
+      "displayName": "styled.button",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "sc-bdVaJa",
+      "target": "button",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+  ghost={false}
+  href={null}
+  invert={false}
+  link={false}
+  load={false}
+  loading={false}
+  show={true}
+  theme={
+    Object {
+      "primary": "red",
+    }
+  }
+  upperCase={true}
+  width="100%"
+/>
+`;
+
+exports[`Button > deve renderizar um elemento <Button/> com aparência de link 1`] = `
+<StyledComponent
+  bold={false}
+  borderless={false}
+  disabled={false}
+  fontSize="0.875rem"
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bdVaJa",
+        "isStatic": false,
+        "rules": Array [
+          "
+  ",
+          [Function],
+          ";
+  ",
+          [Function],
+          ";
+  font: inherit;
+  font-size: ",
+          [Function],
+          ";
+  font-weight: ",
+          [Function],
+          ";
+  font-weight: ",
+          [Function],
+          ";
+  line-height: ",
+          [Function],
+          ";
+  transition: 0.3s ease;
+  white-space: nowrap;
+  &:hover {
+    cursor: pointer; /* mouse com mãozinha */
+  }
+  &:focus {
+    outline: none; /* evita destaque indesejado pós clique !!! */
+  }
+  &:disabled,
+  &.disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+",
+        ],
+      },
+      "displayName": "styled.button",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "sc-bdVaJa",
+      "target": "button",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+  ghost={false}
+  href={null}
+  invert={false}
+  link={true}
+  load={false}
+  loading={false}
+  show={true}
+  theme={
+    Object {
+      "primary": "#d82482",
+      "radius": "border-radius: 2px",
+    }
+  }
+  upperCase={true}
+  width="100%"
+/>
+`;
+
+exports[`Button > deve renderizar um elemento <Button/> com as cores invertidas 1`] = `
+<StyledComponent
+  bold={false}
+  borderless={false}
+  disabled={false}
+  fontSize="0.875rem"
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bdVaJa",
+        "isStatic": false,
+        "rules": Array [
+          "
+  ",
+          [Function],
+          ";
+  ",
+          [Function],
+          ";
+  font: inherit;
+  font-size: ",
+          [Function],
+          ";
+  font-weight: ",
+          [Function],
+          ";
+  font-weight: ",
+          [Function],
+          ";
+  line-height: ",
+          [Function],
+          ";
+  transition: 0.3s ease;
+  white-space: nowrap;
+  &:hover {
+    cursor: pointer; /* mouse com mãozinha */
+  }
+  &:focus {
+    outline: none; /* evita destaque indesejado pós clique !!! */
+  }
+  &:disabled,
+  &.disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+",
+        ],
+      },
+      "displayName": "styled.button",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "sc-bdVaJa",
+      "target": "button",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+  ghost={false}
+  href={null}
+  invert={true}
+  link={false}
+  load={false}
+  loading={false}
+  show={true}
+  theme={
+    Object {
+      "primary": "#d82482",
+      "radius": "border-radius: 2px",
+    }
+  }
+  upperCase={true}
+  width="100%"
+/>
+`;
+
+exports[`Button > deve renderizar um elemento <Button/> com tema default 1`] = `
+<StyledComponent
+  bold={false}
+  borderless={false}
+  disabled={false}
+  fontSize="0.875rem"
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bdVaJa",
+        "isStatic": false,
+        "rules": Array [
+          "
+  ",
+          [Function],
+          ";
+  ",
+          [Function],
+          ";
+  font: inherit;
+  font-size: ",
+          [Function],
+          ";
+  font-weight: ",
+          [Function],
+          ";
+  font-weight: ",
+          [Function],
+          ";
+  line-height: ",
+          [Function],
+          ";
+  transition: 0.3s ease;
+  white-space: nowrap;
+  &:hover {
+    cursor: pointer; /* mouse com mãozinha */
+  }
+  &:focus {
+    outline: none; /* evita destaque indesejado pós clique !!! */
+  }
+  &:disabled,
+  &.disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+",
+        ],
+      },
+      "displayName": "styled.button",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "sc-bdVaJa",
+      "target": "button",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+  ghost={false}
+  href={null}
+  invert={false}
+  link={false}
+  load={false}
+  loading={false}
+  show={true}
+  theme={
+    Object {
+      "primary": "#d82482",
+      "radius": "border-radius: 2px",
+    }
+  }
+  upperCase={true}
+  width="100%"
+/>
+`;
+
+exports[`Button > deve renderizar um elemento <a/> com href = /oi 1`] = `
+<a
+  className="btn sc-bwzfXH jqSpGM"
+  href="/oi"
+/>
+`;
+
+exports[`Button > deve renderizar um elemento <button/> com a cor primária vermelha 1`] = `
+<button
+  className="btn sc-bdVaJa OSbwY"
+  href={null}
+/>
+`;
+
+exports[`Button > deve renderizar um elemento <button/> com aparência de link 1`] = `
+<button
+  className="btn sc-bdVaJa gZeWvD"
+  href={null}
+/>
+`;
+
+exports[`Button > deve renderizar um elemento <button/> com as cores invertidas 1`] = `
+<button
+  className="btn sc-bdVaJa dZODZh"
+  href={null}
+/>
+`;
+
+exports[`Button > deve renderizar um elemento <button/> com tema default 1`] = `
+<button
+  className="btn sc-bdVaJa bOROrd"
+  href={null}
+/>
+`;

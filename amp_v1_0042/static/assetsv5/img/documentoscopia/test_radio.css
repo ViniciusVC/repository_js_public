@@ -1,0 +1,50 @@
+
+/* test_radio.css */
+
+
+/* Geral ------------------------------------------------------- */
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+/* radio ------------------------------------------------------- */ 
+
+
+.radio_ul {
+  /*width: 100%;
+  background-color: aqua;*/
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: blue;
+}
+
+.radio_li{
+   width: 100%;
+   margin: 0;
+   padding: 10px;
+   background-color: aqua;
+}
+.radio_style{
+   display: none;
+}
+.radio_style:checked ~ label{
+  border: solid 1px #f8562c;
+}
+.radio_label{
+    /*display: block;*/
+    padding: 10px;
+    margin: 0;
+    /*margin-right: 10px;*/
+    color: #222222;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 8px;
+    border: solid 1px #dbdbdb;
+    background-color: #ffffff;
+}
+
+

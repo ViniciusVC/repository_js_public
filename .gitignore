@@ -110,6 +110,9 @@ dist
 # Serverless directories
 .serverless/
 
+# NodeJS
+.node_modules/
+
 # FuseBox cache
 .fusebox/
 

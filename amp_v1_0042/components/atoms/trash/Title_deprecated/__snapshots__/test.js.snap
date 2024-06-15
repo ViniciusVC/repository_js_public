@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title > deve renderizar com a cor primaria 1`] = `
+<h3
+  className="Title sc-bdVaJa ccArrC"
+/>
+`;
+
+exports[`Title > deve renderizar com a cor secundária 1`] = `
+<h3
+  className="Title sc-bdVaJa dhoUkX"
+/>
+`;
+
+exports[`Title > deve renderizar com o tema default 1`] = `
+<h3
+  className="Title sc-bdVaJa butfLJ"
+/>
+`;
