@@ -1,4 +1,4 @@
-# Curso de Angular da MOOCS GGTE Unicamp
+# Estudos de Angular da MOOCS GGTE Unicamp
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 

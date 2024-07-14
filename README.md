@@ -22,7 +22,5 @@ https://github.com/ViniciusVC/repository_js_public
 │
 ├── 📂 /react_puro_busca
     (Exemplo simples de ReactJS)
-
-
 ```
 

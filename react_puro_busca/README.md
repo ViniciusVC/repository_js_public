@@ -41,4 +41,3 @@ Instalar biblioteca de requisição TTP:
 API usada para:
 > https://viacep.com.br/ws/{numero CEP apenas numeros}/json/
 
-
