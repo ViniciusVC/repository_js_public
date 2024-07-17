@@ -43,9 +43,8 @@ function App() {
     <div className="App">
       <Header/>
 
-      <div>
-      <p>Mostrando o Pokemon</p>
       <div className="containerInput">
+              <p>Digite um id:</p>
               <input 
               type="text"
               placeholder="Digite o id do Pokemon"
@@ -56,15 +55,19 @@ function App() {
                 Busca
               </button>
       </div>
-            
+
+      <div>
+        
+
             { Object.keys(idPokemon).length > 0 && ( 
               <div>
                 <h1>
                   {idPokemon.name}
                 </h1>
-                <img src={idPokemon.sprites.other.showdown.front_shiny} className="App-Imagem" alt="logo" />
+                <div className="cenario">
+                  <img src={idPokemon.sprites.other.showdown.front_shiny} className="App-Imagem" alt="logo" />
+                </div>
                 <img src={idPokemon.sprites.front_shiny} className="App-Imagem" alt="logo" />
-                
                 <p>order : {idPokemon.order}</p>   
               </div>
             )}
