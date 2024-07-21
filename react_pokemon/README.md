@@ -6,6 +6,7 @@ Projeto exemplo React consultando API Pokeapi (sem Next).
 Repositorio Github: https://github.com/ViniciusVC/repository_js_public/tree/main/eact_pokemon
 
 ## Clonando Projeto
+
 ```
 git clone https://github.com/ViniciusVC/repository_js_public.git
 cd repository_js_public/react_pokemon
@@ -46,7 +47,7 @@ Rodar o servidor de desenvolvimento.
 
 http://localhost:3000/
 
-![PrtScrBuscaCPF](public/PrtScrBuscaCPF.jpg "PrtScrBuscaCPF")
+![PrtScrPokemon](public/PrtScrPokemon.jpg "PrtScrPokemon")
 
 
 # build
