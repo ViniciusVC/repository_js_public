@@ -1,0 +1,33 @@
+Avatar:
+
+v : versão (0)
+avatar default.
+Ex.: "v0|"
+
+________________________
+
+Avatar:
+
+v : versão (1)
+p : 
+avatar default.
+Ex.: "v0|"
+
+
+________________________
+
+v : versão (2)
+t : Cor da pele (1,2,3)
+f : forma do rosto (1,2)
+c : cor cabelo (1,2,3,4,5) 
+p : Cabelo (1 baixo, 2 caixos, 3 comprido, 5 barba) (barba e cabelo)
+r : Roupa (1)
+o : Oculos (0,1)
+
+Ex.: "v1|t1|f1|c1|p1|r1|o0"
+
+
+
+________________________
+
+

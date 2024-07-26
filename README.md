@@ -8,31 +8,39 @@ Agrupamento de projetos com JavaScript
 
 https://github.com/ViniciusVC/repository_js_public
 
-## Projetos:
-```
+
+## Projetos neste repositorio:
+
 │
 ├── 📂 /amp_v1_0042
 │   (NextJS - ReactJS - AMP - JS)
 │
+│
 ├── 📂 /curso_angular_moocs_ggte_unicamp
 │   (AngularJS 1 - Bootstrap - JS) 
+│
 │
 ├── 📂 /curso_angular_moocs_ggte_unicamp_aula_3
 │   (AngularJS 1 - Bootstrap - JS) 
 │
+│
 ├── 📂 /exemplo_next_js
 │   (Exemplo NextJS)
+│
 │
 ├── 📂 /exemplo_typeScript
 │   (Exemplo typeScripte)
 │
+│
 ├── 📂 /react_native_test_a
 │   (Estudo React Native)
 │
+│
 ├── 📂 /react_pokemon
 │   (Exemplo simples de ReactJS usando API Pokemon)
+│
 │ 
 ├── 📂 /react_puro_busca
     (Exemplo simples de ReactJS usando API CPF)
-```
+
 
