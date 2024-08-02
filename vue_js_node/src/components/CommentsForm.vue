@@ -2,9 +2,8 @@
 <template>
   
     <div class="form-todo form-group">
-      <h2>Comentários</h2>
+      <h3>Comentários</h3>
         <p>
-			comentarios<br/>
           <input placeholder="nome" type="text" name="author" class="form-control" v-model="name"/>
         </p>
         <p>

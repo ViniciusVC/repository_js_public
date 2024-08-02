@@ -1,19 +1,26 @@
+
 {
   "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "jsx": "Preserve",
     "target": "es5",
-    "module": "esnext",
-    "baseUrl": "./",
+    "module": "ESNext",
     "moduleResolution": "node",
-    "paths": {
+    "allowImportingTsExtensions": true
+  },
+  "paths": {
       "@/*": [
         "src/*"
       ]
-    },
-    "lib": [
+  },
+  "lib": [
       "esnext",
       "dom",
       "dom.iterable",
       "scripthost"
-    ]
+  ],
+  "vueCompilerOptions": {
+    "target": 3.4
   }
 }
