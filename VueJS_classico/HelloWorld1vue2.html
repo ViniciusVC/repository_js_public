@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+		<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+
+    <title>Olá Mundo 1 - Vue2.js</title>
+    <script src="scripts/libs/vue2.js"></script>
+
+  </head>
+  <body>
+
+    <div id="app">{{ message }}</div>
+
+    <script>
+      new Vue({
+        el: '#app',
+        data: {
+          message: 'Olá Mundo1! Com Vue2.js.'
+        }
+      });
+    </script>
+
+  </body>
+</html>

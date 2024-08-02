@@ -15,7 +15,7 @@ import axios from "axios";
 *****************************************************************/
 
 const api = axios.create({
-    baseURL: "http://localhost:5192/",
+    baseURL: "http://localhost:5192/apilogin",
     timeout: 2000
 });
 

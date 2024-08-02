@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <title>Olá Mundo 3 - Vue3.js</title>
+  <script src="scripts/libs/vue3.js"></script>
+
+</head>
+<body>
+  <div id="app">{{ message }}</div>
+
+  <script>
+    const { createApp } = Vue;
+
+    createApp({
+      data() {
+        return {
+          message: 'Olá Mundo3! Com Vue2.js.'
+        };
+      }
+    }).mount('#app');
+  </script>
+</body>
+</html>

@@ -1,5 +1,9 @@
 # Exemplo TypeScript
 
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+
+
 Github: https://github.com/ViniciusVC/repository_js_public/tree/main/exemplo_typeScript
 
 TypeScript é uma extensão do JavaScript que adiciona tipagem estática à linguagem.

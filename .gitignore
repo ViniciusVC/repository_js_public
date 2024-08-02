@@ -131,3 +131,28 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+
+# Vue.js -----------------------------------
+.DS_Store
+node_modules
+/dist
+.env.*.local
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+# NextJS ------------------------------------
+.pnp.js
+/coverage
+/.next/
+/out/
+*.pem
+npm-debug.log*
+.env*.local
+.vercel
+next-env.d.ts

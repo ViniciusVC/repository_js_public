@@ -131,7 +131,9 @@ function App() {
         if(response.data.erro){
             alert("Erro1: Ocorreu um erro ao enviar cadastro ao servidor. Tente novamente.");  
         }else{
-            alert("Logado.");
+            alert("Cadastrado com sucesso.");
+            console.log("Cadastrado com sucesso.");
+            console.log(response.data);
             openWinLogin();
         }
       }catch{
@@ -143,21 +145,30 @@ function App() {
   }
 
   async function submitLogin(){
-    console.log(" submitLogin ("+inpEmailLogin +","+inpPassLogin+") ");
+    console.log("[B1] submitLogin ("+inpEmailLogin +","+inpPassLogin+") ");
     
     if(verfLogin()){
       try{
-        const response = await api.post("login", {
-          inpEmailLogin,
-          inpPassLogin
+        //const response = await api.get();
+        
+        const response = await api.post("login?useCookies=true", {
+          "email": inpEmailLogin,
+          "password": inpPassLogin,
         });
+        
         if(response.data.erro){
             alert("Erro1: Ocorreu um erro ao logar. Tente novamente.");  
+            console.log("[B1] Erro1: Ocorreu um erro ao logar. Tente novamente.");
+            console.log(response.data.erro);
         }else{
             alert("Logado.");
+            console.log("[B1] Logado.");
+            console.log(response.data); //Hello World! Projeto DotNet API com login de usuário, usando o Identity API.
         }
-      }catch{
+      }catch(e){
           alert("Erro2: Ocorreu um erro ao logar. Tente novamente.");
+          console.log("[B1] Erro2: Ocorreu um erro ao logar!!!!!!!!!!!!");
+          console.log(e);
       }
     }
   }

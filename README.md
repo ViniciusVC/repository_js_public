@@ -10,7 +10,7 @@ https://github.com/ViniciusVC/repository_js_public
 
 
 ## Projetos neste repositorio:
-
+```
 │
 ├── 📂 /amp_v1_0042
 │   (NextJS - ReactJS - AMP - JS)
@@ -32,6 +32,10 @@ https://github.com/ViniciusVC/repository_js_public
 │   (Exemplo typeScripte)
 │
 │
+├── 📂 /react_login_avatar
+│   (Login APP React a uma API DotNet - controle de acesso)
+│  
+│
 ├── 📂 /react_native_test_a
 │   (Estudo React Native)
 │
@@ -43,4 +47,4 @@ https://github.com/ViniciusVC/repository_js_public
 ├── 📂 /react_puro_busca
     (Exemplo simples de ReactJS usando API CPF)
 
-
+```

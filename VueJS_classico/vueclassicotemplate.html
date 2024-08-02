@@ -1,0 +1,112 @@
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    	<title>exemplo Vue2.js</title>
+
+
+    	<script src="scripts/libs/vue2.js"></script>
+
+	</head>
+	<body class="contanier">
+		
+    <div id="app" >
+	</div>
+	
+    <script type="text/javascript">
+			new Vue({
+				el: '#app',
+				template: `
+			<div class="container">
+			<div>
+				<a href="HelloWorld1vue2.html">Ex.1: Olá Mundo com Vue2</a><br/>
+				<a href="HelloWorld2vue2.html">Ex.2: Olá Mundo com Vue2</a><br/>
+				<a href="HelloWorld3vue3.html">Ex.3: Olá Mundo com Vue3</a><br/>
+				<a href="HelloWorld4vue3.html">Ex.4: Olá Mundo com Vue3</a><br/>
+			</div>
+			<hr/>
+			<div class="form-todo form-group">
+
+				<h1>EXEMPLO VUE2</h1>
+				<p>Este exemplo não usa Node.js (Sem renderização).</p>
+				<hr/>
+
+				<h2>Comentários</h2>
+				<p>
+					<input placeholder="nome" type="text" name="author" class="form-control" v-model="name"/>
+				</p>
+				<p>
+					<textarea placeholder="Comentário" name="message" class="form-control" v-model="message"></textarea>
+				</p>
+			
+			</div>
+			<div>
+				<butto v-on:click="addComment" type="submit" class="btn btn-primary">Comentar</butto>
+				
+				<div class="dist-group">
+					<div class="list-group-item" v-for="(comment, index) in allComments">
+						( {{ index+1 }} )<br/>
+						<span class="comment__autor">Autor:<strong>{{ comment.name}}</strong></span>
+						<p>{{ comment.message }}</p>
+						<div>
+							<a href="#" title="Excluir" v-on:click.prevent="removeComment(index)">Excluir</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<hr/>
+			</div>
+				`,
+				data: function() {
+					return{
+						comments: [
+						],
+						name: '',
+						message: '',
+					}
+				},
+				methods:{
+					
+					addComment() {
+						if(this.message.trim() == ""){
+							alert("Campo vazio.");
+						}else{
+							console.log(this.name);
+							console.log(this.message);
+							this.comments.push({
+								name: this.name,
+								message: this.message
+							});
+							this.name = "";
+							this.message = "";
+						}
+						
+					},
+					removeComment(index){
+						console.log(index);
+						this.comments.splice(index,1);
+					}
+				},
+				computed: {
+					allComments(){
+						return this.comments.map(comment => ({
+							...comment,
+							name: comment.name.trim() === '' ? 'Anonimo' : comment.name
+						}))
+					}
+				},
+				wath:{
+					comments(val) {
+						// Momento de salvar o comentario em banco.
+						console.log("val", val)
+					}
+				}
+			});
+		</script>
+
+
+
+	</body>
+</html>
