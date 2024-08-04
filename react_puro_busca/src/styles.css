@@ -34,7 +34,6 @@
     display: flex;
     border-radius: 8px;
     box-shadow: 1px 3px 8px rgba(0,0,0, 0.5);
-
 }
 
 .containerInput input{
@@ -83,19 +82,15 @@
     font-weight: bold;
 }
 
+@media (max-width: 800px){
+    .title{
+        font-size: 50px;
+    }
+}
+
 @media (max-width: 620px){
-   
     .title{
         font-size: 30px;
-    }
-
-    .main h2{
-        font-size: 28px;
-    }
-
-    .main {
-        width: 80%;
-        min-height:  250px;
     }
 }
 

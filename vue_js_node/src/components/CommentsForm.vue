@@ -25,7 +25,12 @@
     methods:{		
       addComment() {
         if(this.message.trim() == ""){
-          alert("Campo vazio.");
+
+          // Emite um aviso para todos os componentes ouvindo.  
+          this.$emit("add-comment-erro",{
+            menssagem: "Verifique se todos os campos foram preenchidos. "
+          })
+
         }else{
           console.log(this.name);
           console.log(this.message);

@@ -3,7 +3,8 @@
 function Footer() {
   return (
     <div className="footer">
-        Apenas com as bibliotecas react-icons e axios<br/>
+      <br/>
+        Este é um exempl ode SPA em React, apenas com as bibliotecas React-Icons e Axios<br/>
     </div>
   )
 }

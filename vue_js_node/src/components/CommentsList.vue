@@ -1,6 +1,6 @@
 
 <template>
-  <CommentsForm v-on:add-todo="addComment"/>
+  <CommentsForm v-on:add-todo="addComment" v-on:add-comment-erro="updateMessageErro"/>
   <div class="jumbotron">
 	<p v-if="comments.length<=0">Sem comentários.</p>
     <div class="list-group-item" v-for="(comment, index) in allComments" :key="index">
@@ -12,23 +12,29 @@
       </div>
     </div>
   </div>
+  <ModalAlert :menssagem="menssagemErro" @update:message="updateMessageErro"/>
 </template>
 
 <script>
-  import CommentsForm from "./CommentsForm";
-  //import ModalAlert from "./ModalAlert";
+  import CommentsForm from "./CommentsForm.vue";
+  import ModalAlert from "./ModalAlert.vue";
   
   export default {
 	components:{
-      CommentsForm
-      //,ModalAlert
+      CommentsForm,
+      ModalAlert
     },
 	data() {
       return{
         comments: [],
+        menssagemErro: ''
       }
     },
     methods:{	
+      updateMessageErro(newMessage) {
+        this.menssagemErro = newMessage.menssagem;
+        console.log(newMessage.menssagem);  // true
+      },
       addComment(comment){
         this.comments.push(comment)
       },

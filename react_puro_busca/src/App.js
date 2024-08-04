@@ -1,20 +1,35 @@
-import {useState} from "react";
+import React,{useState} from "react";
 import { FiSearch } from "react-icons/fi";
-import './styles.css';
-import api from "./services/api";
-import Footer from "./comp/footer";
+import './styles.css'; // Estilo do APP
+import api from "./services/api"; // Importar configurações do Axios
+import Footer from "./comp/footer"; // Importar componente footer.
+import AlertPopUp from './comp/alertPopUp'; // Importar componente AlertPopUp.
 
 function App() {
 
-  // input : Pegar o valor do estado
-  // setInput : Pasar valor para estado.
-  const [input, setInput] = useState('');
-  const [cep, setCep] = useState({});
+  // Tratando o Pop-Up de Alerta-------------------------------------
+  const [showPopUp, setShowPopUp] = useState(false); // Pop-Up inicia fechado.
+  const [popUpMessage, setPopUpMessage] = useState(''); // Mensagem do Pop-Up
+
+  const showAlert = (message) => {
+    console.log("showAlert("+message+")");
+    setPopUpMessage(message); // Mudar mensagem do Pop-up.
+    setShowPopUp(true);
+  };
+
+  const closePopUp = () => {
+    setShowPopUp(false);
+    setPopUpMessage('');
+  };
+
+  // Tratando o Formulario------------------------------------- 
+  const [input, setInput] = useState(''); // input : Pegar o valor do estado
+  const [cep, setCep] = useState({}); // setInput : Pasar valor para estado.
 
   async function handleSerch(){
 
     if (input ===''){
-      alert("Preencha o campo CEP.");
+      showAlert("Preencha o campo CEP.");
       return;
     }    
     
@@ -22,15 +37,14 @@ function App() {
       const response = await api.get(input+"/json/");
       console.log(response.data);
       if(response.data.erro){
-        alert("CEP não encontrado.");  
+        showAlert("CEP não encontrado.");
       }else{
-        alert("OK!");
-
+        showAlert("OK!");
         setCep(response.data);
         setInput("");
       }    
     }catch{
-      alert("Ocorreu um erro.");
+      showAlert("Ocorreu um erro.");
       setInput("");
     }
     
@@ -60,6 +74,9 @@ function App() {
               <span>{cep.localidade} - {cep.uf}</span>
             </main>
       )}
+      
+
+      {showPopUp && <AlertPopUp message={popUpMessage} onClose={closePopUp} />}
 
       <Footer></Footer>
 

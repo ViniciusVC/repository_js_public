@@ -1,4 +1,8 @@
 .App {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  background: linear-gradient(#ffff88, #ff5533);
   text-align: center;
 }
 
@@ -17,8 +21,9 @@
 
 .App-footer {
   width: 100%;
-  background-color: yellow;
-  color:blue;
+  color: #ffff00;
+  background-color: #004088;
+
   font-size: 15px;
   text-align: center;   
 }
@@ -34,6 +39,66 @@
   width: 100%; 
   height: 100%; 
   background-size: 100%;
+}
+
+.center-buton {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0px;
+}
+
+.button{
+  font-size: 14px;
+  color: #ffff00;
+  background-color: #004088;
+  width: 100%;
+  max-width: 200px;
+  padding: 14px;
+  margin: 4px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border: 3px solid #ffff00;
+  border-radius: 15px;
+  box-shadow: 1px 3px 8px rgba(0,0,0, 1.5);
+}
+
+.Justificado{
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.Janelinha{
+  width: 90%;
+  padding: 20px;
+  margin: 2%;
+  background: linear-gradient(#ffff88, #bd994c);
+  border: 3px solid #ffffff;
+  text-align: center;
+  box-shadow: 1px 3px 8px rgba(0,0,0, 1.5);
+}
+
+.Link-Lista{
+  text-decoration: none;
+  font-size: 14px;
+  color: #004088;
+  background-color: #ffff00;
+  background: linear-gradient(#ffff33, #ff5500);
+  width: 90%;
+  /*max-width: 200px;*/
+  padding: 5px;
+  margin: 4px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  
+  border-radius: 15px;
+  border: 3px solid #004088;
+  box-shadow: 1px 3px 8px rgba(0,0,0, 1.5);
 }
 
 @keyframes App-logo-spin {

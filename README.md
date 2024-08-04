@@ -45,6 +45,14 @@ https://github.com/ViniciusVC/repository_js_public
 │
 │ 
 ├── 📂 /react_puro_busca
-    (Exemplo simples de ReactJS usando API CPF)
+│   (Exemplo simples de ReactJS usando API CPF)
+│
+│ 
+├── 📂 /vue_js_node
+│   (Exemplo simples de ReactJS usando API CPF)
+│
+│ 
+├── 📂 /VueJS_classico
+    (Vue.JS 2 e 3. Não renderizado + Bootstrap v0.12.1)
 
 ```
