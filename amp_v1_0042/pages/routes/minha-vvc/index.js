@@ -1,7 +1,7 @@
 import React from 'react';
 import * as Util from '../../../controller/util.js';
 
-import Home from '../../../components/templates/minha-oi/index.js';
+import Home from '../../../components/templates/meuvvc/index.js';
 
 const RotaHome = function(props){
   return(

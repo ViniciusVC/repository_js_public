@@ -8,7 +8,7 @@ class Hero01F extends React.Component {
     console.log('Rodando /views/organisms/Hero01F.jsx - layout Portal Oi SEO');
     return (
       <section class="slick-slide slick-cloned" data-index="4" tabIndex="-1" data-reactid="238">
-        {/*<section style="outline:none;background-image:url(https://www.vvc.com.br/publicV2/carousel/pre/virada-maes-2019-pre-pago-320px.jpg);background-size:cover;" class="slick-slide slick-cloned" data-index="4" tabindex="-1" data-reactid="238">*/}
+        {/*<section style="outline:none;background-image:url(https://www.vvcestudio.com.br/publicV2/carousel/pre/virada-maes-2019-pre-pago-320px.jpg);background-size:cover;" class="slick-slide slick-cloned" data-index="4" tabindex="-1" data-reactid="238">*/}
         <h3 class="hidden" data-reactid="239">Slider de Ofertas</h3>
         <div class="sliderr slide-wrapper" data-reactid="240">
           <div class="container" data-reactid="241">
@@ -51,7 +51,7 @@ class Hero01F extends React.Component {
                   </div>
                 </div>
               </div>
-              <a class="banner button-cta" data-context="" href="https://www.vvc.com.br/celular/pre-pago" data-reactid="256">Conheça a oferta</a>
+              <a class="banner button-cta" data-context="" href="https://www.vvcestudio.com.br/celular/pre-pago" data-reactid="256">Conheça a oferta</a>
             </div>
           </div>
         </div>

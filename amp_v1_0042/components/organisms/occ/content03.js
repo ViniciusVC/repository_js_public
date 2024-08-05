@@ -517,32 +517,32 @@ const content03 = function(props){
           list-style: none;
       }
       .span-netflix{
-          background: url(https://www.vvc.com.br/file/general/sprite-social-icons.png) no-repeat 0 0 transparent;
+          background: url(https://www.vvcestudio.com.br/file/general/sprite-social-icons.png) no-repeat 0 0 transparent;
           /*justify-content: flex-start;*/
           background-position: 0 0;
       }
       .span-youtube{
-          background: url(https://www.vvc.com.br/file/general/sprite-social-icons.png) no-repeat 0 0 transparent;
+          background: url(https://www.vvcestudio.com.br/file/general/sprite-social-icons.png) no-repeat 0 0 transparent;
           background-position: -40px 0;
       }
       .span-facebook{
-          background: url(https://www.vvc.com.br/file/general/sprite-social-icons.png) no-repeat 0 0 transparent;
+          background: url(https://www.vvcestudio.com.br/file/general/sprite-social-icons.png) no-repeat 0 0 transparent;
           background-position: -81px 0;
       }
       .span-messenger{
-          background: url(https://www.vvc.com.br/file/general/sprite-social-icons.png) no-repeat 0 0 transparent;
+          background: url(https://www.vvcestudio.com.br/file/general/sprite-social-icons.png) no-repeat 0 0 transparent;
           background-position: -120px 0;
       }
       .span-instagram{
-          background: url(https://www.vvc.com.br/file/general/sprite-social-icons.png) no-repeat 0 0 transparent;
+          background: url(https://www.vvcestudio.com.br/file/general/sprite-social-icons.png) no-repeat 0 0 transparent;
           background-position: -162px 0;
       }
       .span-whatsapp{
-          background: url(https://www.vvc.com.br/file/general/sprite-social-icons.png) no-repeat 0 0 transparent;
+          background: url(https://www.vvcestudio.com.br/file/general/sprite-social-icons.png) no-repeat 0 0 transparent;
           background-position: -203px 0;
       }
       .span-vvc-play{
-          background: url(https://www.vvc.com.br/file/general/sprite-social-icons.png) no-repeat 0 0 transparent;
+          background: url(https://www.vvcestudio.com.br/file/general/sprite-social-icons.png) no-repeat 0 0 transparent;
           background-position: -243px 0;
       }
 

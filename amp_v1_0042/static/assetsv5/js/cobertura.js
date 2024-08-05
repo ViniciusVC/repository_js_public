@@ -647,7 +647,7 @@ try{
 //  $("#q").autocomplete({
 //    source: function(request, response) {
 //      $.ajax({
-//        url: "http://busca.vvc.com.br/complete?",
+//        url: "http://busca.vvcestudio.com.br/complete?",
 //        dataType: "jsonp",
 //        data: {q: request.term},
 //        success: function(data) {
@@ -721,6 +721,6 @@ if (!preventBreadCrumbTwice) {
 })(jQuery);
 
 $(window).load(function() {
-    $('#framecobertura').attr('src', '//www.vvc.com.br/portal-vvc-cobertura/');
+    $('#framecobertura').attr('src', '//www.vvcestudio.com.br/portal-vvc-cobertura/');
 });
 

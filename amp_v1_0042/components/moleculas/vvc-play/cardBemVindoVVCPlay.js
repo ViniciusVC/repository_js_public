@@ -13,8 +13,8 @@ const cardBemVindo = props => {
                     a conteúdos como Fox+, HBO GO e ESPN.
                     </div>
                 {/* TODO: link botao experimente por 30 dias grátis, ALT imagem */}
-                {/* <BtLink href="https://www.VVC.com.br" value="Experimente 30 dias grátis" estilo="amarelo3" /> */}
-                <a className="amarelo3" href="https://www.vvc.com.br">Experimente 30 dias grátis</a>
+                {/* <BtLink href="https://www.vvcestudio.com.br" value="Experimente 30 dias grátis" estilo="amarelo3" /> */}
+                <a className="amarelo3" href="https://www.vvcestudio.com.br">Experimente 30 dias grátis</a>
                 <div className="texto-explicativo">Já é assinante? <a className="link" href="" >Comece a assistir!</a></div>
             </div>
             <style jsx>{`

@@ -15,7 +15,7 @@ import ContentResposta from '../../organisms/documentoscopia/contentResposta'
 //         <FaviIcon />
 //         <meta name="description" content="A GENTE SÓ PRECISA SE CONHECER UM POUCO MAIS." />
 //         <meta name="robots" content="noindex" />
-//         <link rel="canonical" href="https://www.vvc.com.br/meusdocumentos/email/"/>
+//         <link rel="canonical" href="https://www.vvcestudio.com.br/meusdocumentos/email/"/>
 //         <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
 //       </Head>
 //   )}else{
@@ -25,8 +25,8 @@ import ContentResposta from '../../organisms/documentoscopia/contentResposta'
 //         <FaviIcon />
 //         <meta name="description" content="A GENTE SÓ PRECISA SE CONHECER UM POUCO MAIS." />
 //         <meta name="robots" content="noindex" />
-//         <link rel="canonical" href="https://www.vvc.com.br/meusdocumentos/email/"/>
-//         <link rel="amphtml" href="https://www.vvc.com.br/amp/meusdocumentos/email" />
+//         <link rel="canonical" href="https://www.vvcestudio.com.br/meusdocumentos/email/"/>
+//         <link rel="amphtml" href="https://www.vvcestudio.com.br/amp/meusdocumentos/email" />
 //         <link rel="preconnect" href="https://www.google-analytics.com"/>
 //         <link rel="preconnect" href="https://www.googletagmanager.com"/>
 //         <GTM cod="head"/>

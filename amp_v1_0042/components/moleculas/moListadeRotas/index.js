@@ -28,10 +28,10 @@ const ListadeRotas = function(){
             <li><Link href='/meusdocumentos/resposta3/'>/meusdocumentos/email/</Link></li>
           </ol>
           <ol type="1">
-            <li><Link href='/minha-oi/'>/minha-oi/</Link></li>
-            <li><Link href='/minha-oi/segunda-via/'>/minha-oi/segunda-via/</Link></li>
-            <li><Link href='/minha-oi/codigo-de-barras/'>/minha-oi/codigo-de-barras/</Link></li>
-            <li><Link href='/minha-oi/atendimento-oi/'>/minha-oi/atendimento-oi/</Link></li>
+            <li><Link href='/meuvvc/'>/meuvvc/</Link></li>
+            <li><Link href='/meuvvc/segunda-via/'>/meuvvc/segunda-via/</Link></li>
+            <li><Link href='/meuvvc/codigo-de-barras/'>/meuvvc/codigo-de-barras/</Link></li>
+            <li><Link href='/meuvvc/atendimento-oi/'>/meuvvc/atendimento-oi/</Link></li>
             <li><Link href='/recarga/'>/recarga/</Link></li>
           </ol>
           <ol type="1">
@@ -51,10 +51,10 @@ const ListadeRotas = function(){
               <li><Link href='/amp/meusdocumentos/'>/amp/meusdocumentos/</Link></li>
             </ol>
             <ol type="1">
-              <li><Link href='/amp/minha-oi/'>/amp/minha-oi/</Link></li>
-              <li><Link href='/amp/minha-oi/segunda-via/'>/amp/minha-oi/segunda-via/</Link></li>
-              <li><Link href='/amp/minha-oi/codigo-de-barras/'>/amp/minha-oi/codigo-de-barras/</Link></li>
-              <li><Link href='/amp/minha-oi/atendimento-oi/'>/amp/minha-oi/atendimento-oi/</Link></li>
+              <li><Link href='/amp/meuvvc/'>/amp/meuvvc/</Link></li>
+              <li><Link href='/amp/meuvvc/segunda-via/'>/amp/meuvvc/segunda-via/</Link></li>
+              <li><Link href='/amp/meuvvc/codigo-de-barras/'>/amp/meuvvc/codigo-de-barras/</Link></li>
+              <li><Link href='/amp/meuvvc/atendimento-oi/'>/amp/meuvvc/atendimento-oi/</Link></li>
               <li><Link href='/amp/recarga/'>/amp/recarga/</Link></li>
             </ol>
             <ol type="1">

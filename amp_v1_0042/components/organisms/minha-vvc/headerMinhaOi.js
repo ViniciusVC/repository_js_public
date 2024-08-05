@@ -1,10 +1,10 @@
-// header do minha-oi pré login
+// header do meuvvc pré login
 import React from 'react';
-import HeaderPrimeiraCamada from '../../moleculas/minha-oi/moHeaders/moHeaderPrimeiraCamada';
-import HeaderSegundaCamada from '../../moleculas/minha-oi/moHeaders/moHeaderSegundaCamada';
+import HeaderPrimeiraCamada from '../../moleculas/meuvvc/moHeaders/moHeaderPrimeiraCamada';
+import HeaderSegundaCamada from '../../moleculas/meuvvc/moHeaders/moHeaderSegundaCamada';
 import Line from '../../atoms/atLine/';
-import HeaderMenu from "../../moleculas/minha-oi/moHeaders/headerMenu";
-import HeaderMenu2 from "../../moleculas/minha-oi/moHeaders/headerMenu2";
+import HeaderMenu from "../../moleculas/meuvvc/moHeaders/headerMenu";
+import HeaderMenu2 from "../../moleculas/meuvvc/moHeaders/headerMenu2";
 import * as Util from '../../../controller/util.js';
 import Head from 'next/head';
 

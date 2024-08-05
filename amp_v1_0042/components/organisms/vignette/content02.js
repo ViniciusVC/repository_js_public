@@ -27,7 +27,7 @@ const Content02 = props => {
         <div class="limite">
           <div>
             <div>
-              <h1 class="logo"><a href="http://www.vvc.com.br/" title="Oi"><Img src="/ArquivosEstaticos/oi/images/logo-header.png" /></a></h1>
+              <h1 class="logo"><a href="http://www.vvcestudio.com.br/" title="Oi"><Img src="/ArquivosEstaticos/oi/images/logo-header.png" /></a></h1>
               <div class="escolhacidade">
                 <h6>RIO DE JANEIRO, RJ</h6>
                 <a id="trocaEstado" class="btTrocaEstado seta-01" tabindex="1" title="Alterar localidade" href="javascript:trocaEstado();">Alterar localidade</a>
@@ -38,7 +38,7 @@ const Content02 = props => {
             <div>
               <div class="formlogin">
                 <iframe
-                  src="https://minha.vvc.com.br/ArquivosEstaticos/minhavvc/HeaderLogin/index.html?dominio=www.vvc.com.br"
+                  src="https://minha.vvcestudio.com.br/ArquivosEstaticos/minhavvc/HeaderLogin/index.html?dominio=www.vvcestudio.com.br"
                   className="iframe2" 
                   allowtransparency="true"
                   scrolling="no"
@@ -123,7 +123,7 @@ const Content02 = props => {
                               <a href="/oi/vvc-pra-voce/planos-servicos/vvc-movel/recarga" title="Recarga Online">Recarga Online</a>
                             </li>
                             <li>
-                              <a href="https://minha.vvc.com.br" title="Acompanhe sua recarga">Acompanhe sua recarga</a>
+                              <a href="https://minha.vvcestudio.com.br" title="Acompanhe sua recarga">Acompanhe sua recarga</a>
                             </li>
                           </ul>
                         </nav>
@@ -139,7 +139,7 @@ const Content02 = props => {
                   <div class="sm">
                     <div class="bg-sm">
                       <div class="topo"></div>
-                      <a class="banner" target="_blank" href="/oi/vvc-pra-voce/minha-oi/debito-automatico" title="" > <Img src="" alt="Confira" /></a>
+                      <a class="banner" target="_blank" href="/oi/vvc-pra-voce/meuvvc/debito-automatico" title="" > <Img src="" alt="Confira" /></a>
                       <div class="miolo-submenu">
 
                         <nav>
@@ -148,34 +148,34 @@ const Content02 = props => {
                           </h3>
                           <ul>
                             <li>
-                              <a href="http://faq.vvc.com.br/?c=98" title="TV">TV</a>
+                              <a href="http://faq.vvcestudio.com.br/?c=98" title="TV">TV</a>
                             </li>
                             <li>
-                              <a href="http://faq.vvc.com.br/?c=94" title="Internet pra Casa">Internet pra Casa</a>
+                              <a href="http://faq.vvcestudio.com.br/?c=94" title="Internet pra Casa">Internet pra Casa</a>
                             </li>
                             <li>
-                              <a href="http://faq.vvc.com.br/?c=96" title="Internet Móvel">Internet Móvel</a>
+                              <a href="http://faq.vvcestudio.com.br/?c=96" title="Internet Móvel">Internet Móvel</a>
                             </li>
                             <li>
-                              <a href="http://faq.vvc.com.br/?c=87" title="Móvel Pós-pago">Móvel Pós-pago</a>
+                              <a href="http://faq.vvcestudio.com.br/?c=87" title="Móvel Pós-pago">Móvel Pós-pago</a>
                             </li>
                             <li>
-                              <a href="http://faq.vvc.com.br/?c=88" title="Móvel Pré-pago">Móvel Pré-pago</a>
+                              <a href="http://faq.vvcestudio.com.br/?c=88" title="Móvel Pré-pago">Móvel Pré-pago</a>
                             </li>
                             <li>
-                              <a href="http://faq.vvc.com.br/?c=89" title="Móvel Controle">Móvel Controle</a>
+                              <a href="http://faq.vvcestudio.com.br/?c=89" title="Móvel Controle">Móvel Controle</a>
                             </li>
                             <li>
-                              <a href="http://faq.vvc.com.br/?c=91" title="Fixo">Fixo</a>
+                              <a href="http://faq.vvcestudio.com.br/?c=91" title="Fixo">Fixo</a>
                             </li>
                             <li>
-                              <a href="http://faq.vvc.com.br/?c=99" title="Minha VVC">Minha VVC</a>
+                              <a href="http://faq.vvcestudio.com.br/?c=99" title="Minha VVC">Minha VVC</a>
                             </li>
                             <li>
-                              <a href="http://www.vvc.com.br/oi/vvc-pra-voce/atendimento" title="Mais Populares">Mais Populares</a>
+                              <a href="http://www.vvcestudio.com.br/oi/vvc-pra-voce/atendimento" title="Mais Populares">Mais Populares</a>
                             </li>
                             <li>
-                              <a href="http://guiadeaparelhos.vvc.com.br" title="Guia de Aparelhos">Guia de Aparelhos</a>
+                              <a href="http://guiadeaparelhos.vvcestudio.com.br" title="Guia de Aparelhos">Guia de Aparelhos</a>
                             </li>
                           </ul>
                         </nav>
@@ -214,10 +214,10 @@ const Content02 = props => {
                               <a href="/oi/vvc-pra-voce/atendimento/segunda-via" title="2ª Via de Conta">2ª Via de Conta</a>
                             </li>
                             <li>
-                              <a href="https://minha.vvc.com.br/portal/site/minhavvc/CadastrarUsuario" title="Cadastre-se na Minha VVC">Cadastre-se na Minha VVC</a>
+                              <a href="https://minha.vvcestudio.com.br/portal/site/minhavvc/CadastrarUsuario" title="Cadastre-se na Minha VVC">Cadastre-se na Minha VVC</a>
                             </li>
                             <li>
-                              <a href="http://faq.vvc.com.br/como-faco-para-efetuar-o-pagamento-da-minha-conta" title="Onde Pagar sua Conta">Onde Pagar sua Conta</a>
+                              <a href="http://faq.vvcestudio.com.br/como-faco-para-efetuar-o-pagamento-da-minha-conta" title="Onde Pagar sua Conta">Onde Pagar sua Conta</a>
                             </li>
                           </ul>
                         </nav>
@@ -229,13 +229,13 @@ const Content02 = props => {
                   </div>
                 </li>
                 <li>
-                  <a href="/oi/vvc-pra-voce/minha-oi/conheca" title="Minha VVC">
-                    <Img class="" src="/ArquivosEstaticos/oi/images/menus/menu-2013/minha-oi/m-m-3.gif" imgdefault="/ArquivosEstaticos/oi/images/menus/menu-2013/minha-oi/m-m-3.gif" imghover="/ArquivosEstaticos/oi/images/menus/menu-2013/minha-oi/m-m-3_on.gif" imgAtvLink="/ArquivosEstaticos/oi/images/menus/menu-2013/minha-oi/m-m-3_at.gif" alt="Minha VVC" />
+                  <a href="/oi/vvc-pra-voce/meuvvc/conheca" title="Minha VVC">
+                    <Img class="" src="/ArquivosEstaticos/oi/images/menus/menu-2013/meuvvc/m-m-3.gif" imgdefault="/ArquivosEstaticos/oi/images/menus/menu-2013/meuvvc/m-m-3.gif" imghover="/ArquivosEstaticos/oi/images/menus/menu-2013/meuvvc/m-m-3_on.gif" imgAtvLink="/ArquivosEstaticos/oi/images/menus/menu-2013/meuvvc/m-m-3_at.gif" alt="Minha VVC" />
                   </a>
                   <div class="sm">
                     <div class="bg-sm">
                       <div class="topo"></div>
-                      <a class="banner" target="_blank" href="https://login.vvc.com.br/nidp/idff/sso?id=sso&amp;sid=6&amp;option=credential&amp;sid=6" title="" > <Img src="/ArquivosEstaticos/oi/images/menus/menu-2013/minha-oi/banner-vvc-tv-hd-minha-vvc.jpg" alt="https://login.vvc.com.br/nidp/idff/sso?id=sso&amp;sid=6&amp;option=credential&amp;sid=6" /></a>
+                      <a class="banner" target="_blank" href="https://login.vvcestudio.com.br/nidp/idff/sso?id=sso&amp;sid=6&amp;option=credential&amp;sid=6" title="" > <Img src="/ArquivosEstaticos/oi/images/menus/menu-2013/meuvvc/banner-vvc-tv-hd-minha-vvc.jpg" alt="https://login.vvcestudio.com.br/nidp/idff/sso?id=sso&amp;sid=6&amp;option=credential&amp;sid=6" /></a>
                       <div class="miolo-submenu">
 
                         <nav>
@@ -244,19 +244,19 @@ const Content02 = props => {
                           </h3>
                           <ul>
                             <li>
-                              <a href="/oi/vvc-pra-voce/minha-oi/conheca" title="Sobre a Minha VVC">Sobre a Minha VVC</a>
+                              <a href="/oi/vvc-pra-voce/meuvvc/conheca" title="Sobre a Minha VVC">Sobre a Minha VVC</a>
                             </li>
                             <li>
-                              <a href="https://minha.vvc.com.br/portal/site/minhavvc/CadastrarUsuario" title="Cadastre-se">Cadastre-se</a>
+                              <a href="https://minha.vvcestudio.com.br/portal/site/minhavvc/CadastrarUsuario" title="Cadastre-se">Cadastre-se</a>
                             </li>
                             <li>
-                              <a href="https://minha.vvc.com.br/portal/site/minhavvc/SolicitarDesbloqueioSenha" title="Resgate sua Senha">Resgate sua Senha</a>
+                              <a href="https://minha.vvcestudio.com.br/portal/site/minhavvc/SolicitarDesbloqueioSenha" title="Resgate sua Senha">Resgate sua Senha</a>
                             </li>
                             <li>
-                              <a href="https://login.vvc.com.br/nidp/idff/sso?id=sso&sid=6&option=credential&sid=6" title="Acesse Agora">Acesse Agora</a>
+                              <a href="https://login.vvcestudio.com.br/nidp/idff/sso?id=sso&sid=6&option=credential&sid=6" title="Acesse Agora">Acesse Agora</a>
                             </li>
                             <li>
-                              <a href="/oi/vvc-pra-voce/minha-oi/aplicativo" title="Aplicativo Minha VVC">Aplicativo Minha VVC</a>
+                              <a href="/oi/vvc-pra-voce/meuvvc/aplicativo" title="Aplicativo Minha VVC">Aplicativo Minha VVC</a>
                             </li>
                           </ul>
                         </nav>
@@ -270,28 +270,28 @@ const Content02 = props => {
                               <a href="/oi/vvc-pra-voce/atendimento/segunda-via" title="2ª Via de Conta">2ª Via de Conta</a>
                             </li>
                             <li>
-                              <a href="/oi/vvc-pra-voce/atendimento/minha-oi/conta-online" title="Conta Online">Conta Online</a>
+                              <a href="/oi/vvc-pra-voce/atendimento/meuvvc/conta-online" title="Conta Online">Conta Online</a>
                             </li>
                             <li>
-                              <a href="/oi/vvc-pra-voce/minha-oi/debito-automatico" title="Débito Automático">Débito Automático</a>
+                              <a href="/oi/vvc-pra-voce/meuvvc/debito-automatico" title="Débito Automático">Débito Automático</a>
                             </li>
                             <li>
-                              <a href="/oi/vvc-pra-voce/minha-oi/consultar-ultimas-contas" title="Consulta Últimas Contas">Consulta Últimas Contas</a>
+                              <a href="/oi/vvc-pra-voce/meuvvc/consultar-ultimas-contas" title="Consulta Últimas Contas">Consulta Últimas Contas</a>
                             </li>
                             <li>
-                              <a href="/oi/vvc-pra-voce/minha-oi/solicitar-reparo-fixo" title="Solicitação Reparo Fixo">Solicitação Reparo Fixo</a>
+                              <a href="/oi/vvc-pra-voce/meuvvc/solicitar-reparo-fixo" title="Solicitação Reparo Fixo">Solicitação Reparo Fixo</a>
                             </li>
                             <li>
-                              <a href="/oi/vvc-pra-voce/minha-oi/aumentar-velocidade-internet" title="Aumente sua Velocidade">Aumente sua Velocidade</a>
+                              <a href="/oi/vvc-pra-voce/meuvvc/aumentar-velocidade-internet" title="Aumente sua Velocidade">Aumente sua Velocidade</a>
                             </li>
                             <li>
-                              <a href="/oi/vvc-pra-voce/minha-oi/saldo-minutos-sms" title="Saldo de Minutos e SMS">Saldo de Minutos e SMS</a>
+                              <a href="/oi/vvc-pra-voce/meuvvc/saldo-minutos-sms" title="Saldo de Minutos e SMS">Saldo de Minutos e SMS</a>
                             </li>
                             <li>
-                              <a href="/oi/vvc-pra-voce/minha-oi/torpedos" title="Torpedos">Torpedos</a>
+                              <a href="/oi/vvc-pra-voce/meuvvc/torpedos" title="Torpedos">Torpedos</a>
                             </li>
                             <li>
-                              <a href="/oi/vvc-pra-voce/minha-oi/vvc-pontos" title="Oi Pontos">Oi Pontos</a>
+                              <a href="/oi/vvc-pra-voce/meuvvc/vvc-pontos" title="Oi Pontos">Oi Pontos</a>
                             </li>
                           </ul>
                         </nav>
@@ -302,16 +302,16 @@ const Content02 = props => {
                           </h3>
                           <ul>
                             <li>
-                              <a href="https://minha.vvc.com.br/" title="Consulte seu saldo">Consulte seu saldo</a>
+                              <a href="https://minha.vvcestudio.com.br/" title="Consulte seu saldo">Consulte seu saldo</a>
                             </li>
                             <li>
-                              <a href="https://minha.vvc.com.br/portal/site/minhavvc/menuitem.e451ce2c3a3f4c111bd71bd7246d02a0/?vgnextoid=f094814984f9e310VgnVCM10000031d0200aRCRD" title="Repetir últimas recargas">Repetir últimas recargas</a>
+                              <a href="https://minha.vvcestudio.com.br/portal/site/minhavvc/menuitem.e451ce2c3a3f4c111bd71bd7246d02a0/?vgnextoid=f094814984f9e310VgnVCM10000031d0200aRCRD" title="Repetir últimas recargas">Repetir últimas recargas</a>
                             </li>
                             <li>
-                              <a href="https://minha.vvc.com.br/" title="Histórico de recargas">Histórico de recargas</a>
+                              <a href="https://minha.vvcestudio.com.br/" title="Histórico de recargas">Histórico de recargas</a>
                             </li>
                             <li>
-                              <a href="/oi/vvc-pra-voce/minha-oi/recarregar-pre-pago" title="Recarregue na Minha VVC">Recarregue na Minha VVC</a>
+                              <a href="/oi/vvc-pra-voce/meuvvc/recarregar-pre-pago" title="Recarregue na Minha VVC">Recarregue na Minha VVC</a>
                             </li>
                           </ul>
                         </nav>
@@ -410,7 +410,7 @@ const Content02 = props => {
                                         <h3>oi mais</h3>
                                         <p>
                                           Seu pós com mais liberdade
-                                      <a name="Pós-Pago" href="https://www.vvc.com.br/celular/pos-pago/">conheça agora</a>
+                                      <a name="Pós-Pago" href="https://www.vvcestudio.com.br/celular/pos-pago/">conheça agora</a>
                                         </p>
                                       </div>
                                     </div>
@@ -422,7 +422,7 @@ const Content02 = props => {
                                           Valor fixo no cartão todo mês
                                           <br />
                                           <br />
-                                          <a name="Oi Controle" href="https://www.vvc.com.br/celular/controle/">conheça agora</a>
+                                          <a name="Oi Controle" href="https://www.vvcestudio.com.br/celular/controle/">conheça agora</a>
                                         </p>
                                       </div>
                                     </div>
@@ -436,7 +436,7 @@ const Content02 = props => {
                                           Troque minutos e internet
                                           <br />
                                           <br />
-                                          <a name="Pre-Pago" href="https://www.vvc.com.br/celular/pre-pago/">conheça agora</a>
+                                          <a name="Pre-Pago" href="https://www.vvcestudio.com.br/celular/pre-pago/">conheça agora</a>
                                         </p>
                                       </div>
                                     </div>
@@ -461,7 +461,7 @@ const Content02 = props => {
                                           Navegue¹ no tablet e no computador
                                       <br />
                                           <br />
-                                          <a name="Internet móvel" href="https://www.vvc.com.br/internet-movel/">conheça agora</a>
+                                          <a name="Internet móvel" href="https://www.vvcestudio.com.br/internet-movel/">conheça agora</a>
                                         </p>
                                       </div>
                                     </div>
@@ -472,7 +472,7 @@ const Content02 = props => {
                                         <div class="ico-inter"></div>
                                         <h3>Internet para<br />celular</h3>
                                         <p>Fique sempre conectado
-                                    <a name="Internet para celular" href="https://www.vvc.com.br/internet-movel/">conheça agora</a>
+                                    <a name="Internet para celular" href="https://www.vvcestudio.com.br/internet-movel/">conheça agora</a>
                                         </p>
                                       </div>
                                     </div>
@@ -580,7 +580,7 @@ const Content02 = props => {
                 <h5>Serviços Oi</h5>
                 <ul>
                   <li>
-                    <a title="Cancelamento de Produtos" href="https://login.vvc.com.br/nidp/idff/sso?id=sso&sid=0&option=credential&sid=0">Reclamação e Cancelamento de Produtos</a>
+                    <a title="Cancelamento de Produtos" href="https://login.vvcestudio.com.br/nidp/idff/sso?id=sso&sid=0&option=credential&sid=0">Reclamação e Cancelamento de Produtos</a>
                   </li>
                   <li>
                     <a title="Recarregue seu Oi" href="/oi/vvc-pra-voce/planos-servicos/vvc-movel/recarga">Recarregue seu Oi</a>
@@ -616,22 +616,22 @@ const Content02 = props => {
                     <a title="Recarga online" href="/oi/vvc-pra-voce/planos-servicos/vvc-movel/recarga">Recarga</a>
                   </li>
                   <li>
-                    <a title="Saldo de Consumo" href="http://faq.vvc.com.br/como-faco-para-consultar-o-saldo-e-a-validade-dos-creditos-do-meu-pre-pago" target="_blank">Saldo de Consumo</a>
+                    <a title="Saldo de Consumo" href="http://faq.vvcestudio.com.br/como-faco-para-consultar-o-saldo-e-a-validade-dos-creditos-do-meu-pre-pago" target="_blank">Saldo de Consumo</a>
                   </li>
                   <li>
-                    <a title="2ª via de conta" href="http://faq.vvc.com.br/como-consigo-tirar-a-2-via-da-minha-conta" target="_blank">2ª via de conta</a>
+                    <a title="2ª via de conta" href="http://faq.vvcestudio.com.br/como-consigo-tirar-a-2-via-da-minha-conta" target="_blank">2ª via de conta</a>
                   </li>
                   <li>
-                    <a title="Bloqueio por perda ou roubo" href="http://faq.vvc.com.br/como-bloqueio-meu-numero-por-perda-ou-roubo" target="_blank">Bloqueio por perda ou roubo</a>
+                    <a title="Bloqueio por perda ou roubo" href="http://faq.vvcestudio.com.br/como-bloqueio-meu-numero-por-perda-ou-roubo" target="_blank">Bloqueio por perda ou roubo</a>
                   </li>
                   <li>
-                    <a title="Ativação e desativação de serviços" href="http://faq.vvc.com.br/como-ativo-desativo-servicos-no-meu-celular" target="_blank">Ativação e desativação de serviços</a>
+                    <a title="Ativação e desativação de serviços" href="http://faq.vvcestudio.com.br/como-ativo-desativo-servicos-no-meu-celular" target="_blank">Ativação e desativação de serviços</a>
                   </li>
                   <li>
-                    <a title="Alteração da data de vencimento" href="http://faq.vvc.com.br/como-altero-a-data-de-vencimento-da-minha-conta-na-minha-oi" target="_blank">Alteração da data de vencimento</a>
+                    <a title="Alteração da data de vencimento" href="http://faq.vvcestudio.com.br/como-altero-a-data-de-vencimento-da-minha-conta-na-meuvvc" target="_blank">Alteração da data de vencimento</a>
                   </li>
                   <li>
-                    <a title="Alteração de endereço de cobrança" href="http://faq.vvc.com.br/como-faco-para-alterar-o-endereco-de-recebimento-da-fatura-na-minha" target="_blank">Alteração de endereço de cobrança</a>
+                    <a title="Alteração de endereço de cobrança" href="http://faq.vvcestudio.com.br/como-faco-para-alterar-o-endereco-de-recebimento-da-fatura-na-minha" target="_blank">Alteração de endereço de cobrança</a>
                   </li>
                   <li>
                     <a title="Fatura Oi Paggo" href="https://www.paggo.com.br/freeddom/web/holder/oi/login.do" target="_blank">Fatura Oi Paggo</a>
@@ -643,10 +643,10 @@ const Content02 = props => {
                     <a href="/oi/sobre-a-oi/regulamentacao/informacoes/telefone-pra-deficientes-auditivos">142 | CIC Pessoa com deficiência auditiva</a>
                   </li>
                   <li>
-                    <a href="http://antivirus.vvc.com.br/instalar" title="Instalar Oi Antivírus" target="_blank">Instalar Oi Antivírus</a>
+                    <a href="http://antivirus.vvcestudio.com.br/instalar" title="Instalar Oi Antivírus" target="_blank">Instalar Oi Antivírus</a>
                   </li>
                   <li>
-                    <a href="http://faq.vvc.com.br/faq-list/" title="Perguntas Frequentes" target="_blank">Perguntas Frequentes</a>
+                    <a href="http://faq.vvcestudio.com.br/faq-list/" title="Perguntas Frequentes" target="_blank">Perguntas Frequentes</a>
                   </li>
                 </ul>
               </nav>
@@ -707,7 +707,7 @@ const Content02 = props => {
                       </a>
                     </li>
                     <li class="logomundooi">
-                      <a title="Mundo Oi" href="http://mundovvc.vvc.com.br/" target="_blank">
+                      <a title="Mundo Oi" href="http://mundovvc.vvcestudio.com.br/" target="_blank">
                         <Img src="/ArquivosEstaticos/oi/images/icomundooi2.png" alt="Mundo Oi" />
                       </a>
                     </li>
@@ -717,7 +717,7 @@ const Content02 = props => {
                       </a>
                     </li>
                     <li class="logooiacontece">
-                      <a title="Diversão Downloads" href="http://loja.vvc.com.br/portal" target="_blank">
+                      <a title="Diversão Downloads" href="http://loja.vvcestudio.com.br/portal" target="_blank">
                         <Img src="/ArquivosEstaticos/oi/images/logo-vvc-diversao-download.png" alt="Diversão Downloads" />
                       </a>
                     </li>
@@ -744,7 +744,7 @@ const Content02 = props => {
               <div class="limite">
                 <p class="pcopyright">
                   <Img src="/ArquivosEstaticos/oi/images/logo-oimae.png" alt="Logo Oi" />© Copyright 2000-<span class="anoAtual"></span>
-                  <strong><a title="vvc.com.br" href="http://www.vvc.com.br/">vvc.com.br</a></strong>Todos os direitos reservados.
+                  <strong><a title="vvcestudio.com.br" href="http://www.vvcestudio.com.br/">vvcestudio.com.br</a></strong>Todos os direitos reservados.
                 </p>
               </div>
             </footer>

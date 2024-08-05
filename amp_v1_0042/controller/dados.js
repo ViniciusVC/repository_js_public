@@ -4,32 +4,32 @@ var Util = require('./util.js');
 
 
 export const dados = (page, cidade) => {
-  var page = Util.validaProps(props.url.query.cidade,"lpAssinePos")
+  var page = Util.validaProps(props.url.query.cidade,"lpAssine")
   var cidade = Util.validaProps(props.url.query.cidade,"Rio de Janeiro - RJ")
   //return [page](cidade);
   if(page=="headerMenu"){
     return headerMenu(cidade);
   }else{
-    return lpAssinePos(cidade);
+    return lpAssine(cidade);
   }
 }
 
 function headerMenu(varcidade) {
   return { "Menu":[
     {
-        "link": "https://www.vvc.com.br/minha-oi/",
+        "link": "https://www.vvcestudio.com.br/meuvvc/",
         "item": "INÍCIO",
     },
     {
-        "link": "https://www.vvc.com.br/minha-oi/codigo-de-barras/",
+        "link": "https://www.vvcestudio.com.br/meuvvc/codigo-de-barras/",
         "item": "CONTAS E PAGAMENTOS"
     },
     {
-        "link": "https://m.vvc.com.br/Portal/splash",
+        "link": "https://m.vvcestudio.com.br/Portal/splash",
         "item": "MEUS PRODUTOS"
     },
     {
-        "link": "https://www.vvc.com.br/oi/vvc-pra-voce/planos-servicos/vvc-movel/recarga",
+        "link": "https://www.vvcestudio.com.br/oi/vvc-pra-voce/planos-servicos/vvc-movel/recarga",
         "item": "RECARGA"
     },
     {
@@ -43,26 +43,26 @@ function headerMenu(varcidade) {
           },
           {
             "subitem":"Dúvidas frequentes",
-            "link": "http://faq.vvc.com.br/"
+            "link": "http://faq.vvcestudio.com.br/"
           },{
             "subitem":"ATENDIMENTO",
             "link": "#"
           },
           {
             "subitem":"Consulta de protocolo",
-            "link": "https://m.vvc.com.br/Portal/splash"
+            "link": "https://m.vvcestudio.com.br/Portal/splash"
           },
           {
             "subitem":"Encontre sua loja",
-            "link": "https://www.vvc.com.br/oi/vvc-pra-voce/atendimento/fale-com-a-oi/lojas-fisicas-da-oi"
+            "link": "https://www.vvcestudio.com.br/oi/vvc-pra-voce/atendimento/fale-com-a-oi/lojas-fisicas-da-oi"
           },
           {
             "subitem":"Telefones e postos",
-            "link": "https://www.vvc.com.br/minha-oi/fale-com-a-oi/"
+            "link": "https://www.vvcestudio.com.br/meuvvc/fale-com-a-oi/"
           },
           {
             "subitem":"Consultar documentos",
-            "link": "https://m.vvc.com.br/Portal/splash"
+            "link": "https://m.vvcestudio.com.br/Portal/splash"
           },
           {
             "subitem":"SUPORTE TÉCNICO",
@@ -70,15 +70,15 @@ function headerMenu(varcidade) {
           },
           {
             "subitem":"Técnico Virtual",
-            "link": "https://www.vvc.com.br/app/tecnico-virtual/",
+            "link": "https://www.vvcestudio.com.br/app/tecnico-virtual/",
           },
           {
             "subitem":"Acompanhamento de instalação Fixo",
-            "link": "https://www.vvc.com.br/oi/vvc-pra-voce/planos-servicos/vvc-fixo/servicos/acompanhamento-do-vvc-fixo/"
+            "link": "https://www.vvcestudio.com.br/oi/vvc-pra-voce/planos-servicos/vvc-fixo/servicos/acompanhamento-do-vvc-fixo/"
           },
           {
             "subitem":"Estou sem serviço",
-            "link": "https://www.vvc.com.br/minha-oi/religar-servico/"
+            "link": "https://www.vvcestudio.com.br/meuvvc/religar-servico/"
           },
         ]
     },
@@ -88,7 +88,7 @@ function headerMenu(varcidade) {
         "mais": "true",
         "submenu":[
           {
-            "link": "https://www.vvc.com.br/oi/vvc-pra-voce/planos-servicos/vvc-pontos/",
+            "link": "https://www.vvcestudio.com.br/oi/vvc-pra-voce/planos-servicos/vvc-pontos/",
             "subitem":"Oi Pontos"
           },
           {
@@ -100,7 +100,7 @@ function headerMenu(varcidade) {
             "subitem":"VVC Play"
           },
           {
-            "link": "https://servicos.vvc.com.br/?utm_source=Minha+Oi&utm_medium=Link&utm_content=Home&utm_campaign=Menu+Lateral",
+            "link": "https://servicos.vvcestudio.com.br/?utm_source=Minha+Oi&utm_medium=Link&utm_content=Home&utm_campaign=Menu+Lateral",
             "subitem":"Conteúdo pra você"
           },
         ]
@@ -112,23 +112,23 @@ function headerMenu(varcidade) {
         "submenu":[
           {
             "subitem":"Combo",
-            "link": "http://vvc.com.br/combo"
+            "link": "http://vvcestudio.com.br/combo"
           },
           {
             "subitem":"TV HD",
-            "link": "http://vvc.com.br/tv-hd"
+            "link": "http://vvcestudio.com.br/tv-hd"
           },
           {
             "subitem":"Celular",
-            "link": "http://vvc.com.br/celular"
+            "link": "http://vvcestudio.com.br/celular"
           },
           {
             "subitem":"Internet",
-            "link": "http://vvc.com.br/internet"
+            "link": "http://vvcestudio.com.br/internet"
           },
           {
             "subitem":"Fixo",
-            "link": "http://vvc.com.br/fixo"
+            "link": "http://vvcestudio.com.br/fixo"
           }
         ]
     }
@@ -136,7 +136,7 @@ function headerMenu(varcidade) {
 }
 
 
-function lpAssinePos(varcidade) {
+function lpAssine(varcidade) {
   var Mensagem="";
   if(varcidade=="São Paulo - SP"){
     Mensagem="Ops… A promoção da Internet da Oi não está disponível pra sua casa."
@@ -175,7 +175,7 @@ function lpAssinePos(varcidade) {
             "divcents":",90",
             "mes":"/mês"},
       "BtComprar":{
-        "linlk":"https://www.vvc.com.br/detalhes-da-oferta/pos-pago_50gb_fid_brasil",
+        "linlk":"https://www.vvcestudio.com.br/detalhes-da-oferta/pos-pago_50gb_fid_brasil",
         "texto":"Eu quero"
       },
       "ImgColuna2":{
@@ -191,13 +191,13 @@ function lpAssinePos(varcidade) {
       "footcontrow" : "Informações legais:",
       "disclaimer": "A Oi, dentro das determinações legais e normativas aplicáveis, poderá suspender ou cancelar, imediatamente, os benefícios desta oferta, caso constate utilização fraudulenta e/ou indevida dos mesmos. Para mais informações, consulte o regulamento.",
       "li01":{
-        "link":"https://www.vvc.com.br/oi/sobre-a-oi/regulamentacao/informacoes/planos-de-servicos-vigor/vvc-movel#tab-lista-ofertas/",
+        "link":"https://www.vvcestudio.com.br/oi/sobre-a-oi/regulamentacao/informacoes/planos-de-servicos-vigor/vvc-movel#tab-lista-ofertas/",
         "texto":"Lista de ofertas válidas para adesão"},
       "li02":{
-        "link":"https://www.vvc.com.br/oi/vvc-pra-voce/planos-servicos/vvc-movel/tarifas?cmbEstado=SP&cmbPlano=385/",
+        "link":"https://www.vvcestudio.com.br/oi/vvc-pra-voce/planos-servicos/vvc-movel/tarifas?cmbEstado=SP&cmbPlano=385/",
         "texto":"Tarifas excedentes"},
       "li03":{
-        "link":"https://www.vvc.com.br/celular/pos-pago/regras-de-oferta/",
+        "link":"https://www.vvcestudio.com.br/celular/pos-pago/regras-de-oferta/",
         "texto":"Contratos e regras da oferta"}
     }
   }

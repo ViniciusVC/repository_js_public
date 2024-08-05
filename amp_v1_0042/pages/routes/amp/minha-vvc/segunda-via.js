@@ -1,5 +1,5 @@
 import React from 'react';
-import SegundaVia from '../../../../components/templates/minha-oi/segunda-via.js';
+import SegundaVia from '../../../../components/templates/meuvvc/segunda-via.js';
 import { withAmp } from 'next/amp';
 
 const RotaDocumentoscopiaAjuda = function(props){

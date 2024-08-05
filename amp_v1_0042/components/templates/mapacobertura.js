@@ -25,7 +25,7 @@ const mapacobertura = function (props) {
                 <FavIcon />
                 <meta name="description" content="Mapa de Cobertura." />
                 <meta name="robots" content="noindex" />
-                {/* <link rel="canonical" href="https://www.vvc.com.br/mapacobertura/" /> */}
+                {/* <link rel="canonical" href="https://www.vvcestudio.com.br/mapacobertura/" /> */}
             </Head>
             <Tags01 />
 
@@ -101,23 +101,23 @@ const mapacobertura = function (props) {
                 }
                 @font-face {
                     font-family: 'SimplonBP-Regular';
-                    src: url('https://www.vvc.com.br/publicV2/fonts/simplonbp-regular-webfont.woff');
+                    src: url('https://www.vvcestudio.com.br/publicV2/fonts/simplonbp-regular-webfont.woff');
                 } 
                 @font-face {
                     font-family: 'Simplon-Headline';
-                    src: url('https://www.vvc.com.br/publicV2/fonts/simplonvvc-headline-webfont.woff');
+                    src: url('https://www.vvcestudio.com.br/publicV2/fonts/simplonvvc-headline-webfont.woff');
                 }
                 @font-face {
                     font-family: 'Simplon-Bold';
-                    src: url('https://minhavvc-cliente.vvc.com.br/minha-oi/assets/fonts/simplonbp-bold-webfont.woff');
+                    src: url('https://minhavvc-cliente.vvcestudio.com.br/meuvvc/assets/fonts/simplonbp-bold-webfont.woff');
                 } 
                 @font-face {
                     font-family: 'Simplon-Medium';
-                    src: url('https://minhavvc-cliente.vvc.com.br/minha-oi/assets/fonts/simplonbp-medium-webfont.woff');
+                    src: url('https://minhavvc-cliente.vvcestudio.com.br/meuvvc/assets/fonts/simplonbp-medium-webfont.woff');
                 } 
                 @font-face {
                     font-family: 'Simplon-Light';
-                    src: url('https://minhavvc-cliente.vvc.com.br/minha-oi/assets/fonts/simplonbp-light-webfont.woff');
+                    src: url('https://minhavvc-cliente.vvcestudio.com.br/meuvvc/assets/fonts/simplonbp-light-webfont.woff');
                 }
                 `}
             </style>

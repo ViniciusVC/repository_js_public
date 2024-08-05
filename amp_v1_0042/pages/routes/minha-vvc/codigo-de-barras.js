@@ -1,5 +1,5 @@
 import React from 'react';
-import Home from '../../../components/templates/minha-oi/codigo-de-barras.js';
+import Home from '../../../components/templates/meuvvc/codigo-de-barras.js';
 import * as Util from '../../../controller/util.js';
 //import { withAmp } from 'next/amp'; //para exportar AMP
 

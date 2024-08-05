@@ -19,9 +19,9 @@ const modalAssineJavvcplay = props => {
             }
         }
         if (isCliente === 'true') {
-            window.location.href = 'https://apimhml.vvc.net.br/oic?state=statevvcplayalone&plano=1&client_id=8d707166-93f3-4c9f-a24e-c981aecbca58&response_type=code&scope=openid customer_info oob&redirect_uri=http://www.vvc.com.br/vvc-play'
+            window.location.href = 'https://apimhml.vvc.net.br/oic?state=statevvcplayalone&plano=1&client_id=8d707166-93f3-4c9f-a24e-c981aecbca58&response_type=code&scope=openid customer_info oob&redirect_uri=http://www.vvcestudio.com.br/vvc-play'
         } else {
-            // https://carrinho.servicos.vvc.com.br/cadastroAlone
+            // https://carrinho.servicos.vvcestudio.com.br/cadastroAlone
             // https://projeto-6.homolog.infra:20000/cadastroAlone
             window.location.href = "https://187.31.162.66:20000/cadastroAlone?plano=2"
         }
@@ -60,7 +60,7 @@ const modalAssineJavvcplay = props => {
                         </li>
                     </ul>
                     <span >
-                        {/* https://carrinho.servicos.vvc.com.br/cadastroAlone */}
+                        {/* https://carrinho.servicos.vvcestudio.com.br/cadastroAlone */}
                         {/* https://projeto-6.homolog.infra:20000/cadastroAlone */}
                         {/* <BtLink onClick={chamaBackend} value="Continuar" estilo="amarelo3" /> */}
                         <button className="botao-continuar" onClick={chamaBackend}>

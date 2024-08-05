@@ -3,15 +3,15 @@ import React from 'react'
 const dadosBotoes = [
     {
         nome: '+ FIBRA',
-        link: 'https://www.vvc.com.br/internet/'
+        link: 'https://www.vvcestudio.com.br/internet/'
     },
     {
         nome: '+ PÓS',
-        link: 'https://www.vvc.com.br/celular/'
+        link: 'https://www.vvcestudio.com.br/celular/'
     },
     {
         nome: '+ TV',
-        link: 'https://www.vvc.com.br/tv-hd/'
+        link: 'https://www.vvcestudio.com.br/tv-hd/'
     },
 ]
 

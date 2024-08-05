@@ -17,7 +17,7 @@ const RefionFooter01 = function(props){
     <div class="footer-regionalization">
     
       <div class="logoFooter">
-        <a href="https://www.vvc.com.br">
+        <a href="https://www.vvcestudio.com.br">
           <span>
             <Logo type="roxo02" width="40px"/>
           </span>
@@ -156,10 +156,10 @@ class footer01 extends React.Component {
                   <a data-context="" href="/combo/">Planos</a>
                 </div>
                 <div class="link-item">
-                  <a data-context="" href="/minha-oi/combo/">Atendimento</a>
+                  <a data-context="" href="/meuvvc/combo/">Atendimento</a>
                 </div>
                 <div class="link-item">
-                  <a data-context="" href="/minha-oi/combo/">Serviços Adicionais</a>
+                  <a data-context="" href="/meuvvc/combo/">Serviços Adicionais</a>
                 </div>
               </div>
 
@@ -182,10 +182,10 @@ class footer01 extends React.Component {
                   <a data-context="" href="/tv-hd/">Planos</a>
                 </div>
                 <div class="link-item">
-                  <a data-context="" href="/minha-oi/tv-hd/">Atendimento</a>
+                  <a data-context="" href="/meuvvc/tv-hd/">Atendimento</a>
                 </div>
                 <div class="link-item">
-                  <a data-context="" href="/minha-oi/tv-hd/">Serviços Adicionais</a>
+                  <a data-context="" href="/meuvvc/tv-hd/">Serviços Adicionais</a>
                 </div>
               </div>
 
@@ -208,10 +208,10 @@ class footer01 extends React.Component {
                 <div class="link-item">
                   <a data-context="" href="/celular/">Planos</a></div>
                 <div class="link-item">
-                  <a data-context="" href="/minha-oi/celular/">Atendimento</a>
+                  <a data-context="" href="/meuvvc/celular/">Atendimento</a>
                 </div>
                 <div class="link-item">
-                  <a data-context="" href="https://servicos.vvc.com.br/?utm_source=Portal+Oi&amp;utm_medium=Link&amp;utm_content=Servicos+Adicionais&amp;utm_campaign=Rodape">Serviços pra Celular</a>
+                  <a data-context="" href="https://servicos.vvcestudio.com.br/?utm_source=Portal+Oi&amp;utm_medium=Link&amp;utm_content=Servicos+Adicionais&amp;utm_campaign=Rodape">Serviços pra Celular</a>
                 </div>
               </div>
               
@@ -230,8 +230,8 @@ class footer01 extends React.Component {
                     <a class="medium-up" data-context="" href="/internet/">Internet</a>
                   </div>
                 <div class="link-item"><a data-context="" href="/internet/">Planos</a></div>
-                <div class="link-item"><a data-context="" href="/minha-oi/internet/">Atendimento</a></div>
-                <div class="link-item"><a data-context="" href="https://servicos.vvc.com.br/?utm_source=Portal+Oi&amp;utm_medium=Link&amp;utm_content=Servicos+Adicionais&amp;utm_campaign=Rodape">Serviços pra Internet</a></div>
+                <div class="link-item"><a data-context="" href="/meuvvc/internet/">Atendimento</a></div>
+                <div class="link-item"><a data-context="" href="https://servicos.vvcestudio.com.br/?utm_source=Portal+Oi&amp;utm_medium=Link&amp;utm_content=Servicos+Adicionais&amp;utm_campaign=Rodape">Serviços pra Internet</a></div>
               </div>
 
 
@@ -248,9 +248,9 @@ class footer01 extends React.Component {
                   </div>
                   <a class="medium-up" data-context="" href="/fixo/">Fixo</a>
                 </div>
-                <div class="link-item"><a data-context="" href="https://www.vvc.com.br/fixo/">Planos</a></div>
-                <div class="link-item"><a data-context="" href="https://www.vvc.com.br/minha-oi/fixo/">Atendimento</a></div>
-                <div class="link-item"><a data-context="" href="https://www.vvc.com.br/minha-oi/fixo/">Serviços Adicionais</a></div>
+                <div class="link-item"><a data-context="" href="https://www.vvcestudio.com.br/fixo/">Planos</a></div>
+                <div class="link-item"><a data-context="" href="https://www.vvcestudio.com.br/meuvvc/fixo/">Atendimento</a></div>
+                <div class="link-item"><a data-context="" href="https://www.vvcestudio.com.br/meuvvc/fixo/">Serviços Adicionais</a></div>
               </div>
 
 
@@ -266,7 +266,7 @@ class footer01 extends React.Component {
               
               
               <div class="logoFooter">
-                <a data-context="" href="https://www.vvc.com.br">
+                <a data-context="" href="https://www.vvcestudio.com.br">
                   <span>
                   <Img src="" width="" height="" alt="Logo roda pe SVG" title="Logo roda pe SVG" class="" modo={VarModo}></Img>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 612 528.1" enable-background="new 0 0 612 528.1">
@@ -310,7 +310,7 @@ class footer01 extends React.Component {
 
             <div class="containerSelfCare">
               <div class="selfCare medium-up">
-                <a href="/minha-oi/">Atendimento ao cliente</a>
+                <a href="/meuvvc/">Atendimento ao cliente</a>
               </div><div class="socialMedia medium-up">
                 <a class="facebook" data-context="" href="https://www.facebook.com/OiOficial/">
                   <span>
@@ -344,17 +344,17 @@ class footer01 extends React.Component {
                   <h3 class="hidden">footer menu</h3>
                   <div class="hotlinksMobile small-only">
                     <ul>
-                      <li><a class="active" data-context="" href="https://www.vvc.com.br/">Você</a></li>
-                      <li><a class="false" data-context="" href="https://www.vvc.com.br/empresas/">Empresas</a></li>
-                      <li><a class="false" data-context="" href="https://www.vvc.com.br/lp/franquias/">Franquias</a></li>
-                      <li><a class="false" data-context="" href="https://www.vvc.com.br/ri/">Investidores</a></li>
+                      <li><a class="active" data-context="" href="https://www.vvcestudio.com.br/">Você</a></li>
+                      <li><a class="false" data-context="" href="https://www.vvcestudio.com.br/empresas/">Empresas</a></li>
+                      <li><a class="false" data-context="" href="https://www.vvcestudio.com.br/lp/franquias/">Franquias</a></li>
+                      <li><a class="false" data-context="" href="https://www.vvcestudio.com.br/ri/">Investidores</a></li>
                     </ul>
                   </div>
                   <div class="footerNav medium-up">
                     <ul>
-                      <li><a data-context="" href="https://www.vvc.com.br/empresas/">Empresas</a></li>
-                      <li><a data-context="" href="https://www.vvc.com.br/lp/franquias/">Franquias</a></li>
-                      <li><a data-context="" href="https://www.vvc.com.br/ri/">Investidores</a></li>
+                      <li><a data-context="" href="https://www.vvcestudio.com.br/empresas/">Empresas</a></li>
+                      <li><a data-context="" href="https://www.vvcestudio.com.br/lp/franquias/">Franquias</a></li>
+                      <li><a data-context="" href="https://www.vvcestudio.com.br/ri/">Investidores</a></li>
                       <li><a data-context="" href="/oi/sobre-a-oi/">Sobre a Oi</a></li>
                       <li><a data-context="" href="/oi/vvc-pra-voce/atendimento/fale-com-a-oi/lojas-fisicas-da-oi/">Lojas da Oi</a></li>
                       <li class="large-up"><a data-context="" href="/oi/celular-legal/">Celular Legal</a></li>

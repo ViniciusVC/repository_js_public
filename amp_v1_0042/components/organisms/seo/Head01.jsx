@@ -30,18 +30,18 @@ class Index extends React.Component {
         <meta data-react-helmet="true" name="twitter:title" content="Oi | Combo, TV, Celular, Internet, Fixo, Recarga"/>
         <meta data-react-helmet="true" name="twitter:description" content="Descubra na Oi os melhores combos e planos para TV, Banda Larga, Internet Móvel, Celular e Fixo. Acesse a 2ª via da sua conta e muitos outros serviços."/>
         <meta data-react-helmet="true" name="twitter:creator" content="@digaoi"/>
-        <meta data-react-helmet="true" name="twitter:image" content="https://www.vvc.com.br/publicV2/vvc-logo-purple-1.png"/>
+        <meta data-react-helmet="true" name="twitter:image" content="https://www.vvcestudio.com.br/publicV2/vvc-logo-purple-1.png"/>
         <meta data-react-helmet="true" property="og:title" content="Oi | Combo, TV, Celular, Internet, Fixo, Recarga"/>
         <meta data-react-helmet="true" property="og:type" content="website"/>
-        <meta data-react-helmet="true" property="og:url" content="https://www.vvc.com.br/"/>
-        <meta data-react-helmet="true" property="og:image" content="https://www.vvc.com.br/publicV2/vvc-logo-purple-1.png"/>
+        <meta data-react-helmet="true" property="og:url" content="https://www.vvcestudio.com.br/"/>
+        <meta data-react-helmet="true" property="og:image" content="https://www.vvcestudio.com.br/publicV2/vvc-logo-purple-1.png"/>
         <meta data-react-helmet="true" property="og:description" content="Descubra na Oi os melhores combos e planos para TV, Banda Larga, Internet Móvel, Celular e Fixo. Acesse a 2ª via da sua conta e muitos outros serviços."/>
         <meta data-react-helmet="true" property="og:site_name" content="Oi"/>
         <meta data-react-helmet="true" property="fb:admins" content="151461171594566"/>
         <link data-react-helmet="true" rel="shortcut icon" href="/publicV2/favicon.ico"/>
-        <link data-react-helmet="true" rel="canonical" href="https://www.vvc.com.br/"/>
+        <link data-react-helmet="true" rel="canonical" href="https://www.vvcestudio.com.br/"/>
         
-        <link rel="stylesheet" type="text/css" href="https://www.vvc.com.br/publicV2/client.css"/>
+        <link rel="stylesheet" type="text/css" href="https://www.vvcestudio.com.br/publicV2/client.css"/>
         <link rel="preconnect" href="http://service.maxymiser.net"/>
         <link rel="preconnect" href="http://tags.bluekai.com"/>
         <link rel="preconnect" href="https://bysa1.byside.com"/>
@@ -50,7 +50,7 @@ class Index extends React.Component {
         <link rel="preconnect" href="https://geoip-js.maxmind.com"/>
         <link rel="preconnect" href="https://in.hotjar.com"/>
         <link rel="preconnect" href="https://js.maxmind.com"/>
-        <link rel="preconnect" href="https://minha.vvc.com.br"/>
+        <link rel="preconnect" href="https://minha.vvcestudio.com.br"/>
         <link rel="preconnect" href="https://script.hotjar.com"/>
         <link rel="preconnect" href="https://static.ads-twitter.com"/>
         <link rel="preconnect" href="https://static.hotjar.com"/>

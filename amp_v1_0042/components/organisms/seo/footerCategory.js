@@ -48,33 +48,33 @@ const footerCategory = function(props){
           <div className="ColfooterCategory">
             <div class="link-title"><a class="medium-up" href="/combo/">Combo</a></div>
             <div class="link-item"><a href="/combo/">Planos</a></div>
-            <div class="link-item"><a href="/minha-oi/combo/">Atendimento</a></div>
-            <div class="link-item"><a href="/minha-oi/combo/">Serviços Adicionais</a></div>
+            <div class="link-item"><a href="/meuvvc/combo/">Atendimento</a></div>
+            <div class="link-item"><a href="/meuvvc/combo/">Serviços Adicionais</a></div>
           </div>
           <div className="ColfooterCategory">
             <div class="link-title"><a class="medium-up" data-context="" href="/tv-hd/">TV HD</a></div>
             <div class="link-item"><a href="/tv-hd/">Planos</a></div>
-            <div class="link-item"><a href="/minha-oi/tv-hd/">Atendimento</a></div>
-            <div class="link-item"><a href="/minha-oi/tv-hd/">Serviços Adicionais</a></div>
+            <div class="link-item"><a href="/meuvvc/tv-hd/">Atendimento</a></div>
+            <div class="link-item"><a href="/meuvvc/tv-hd/">Serviços Adicionais</a></div>
           </div>
           <div className="ColfooterCategory">
             <div class="link-title"> <a class="medium-up" data-context="" href="/celular/">Celular</a></div>
             <div class="link-item"><a href="/celular/">Planos</a></div>
-            <div class="link-item"><a href="/minha-oi/celular/">Atendimento</a></div>
-            <div class="link-item"><a href="https://servicos.vvc.com.br/?utm_source=Portal+Oi&amp;utm_medium=Link&amp;utm_content=Servicos+Adicionais&amp;utm_campaign=Rodape">Serviços pra Celular</a>
+            <div class="link-item"><a href="/meuvvc/celular/">Atendimento</a></div>
+            <div class="link-item"><a href="https://servicos.vvcestudio.com.br/?utm_source=Portal+Oi&amp;utm_medium=Link&amp;utm_content=Servicos+Adicionais&amp;utm_campaign=Rodape">Serviços pra Celular</a>
             </div>
           </div>
           <div className="ColfooterCategory">
             <div class="link-title"><a class="medium-up" data-context="" href="/internet/">Internet</a></div>
             <div class="link-item"><a data-context="" href="/internet/">Planos</a></div>
-            <div class="link-item"><a data-context="" href="/minha-oi/internet/">Atendimento</a></div>
-            <div class="link-item"><a data-context="" href="https://servicos.vvc.com.br/?utm_source=Portal+Oi&amp;utm_medium=Link&amp;utm_content=Servicos+Adicionais&amp;utm_campaign=Rodape">Serviços pra Internet</a></div>
+            <div class="link-item"><a data-context="" href="/meuvvc/internet/">Atendimento</a></div>
+            <div class="link-item"><a data-context="" href="https://servicos.vvcestudio.com.br/?utm_source=Portal+Oi&amp;utm_medium=Link&amp;utm_content=Servicos+Adicionais&amp;utm_campaign=Rodape">Serviços pra Internet</a></div>
           </div>
           <div className="ColfooterCategory">
             <div class="link-title"><a class="medium-up" data-context="" href="/fixo/">Fixo</a></div>
-            <div class="link-item"><a data-context="" href="https://www.vvc.com.br/fixo/">Planos</a></div>
-            <div class="link-item"><a data-context="" href="https://www.vvc.com.br/minha-oi/fixo/">Atendimento</a></div>
-            <div class="link-item"><a data-context="" href="https://www.vvc.com.br/minha-oi/fixo/">Serviços Adicionais</a></div>
+            <div class="link-item"><a data-context="" href="https://www.vvcestudio.com.br/fixo/">Planos</a></div>
+            <div class="link-item"><a data-context="" href="https://www.vvcestudio.com.br/meuvvc/fixo/">Atendimento</a></div>
+            <div class="link-item"><a data-context="" href="https://www.vvcestudio.com.br/meuvvc/fixo/">Serviços Adicionais</a></div>
           </div>
       </Div>
       <style jsx>{`

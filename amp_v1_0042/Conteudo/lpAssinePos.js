@@ -1,4 +1,4 @@
-export const lpAssinePos = (cidade) => {
+export const lpAssine = (cidade) => {
   var Mensagem="";
   if(varcidade=="São Paulo - SP"){
     Mensagem="Ops… A promoção da Internet da Oi não está disponível pra sua casa."
@@ -37,7 +37,7 @@ export const lpAssinePos = (cidade) => {
             "divcents":",90",
             "mes":"/mês"},
       "BtComprar":{
-        "linlk":"https://www.vvc.com.br/detalhes-da-oferta/pos-pago_50gb_fid_brasil",
+        "linlk":"https://www.vvcestudio.com.br/detalhes-da-oferta/pos-pago_50gb_fid_brasil",
         "texto":"Eu quero"
       },
       "ImgColuna2":{
@@ -53,16 +53,16 @@ export const lpAssinePos = (cidade) => {
       "footcontrow" : "Informações legais:",
       "disclaimer": "A Oi, dentro das determinações legais e normativas aplicáveis, poderá suspender ou cancelar, imediatamente, os benefícios desta oferta, caso constate utilização fraudulenta e/ou indevida dos mesmos. Para mais informações, consulte o regulamento.",
       "li01":{
-        "link":"https://www.vvc.com.br/oi/sobre-a-oi/regulamentacao/informacoes/planos-de-servicos-vigor/vvc-movel#tab-lista-ofertas/",
+        "link":"https://www.vvcestudio.com.br/oi/sobre-a-oi/regulamentacao/informacoes/planos-de-servicos-vigor/vvc-movel#tab-lista-ofertas/",
         "texto":"Lista de ofertas válidas para adesão"},
       "li02":{
-        "link":"https://www.vvc.com.br/oi/vvc-pra-voce/planos-servicos/vvc-movel/tarifas?cmbEstado=SP&cmbPlano=385/",
+        "link":"https://www.vvcestudio.com.br/oi/vvc-pra-voce/planos-servicos/vvc-movel/tarifas?cmbEstado=SP&cmbPlano=385/",
         "texto":"Tarifas excedentes"},
       "li03":{
-        "link":"https://www.vvc.com.br/celular/pos-pago/regras-de-oferta/",
+        "link":"https://www.vvcestudio.com.br/celular/pos-pago/regras-de-oferta/",
         "texto":"Contratos e regras da oferta"}
     }
   }
 }
 
-export default lpAssinePos;
+export default lpAssine;

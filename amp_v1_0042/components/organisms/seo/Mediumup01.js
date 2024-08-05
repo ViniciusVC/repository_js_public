@@ -9,16 +9,16 @@ const Mediumup01 = function(props){
   return(
       <ul class="medium-up">
         <li>
-            <a className="active Mediumup01" href="https://www.vvc.com.br/">Você</a>
+            <a className="active Mediumup01" href="https://www.vvcestudio.com.br/">Você</a>
         </li>
         <li>
-            <a className="false Mediumup01" href="https://www.vvc.com.br/empresas/">Empresas</a>
+            <a className="false Mediumup01" href="https://www.vvcestudio.com.br/empresas/">Empresas</a>
         </li>
         <li>
-            <a className="false Mediumup01" href="https://www.vvc.com.br/lp/franquias/">Franquias</a>
+            <a className="false Mediumup01" href="https://www.vvcestudio.com.br/lp/franquias/">Franquias</a>
         </li>
         <li>
-            <a classname="false Mediumup01" href="https://www.vvc.com.br/ri/">Investidores</a>
+            <a classname="false Mediumup01" href="https://www.vvcestudio.com.br/ri/">Investidores</a>
         </li>
         <li class="pipe">
         </li>
@@ -42,13 +42,13 @@ var PropTypes = require('prop-types');
 
 
 var JsonRoterHome = [
-  {"Link":"https://www.vvc.com.br/",
+  {"Link":"https://www.vvcestudio.com.br/",
   "label":"Você"},
-  {"Link":"https://www.vvc.com.br/empresas/",
+  {"Link":"https://www.vvcestudio.com.br/empresas/",
   "label":"Empresas"},
-  {"Link":"https://www.vvc.com.br/lp/franquias/",
+  {"Link":"https://www.vvcestudio.com.br/lp/franquias/",
   "label":"Franquias"},
-  {"Link":"https://www.vvc.com.br/ri/",
+  {"Link":"https://www.vvcestudio.com.br/ri/",
   "label":"Investidores"}
   ];
 
@@ -59,16 +59,16 @@ class Mediumup01 extends React.Component {
     return (
           <ul class="medium-up">
                   <li>
-                      <a class="active" data-context="" href="https://www.vvc.com.br/">Você</a>
+                      <a class="active" data-context="" href="https://www.vvcestudio.com.br/">Você</a>
                   </li>
                   <li>
-                      <a class="false" data-context="" href="https://www.vvc.com.br/empresas/">Empresas</a>
+                      <a class="false" data-context="" href="https://www.vvcestudio.com.br/empresas/">Empresas</a>
                   </li>
                   <li>
-                      <a class="false" data-context="" href="https://www.vvc.com.br/lp/franquias/">Franquias</a>
+                      <a class="false" data-context="" href="https://www.vvcestudio.com.br/lp/franquias/">Franquias</a>
                   </li>
                   <li>
-                      <a class="false" data-context="" href="https://www.vvc.com.br/ri/">Investidores</a>
+                      <a class="false" data-context="" href="https://www.vvcestudio.com.br/ri/">Investidores</a>
                   </li>
                   <li class="pipe">
                   </li>

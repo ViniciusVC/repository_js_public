@@ -1,5 +1,5 @@
 import React from 'react';
-import Home from '../../../components/templates/minha-oi/atendimento-vvc.js';
+import Home from '../../../components/templates/meuvvc/atendimento-vvc.js';
 import * as Util from '../../../controller/util.js';
 //import { withAmp } from 'next/amp';
 

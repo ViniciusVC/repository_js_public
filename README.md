@@ -24,6 +24,10 @@ https://github.com/ViniciusVC/repository_js_public
 │   (AngularJS 1 - Bootstrap - JS) 
 │
 │
+├── 📂 /exemplo_angular
+│   (SPA com Angular) 
+│
+│
 ├── 📂 /exemplo_next_js
 │   (Exemplo NextJS)
 │
@@ -41,15 +45,15 @@ https://github.com/ViniciusVC/repository_js_public
 │
 │
 ├── 📂 /react_pokemon
-│   (Exemplo simples de ReactJS usando API Pokemon)
+│   (Exemplo simples de SPA ReactJS usando API Pokemon)
 │
 │ 
 ├── 📂 /react_puro_busca
-│   (Exemplo simples de ReactJS usando API CPF)
+│   (Exemplo simples de SPA ReactJS usando API CPF)
 │
 │ 
 ├── 📂 /vue_js_node
-│   (Exemplo simples de ReactJS usando API CPF)
+│   (Exemplo de SPA com Vue no Node.)
 │
 │ 
 ├── 📂 /VueJS_classico

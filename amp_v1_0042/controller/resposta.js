@@ -11,8 +11,8 @@ exports.status = function(res,req ) {
     console.log('Rodando  documentoscopiacontroller. Resposta Status solicitação.');
     console.log(req.query)
 
-    var estiloH1 = '@font-face {font-family: "Simplon-Headline";src: url("https://www.vvc.com.br/publicV2/fonts/simplonvvc-headline-webfont.woff");} h1{font-family: Simplon-Headline;font-size: 26px;font-weight: normal;font-style: normal;font-stretch: normal;line-height: normal;letter-spacing: normal;text-align: center;color: #f8562c;}'
-    var estiloP = '@font-face {font-family: "SimplonBP-Regular";src: url("https://www.vvc.com.br/publicV2/fonts/simplonbp-regular-webfont.woff");} p{font-family: SimplonBP-Regular;font-size: 22px;font-weight: normal;font-style: normal;font-stretch: normal;line-height: 1.2;letter-spacing: normal;text-align: center;color: #000000;}'
+    var estiloH1 = '@font-face {font-family: "Simplon-Headline";src: url("https://www.vvcestudio.com.br/publicV2/fonts/simplonvvc-headline-webfont.woff");} h1{font-family: Simplon-Headline;font-size: 26px;font-weight: normal;font-style: normal;font-stretch: normal;line-height: normal;letter-spacing: normal;text-align: center;color: #f8562c;}'
+    var estiloP = '@font-face {font-family: "SimplonBP-Regular";src: url("https://www.vvcestudio.com.br/publicV2/fonts/simplonbp-regular-webfont.woff");} p{font-family: SimplonBP-Regular;font-size: 22px;font-weight: normal;font-style: normal;font-stretch: normal;line-height: 1.2;letter-spacing: normal;text-align: center;color: #000000;}'
     var estiloDiv = 'div{margin:10px;margin-top:50px;}'
     var varSession=""
     var imgIcone='<img src="/static/assetsv5/img/documentoscopia/erro_ico.png" width="45px" height="45px" />';

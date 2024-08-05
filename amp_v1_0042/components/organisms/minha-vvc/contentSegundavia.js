@@ -1,9 +1,9 @@
 import React from 'react';
 import * as Util from '../../../controller/util.js';
-import Session1 from '../../moleculas/minha-oi/moSegundaVia/moSegundaViaSession';
-import Session2 from '../../moleculas/minha-oi/moSegundaVia/moSegundaViaSession2';
-import Session3 from '../../moleculas/minha-oi/moSegundaVia/moSegundaViaSession3';
-import Session4 from '../../moleculas/minha-oi/moSegundaVia/moSegundaViaSession4';
+import Session1 from '../../moleculas/meuvvc/moSegundaVia/moSegundaViaSession';
+import Session2 from '../../moleculas/meuvvc/moSegundaVia/moSegundaViaSession2';
+import Session3 from '../../moleculas/meuvvc/moSegundaVia/moSegundaViaSession3';
+import Session4 from '../../moleculas/meuvvc/moSegundaVia/moSegundaViaSession4';
 
 // import { Container } from './styles';
 

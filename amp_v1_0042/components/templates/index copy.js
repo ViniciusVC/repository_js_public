@@ -20,7 +20,7 @@ const Home = function (props) {
         <FavIcon />
         <meta name="description" content="Portal da vvc." />
         <meta name="robots" content="noindex" />
-        <link rel="canonical" href="https://www.vvc.com.br/" />
+        <link rel="canonical" href="https://www.vvcestudio.com.br/" />
       </Head>
       Cidade:{cidade}
       <h1 className='title'>Bem vindo ao Projeto AMP_V1</h1>

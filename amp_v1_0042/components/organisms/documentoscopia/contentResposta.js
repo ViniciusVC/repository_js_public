@@ -24,11 +24,11 @@ const contentResposta = props => {
     <style jsx>{`
       @font-face {
         font-family: 'SimplonBP-Regular';
-        src: url('https://www.vvc.com.br/publicV2/fonts/simplonbp-regular-webfont.woff');
+        src: url('https://www.vvcestudio.com.br/publicV2/fonts/simplonbp-regular-webfont.woff');
       } 
       @font-face {
         font-family: 'Simplon-Headline';
-        src: url('https://www.vvc.com.br/publicV2/fonts/simplonvvc-headline-webfont.woff');
+        src: url('https://www.vvcestudio.com.br/publicV2/fonts/simplonvvc-headline-webfont.woff');
       }
       h1{
         font-family: Simplon-Headline;

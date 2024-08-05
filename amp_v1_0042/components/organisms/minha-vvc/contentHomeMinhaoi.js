@@ -1,9 +1,9 @@
-// content do Atendimento - Layout Minha-Oi
+// content do Atendimento - Layout meuvvc
 import React from 'react';
 import * as Util from '../../../controller/util.js';
-import HomeSession1 from '../../moleculas/minha-oi/moHomeSession1.js';
-import HomeSession2 from '../../moleculas/minha-oi/moHomeSession2.js';
-import HomeSession3 from '../../moleculas/minha-oi/moHomeSession3.js';
+import HomeSession1 from '../../moleculas/meuvvc/moHomeSession1.js';
+import HomeSession2 from '../../moleculas/meuvvc/moHomeSession2.js';
+import HomeSession3 from '../../moleculas/meuvvc/moHomeSession3.js';
 
 
 const contentHomeminhavvc = props => {

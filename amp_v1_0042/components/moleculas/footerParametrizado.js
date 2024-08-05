@@ -33,10 +33,10 @@ const footerParametrizado = props => {
                                     <a href="/combo/">Planos</a>
                                 </div>
                                 <div className="link-item">
-                                    <a href="/minha-oi/combo/">Atendimento</a>
+                                    <a href="/meuvvc/combo/">Atendimento</a>
                                 </div>
                                 <div className="link-item">
-                                    <a href="/minha-oi/combo/">Serviços Adicionais</a>
+                                    <a href="/meuvvc/combo/">Serviços Adicionais</a>
                                 </div>
                             </div>
                             <div className="footer-category">
@@ -61,10 +61,10 @@ const footerParametrizado = props => {
                                     <a href="/tv-hd/">Planos</a>
                                 </div>
                                 <div className="link-item">
-                                    <a href="/minha-oi/tv-hd/">Atendimento</a>
+                                    <a href="/meuvvc/tv-hd/">Atendimento</a>
                                 </div>
                                 <div className="link-item">
-                                    <a href="/minha-oi/tv-hd/">Serviços Adicionais</a>
+                                    <a href="/meuvvc/tv-hd/">Serviços Adicionais</a>
                                 </div>
                             </div>
                             <div className="footer-category">
@@ -90,10 +90,10 @@ const footerParametrizado = props => {
                                     <a href="/celular/">Planos</a>
                                 </div>
                                 <div className="link-item">
-                                    <a href="/minha-oi/celular/">Atendimento</a>
+                                    <a href="/meuvvc/celular/">Atendimento</a>
                                 </div>
                                 <div className="link-item">
-                                    <a href="https://servicos.vvc.com.br/?utm_source=Portal+Oi&amp;utm_medium=Link&amp;utm_content=Servicos+Adicionais&amp;utm_campaign=Rodape">
+                                    <a href="https://servicos.vvcestudio.com.br/?utm_source=Portal+Oi&amp;utm_medium=Link&amp;utm_content=Servicos+Adicionais&amp;utm_campaign=Rodape">
                                         Serviços pra Celular</a>
                                 </div>
                             </div>
@@ -120,11 +120,11 @@ const footerParametrizado = props => {
                                     <a href="/internet/">Planos</a>
                                 </div>
                                 <div className="link-item">
-                                    <a href="/minha-oi/internet/">Atendimento</a>
+                                    <a href="/meuvvc/internet/">Atendimento</a>
                                 </div>
                                 <div className="link-item">
                                     <a
-                                        href="https://servicos.vvc.com.br/?utm_source=Portal+Oi&amp;utm_medium=Link&amp;utm_content=Servicos+Adicionais&amp;utm_campaign=Rodape">
+                                        href="https://servicos.vvcestudio.com.br/?utm_source=Portal+Oi&amp;utm_medium=Link&amp;utm_content=Servicos+Adicionais&amp;utm_campaign=Rodape">
                                         Serviços pra Internet</a>
                                 </div>
                             </div>
@@ -154,10 +154,10 @@ const footerParametrizado = props => {
                                     <a href="/fixo/">Planos</a>
                                 </div>
                                 <div className="link-item">
-                                    <a href="/minha-oi/fixo/">Atendimento</a>
+                                    <a href="/meuvvc/fixo/">Atendimento</a>
                                 </div>
                                 <div className="link-item">
-                                    <a href="/minha-oi/fixo/">Serviços Adicionais</a>
+                                    <a href="/meuvvc/fixo/">Serviços Adicionais</a>
                                 </div>
                             </div>
                         </div>
@@ -167,7 +167,7 @@ const footerParametrizado = props => {
                     <div className="footer-region container">
                         <div className="footer-regionalization">
                             <div className="logoFooter">
-                                <a href="https://www.vvc.com.br">
+                                <a href="https://www.vvcestudio.com.br">
                                     <span>
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 612 528.1"
@@ -194,7 +194,7 @@ const footerParametrizado = props => {
                         </div>
                         <div className="containerSelfCare">
                             <div className="selfCare medium-up">
-                                <a href="/minha-oi/">Atendimento ao cliente</a>
+                                <a href="/meuvvc/">Atendimento ao cliente</a>
                             </div>
                             <div className="socialMedia medium-up">
                                 <a className="facebook" href="https://www.facebook.com/OiOficial/">
@@ -240,16 +240,16 @@ const footerParametrizado = props => {
                                     <div className="hotlinksMobile small-only">
                                         <ul>
                                             <li>
-                                                <a className="active" href="https://www.vvc.com.br/">Você</a>
+                                                <a className="active" href="https://www.vvcestudio.com.br/">Você</a>
                                             </li>
                                             <li>
                                                 <a className="false" href="/empresas/">Empresas</a>
                                             </li>
                                             <li>
-                                                <a className="false" href="https://www.vvc.com.br/lp/franquias/">Franquias</a>
+                                                <a className="false" href="https://www.vvcestudio.com.br/lp/franquias/">Franquias</a>
                                             </li>
                                             <li>
-                                                <a className="false" href="https://www.vvc.com.br/ri/">Investidores</a>
+                                                <a className="false" href="https://www.vvcestudio.com.br/ri/">Investidores</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -259,10 +259,10 @@ const footerParametrizado = props => {
                                                 <a href="/empresas/">Empresas</a>
                                             </li>
                                             <li>
-                                                <a href="https://www.vvc.com.br/lp/franquias/">Franquias</a>
+                                                <a href="https://www.vvcestudio.com.br/lp/franquias/">Franquias</a>
                                             </li>
                                             <li>
-                                                <a href="https://www.vvc.com.br/ri/">Investidores</a>
+                                                <a href="https://www.vvcestudio.com.br/ri/">Investidores</a>
                                             </li>
                                             <li>
                                                 <a href="/oi/sobre-a-oi/">Sobre a Oi</a>

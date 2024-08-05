@@ -11,7 +11,7 @@ const headerParametrizado = props => {
                     <div className="containerMainMenu">
                         <nav className="main-menu">
                             <h2 className="logo">
-                                <a href="https://www.vvc.com.br">
+                                <a href="https://www.vvcestudio.com.br">
                                     <span>
                                         <Img
                                             src="../../../static/assetsv5/img/vvc-logo-verde.png"
@@ -55,10 +55,10 @@ const headerParametrizado = props => {
                                     <a className="borderBottomHover" href="/recarga/">Recarga</a>
                                 </li>
                                 <li className="secondary large-up">
-                                    <a className="borderBottomHover" href="/minha-oi/segunda-via/">2ª via</a>
+                                    <a className="borderBottomHover" href="/meuvvc/segunda-via/">2ª via</a>
                                 </li>
                                 <li className="secondary extra-large-up">
-                                    <a className="borderBottomHover" href="/minha-oi/conta-online/">Conta Digital</a>
+                                    <a className="borderBottomHover" href="/meuvvc/conta-online/">Conta Digital</a>
                                 </li>
                                 <li className="secondary extra-large-up">
                                     <a className="borderBottomHover" href="/oi/celular-legal/">Celular Legal</a>
@@ -70,10 +70,10 @@ const headerParametrizado = props => {
                                                 d="M-9.8 701.8c.3.3.8.3 1.1 0l1.6-1.6.2-.2c.7.5 1.6.8 2.5.8 2.4 0 4.4-2 4.4-4.4 0-2.4-2-4.4-4.4-4.4s-4.4 2-4.4 4.4c0 .9.3 1.8.8 2.5-.1 0-.2.1-.2.2l-1.6 1.6c-.3.3-.3.8 0 1.1zm1.7-5.4c0-2 1.6-3.7 3.7-3.7s3.7 1.6 3.7 3.7-1.6 3.7-3.7 3.7-3.7-1.7-3.7-3.7z" />
                                         </svg>
                                     </span>
-                                    <a className="borderBottomHover" href="https://www.vvc.com.br/faq/">BUSCA</a>
+                                    <a className="borderBottomHover" href="https://www.vvcestudio.com.br/faq/">BUSCA</a>
                                 </li>
                                 <li className="minhavvc model3">
-                                    <a href="/minha-oi/">
+                                    <a href="/meuvvc/">
                                         <span>
                                             Minha VVC
                                         </span>

@@ -20,7 +20,7 @@ const Home = function(props){
       <FaviIcon />
       <meta name="description" content="Recarga vvc." />
       <meta name="robots" content="noindex" />
-      <link rel="canonical" href="https://www.vvc.com.br/recarga/"/>
+      <link rel="canonical" href="https://www.vvcestudio.com.br/recarga/"/>
     </Head>
     Cidade:{cidade}
     <h1 className='title'>Recarga Oi</h1>
@@ -35,10 +35,10 @@ const Home = function(props){
         <Link href='/meusdocumentos/?passo=4'>/meusdocumentos/?passo=4</Link><br/>
         <Link href='/meusdocumentos/email/'>/meusdocumentos/email/</Link><br/>
 
-        <Link href='/minha-oi/'>/minha-oi/</Link><br/>
-        <Link href='/minha-oi/segunda-via/'>/minha-oi/segunda-via/</Link><br/>
-        <Link href='/minha-oi/codigo-de-barras/'>/minha-oi/codigo-de-barras/</Link><br/>
-        <Link href='/minha-oi/atendimento-oi/'>/minha-oi/atendimento-oi/</Link><br/>
+        <Link href='/meuvvc/'>/meuvvc/</Link><br/>
+        <Link href='/meuvvc/segunda-via/'>/meuvvc/segunda-via/</Link><br/>
+        <Link href='/meuvvc/codigo-de-barras/'>/meuvvc/codigo-de-barras/</Link><br/>
+        <Link href='/meuvvc/atendimento-oi/'>/meuvvc/atendimento-oi/</Link><br/>
         <Link href='/recarga/'>/recarga/</Link><br/>
 
         <Link href='/amp/'>/amp/</Link><br/>
@@ -46,10 +46,10 @@ const Home = function(props){
         <Link href='/amp/lp-assine-pos/'>/amp/lp-assine-pos/</Link><br/>
         <Link href='/amp/meusdocumentos/'>/amp/meusdocumentos/</Link><br/>
 
-        <Link href='/amp/minha-oi/'>/amp/minha-oi/</Link><br/>
-        <Link href='/amp/minha-oi/segunda-via/'>/amp/minha-oi/segunda-via/</Link><br/>
-        <Link href='/amp/minha-oi/codigo-de-barras/'>/amp/minha-oi/codigo-de-barras/</Link><br/>
-        <Link href='/amp/minha-oi/atendimento-oi/'>/amp/minha-oi/atendimento-oi/</Link><br/>
+        <Link href='/amp/meuvvc/'>/amp/meuvvc/</Link><br/>
+        <Link href='/amp/meuvvc/segunda-via/'>/amp/meuvvc/segunda-via/</Link><br/>
+        <Link href='/amp/meuvvc/codigo-de-barras/'>/amp/meuvvc/codigo-de-barras/</Link><br/>
+        <Link href='/amp/meuvvc/atendimento-oi/'>/amp/meuvvc/atendimento-oi/</Link><br/>
         <Link href='/amp/recarga/'>/amp/recarga/</Link><br/>
 
         <Link href='/componentes/'>/componentes/</Link><br/>

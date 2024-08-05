@@ -15,7 +15,7 @@ const headMeusDocumentos = props => {
         <FavIcon />
         <meta name="description" content="Formulário para envio de documentos." />
         <meta name="robots" content="noindex" />
-        <link rel="canonical" href="https://www.vvc.com.br/meusdocumentos/"/>
+        <link rel="canonical" href="https://www.vvcestudio.com.br/meusdocumentos/"/>
         <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
       </Head>
     )
@@ -26,8 +26,8 @@ const headMeusDocumentos = props => {
         <FavIcon />
         <meta name="description" content="Formulário para envio de documentos." />
         <meta name="robots" content="noindex" />
-        <link rel="canonical" href="https://www.vvc.com.br/meusdocumentos/"/>
-        <link rel="amphtml" href="https://www.vvc.com.br/amp/meusdocumentos/" />
+        <link rel="canonical" href="https://www.vvcestudio.com.br/meusdocumentos/"/>
+        <link rel="amphtml" href="https://www.vvcestudio.com.br/amp/meusdocumentos/" />
         <link rel="preconnect" href="https://www.google-analytics.com"/>
         <link rel="preconnect" href="https://www.googletagmanager.com"/>
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153476418-1"></script>

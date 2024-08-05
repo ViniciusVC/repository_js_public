@@ -2,7 +2,7 @@ import React from 'react';
 import { withAmp } from 'next/amp';
 import * as Util from '../../../../controller/util.js';
 
-import AtendimentoOi from '../../../../components/templates/minha-oi/atendimento-vvc.js';
+import AtendimentoOi from '../../../../components/templates/meuvvc/atendimento-vvc.js';
 
 const RotaAtendimentoOiAjuda = function(props){
   return(

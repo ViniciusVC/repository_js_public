@@ -1,2 +1,2 @@
-export { minhavvcHeaderMenu } from "./minha-oi/headerMenu.js";
-export { lpAssinePos } from "./lpAssinePos.js";
+export { minhavvcHeaderMenu } from "./meuvvc/headerMenu.js";
+export { lpAssine } from "./lpAssine.js";

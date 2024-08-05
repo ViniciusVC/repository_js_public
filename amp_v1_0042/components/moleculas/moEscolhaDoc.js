@@ -7,7 +7,7 @@ const moEscolhaDoc = props => {
   if(props.value!=undefined){varValue=props.value};
   var varNota = "";
   if(props.nota!=undefined){varNota=props.nota};
-  var varHref = "www.vvc.com.br";
+  var varHref = "www.vvcestudio.com.br";
   if(props.href!=undefined){varHref=props.href};
   // var varEstilo = "";
   // if(props.estilo!=undefined){varEstilo=props.estilo};

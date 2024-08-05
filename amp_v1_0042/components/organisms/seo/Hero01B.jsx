@@ -8,7 +8,7 @@ class Hero01B extends React.Component {
     console.log('Rodando /views/organisms/Hero01B.jsx - layout Portal Oi SEO');
     return (
       <section data-index="0" tabIndex="-1" data-reactid="136">
-        {/*<section style="outline:none;background-image:url(http://www.vvc.com.br/publicV2/carousel/controle/bg-banner-home-controle-320.jpg);background-size:cover;" class="slick-slide slick-active slick-cloned" data-index="0" tabindex="-1" data-reactid="136">*/}
+        {/*<section style="outline:none;background-image:url(http://www.vvcestudio.com.br/publicV2/carousel/controle/bg-banner-home-controle-320.jpg);background-size:cover;" class="slick-slide slick-active slick-cloned" data-index="0" tabindex="-1" data-reactid="136">*/}
         <h3 class="hidden" data-reactid="137">Slider de Ofertas</h3>
         <div class="sliderr slide-wrapper" data-reactid="138">
           <div class="container" data-reactid="139">

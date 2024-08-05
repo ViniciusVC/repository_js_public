@@ -1,11 +1,11 @@
-// content do Atendimento - Layout Minha-Oi
+// content do Atendimento - Layout meuvvc
 import React from "react";
 import * as Util from "../../../controller/util.js";
-import AtendimentoSession1 from "../../moleculas/minha-oi/moAtendimentoSession1.js";
-import AtendimentoSession4 from "../../moleculas/minha-oi/moAtendimentoSession4.js";
-import AtendimentoSession5 from "../../moleculas/minha-oi/moAtendimentoSession5.js";
-import AtendimentoSession6 from "../../moleculas/minha-oi/moAtendimentoSession6.js";
-import AtendimentoSession7 from "../../moleculas/minha-oi/moAtendimentoSession7.js";
+import AtendimentoSession1 from "../../moleculas/meuvvc/moAtendimentoSession1.js";
+import AtendimentoSession4 from "../../moleculas/meuvvc/moAtendimentoSession4.js";
+import AtendimentoSession5 from "../../moleculas/meuvvc/moAtendimentoSession5.js";
+import AtendimentoSession6 from "../../moleculas/meuvvc/moAtendimentoSession6.js";
+import AtendimentoSession7 from "../../moleculas/meuvvc/moAtendimentoSession7.js";
 
 const contentAtendimento = props => {
   var modo = Util.validaProps(props.modo, "html");

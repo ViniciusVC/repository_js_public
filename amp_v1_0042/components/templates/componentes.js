@@ -22,11 +22,11 @@ const componentes = function(props){
       <Head>
         <title>Componentes</title>
         <FavIcon />
-        <link rel="icon" href="https://www.vvc.com.br/componentes/componentes" />
+        <link rel="icon" href="https://www.vvcestudio.com.br/componentes/componentes" />
         <meta name="description" content="Componentes html do Portal da Oi (AMP)." />
         <meta name="robots" content="noindex" />
-        <link rel="canonical" href="https://www.vvc.com.br/"/>
-        <link rel="amphtml" href="https://www.vvc.com.br/amp/"/>
+        <link rel="canonical" href="https://www.vvcestudio.com.br/"/>
+        <link rel="amphtml" href="https://www.vvcestudio.com.br/amp/"/>
         <script async custom-element="amp-lightbox" src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js"></script>
         <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
       </Head>

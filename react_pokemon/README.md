@@ -12,6 +12,16 @@ git clone https://github.com/ViniciusVC/repository_js_public.git
 cd repository_js_public/react_pokemon
 ```
 
+# Rodar
+
+Rodar o servidor de desenvolvimento.
+>  npm start
+
+http://localhost:3000/
+
+![PrtScrPokemon](public/PrtScrPokemon.jpg "PrtScrPokemon")
+
+
 ## Criando projeto
 
 Criar projeto ReactJS
@@ -39,15 +49,6 @@ type/3,
 ability/battle-armor, 
 or pokemon?limit=100000&offset=0.
 ```
-
-# Rodar
-
-Rodar o servidor de desenvolvimento.
->  npm start
-
-http://localhost:3000/
-
-![PrtScrPokemon](public/PrtScrPokemon.jpg "PrtScrPokemon")
 
 
 # build

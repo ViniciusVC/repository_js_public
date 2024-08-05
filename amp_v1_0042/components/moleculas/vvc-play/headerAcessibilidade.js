@@ -17,7 +17,7 @@ const headerAcessibilidade = props => {
                                 <div className="sc-iRbamj bXuoWE sc-jTzLTM kmhvmJ" width="30px">
                                     <div className="no-wrap sc-hMqMXs cZEkrD"><span>|
                                     </span><span ><a className="sc-bwzfXH iaXBsB"
-                                            href="https://www.vvc.com.br/acessibilidade/" font-size="0.875rem"
+                                            href="https://www.vvcestudio.com.br/acessibilidade/" font-size="0.875rem"
                                             width="100%">Acessibilidade</a></span></div>
                                 </div>
                             </div>
@@ -28,30 +28,30 @@ const headerAcessibilidade = props => {
                                     <span>Para assinar:</span>
                                     <span>
                                         <a className="sc-bwzfXH iaXBsB" target="_blank"
-                                            href="https://www.vvc.com.br/combo/" font-size="0.875rem" width="100%">
+                                            href="https://www.vvcestudio.com.br/combo/" font-size="0.875rem" width="100%">
                                             Combo
                                     </a>|
                                 </span>
                                     <span>
-                                        <a className="sc-bwzfXH iaXBsB" href="https://www.vvc.com.br/tv-hd/"
+                                        <a className="sc-bwzfXH iaXBsB" href="https://www.vvcestudio.com.br/tv-hd/"
                                             font-size="0.875rem" width="100%">
                                             TV HD
                                     </a>|
                                 </span>
                                     <span>
-                                        <a className="sc-bwzfXH iaXBsB" href="https://www.vvc.com.br/celular/"
+                                        <a className="sc-bwzfXH iaXBsB" href="https://www.vvcestudio.com.br/celular/"
                                             font-size="0.875rem" width="100%">
                                             Celular
                                     </a>|
                                 </span>
                                     <span>
-                                        <a className="sc-bwzfXH iaXBsB" href="https://www.vvc.com.br/internet/"
+                                        <a className="sc-bwzfXH iaXBsB" href="https://www.vvcestudio.com.br/internet/"
                                             font-size="0.875rem" width="100%">
                                             Internet
                                     </a>|
                                 </span>
                                     <span>
-                                        <a className="sc-bwzfXH iaXBsB" href="https://www.vvc.com.br/fixo/"
+                                        <a className="sc-bwzfXH iaXBsB" href="https://www.vvcestudio.com.br/fixo/"
                                             font-size="0.875rem" width="100%">
                                             Fixo
                                     </a>

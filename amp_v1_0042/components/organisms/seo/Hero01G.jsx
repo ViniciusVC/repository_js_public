@@ -8,7 +8,7 @@ class Hero01G extends React.Component {
     console.log('Rodando /views/organisms/Hero01G.jsx - layout Portal Oi SEO');
     return (
       <section class="slick-slide slick-cloned" data-index="5">
-        {/*<section style="background-image:url(https://www.vvc.com.br/publicV2/carousel/controle/bg-banner-home-controle-320.jpg);background-size:cover;" class="slick-slide slick-cloned" data-index="5"> */}
+        {/*<section style="background-image:url(https://www.vvcestudio.com.br/publicV2/carousel/controle/bg-banner-home-controle-320.jpg);background-size:cover;" class="slick-slide slick-cloned" data-index="5"> */}
         <h3 class="hidden">Slider de Ofertas</h3>
         <div class="sliderr slide-wrapper">
           <div class="container">
@@ -54,10 +54,10 @@ class Hero01G extends React.Component {
                   </span>
                 </div>
               </div>
-              <img class="hero-mob-offerimage" src="https://www.vvc.com.br/publicV2/12gb-apps-liberados-desk.svg" alt="12 GB + Messenger e Whatsapp" />
+              <img class="hero-mob-offerimage" src="https://www.vvcestudio.com.br/publicV2/12gb-apps-liberados-desk.svg" alt="12 GB + Messenger e Whatsapp" />
               <div class="hero-offer-social">
                 <span class="hero-gb-offer"></span>
-                <img class="hero-social-network" src="http://www.vvc.com.br/publicV2/12gb-apps-liberados-desk.svg" alt="12 GB + WhatsApp, Facebook, Instagram e Messenger" />
+                <img class="hero-social-network" src="http://www.vvcestudio.com.br/publicV2/12gb-apps-liberados-desk.svg" alt="12 GB + WhatsApp, Facebook, Instagram e Messenger" />
               </div>
               <div class="obs">
                 <span>Por apenas </span>

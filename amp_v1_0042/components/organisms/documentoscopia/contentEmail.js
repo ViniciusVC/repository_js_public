@@ -24,7 +24,7 @@ const contentEmail = props => {
           <BtLink href="/meusdocumentos/" value="Acessar" estilo="laranja"/>
         </div>
         <div className="rodapeemail">
-            Enviado por Oi S.A, vvc.com.br<br/>
+            Enviado por Oi S.A, vvcestudio.com.br<br/>
             Copyright 2000-2018<br/>
             Confira o Contrato e regras de oferta.<br/><br/>
         </div>

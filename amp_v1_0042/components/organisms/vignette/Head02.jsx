@@ -17,9 +17,9 @@ class Index extends React.Component {
         <meta httpEquiv="imagetoolbar" content="no" />
         <meta property="og:title" content="Consulta de Cobertura" />
         <meta property="og:description" content="Consulte as regiões cobertas pelos serviços móveis da vvc." />
-        <meta property="og:url" content="http://www.vvc.com.br/oi/vvc-pra-voce/planos-servicos/cobertura" />
+        <meta property="og:url" content="http://www.vvcestudio.com.br/oi/vvc-pra-voce/planos-servicos/cobertura" />
         <meta property="og:site_name" content="Oi" />
-        <meta property="og:image" content="http://www.vvc.com.br/ArquivosEstaticos/oi/images/social-media/logo_vvc.jpg" />
+        <meta property="og:image" content="http://www.vvcestudio.com.br/ArquivosEstaticos/oi/images/social-media/logo_vvc.jpg" />
         <meta property="og:type" content="Website" />
         <meta name="keywords" content="" />
         <meta name="description" content="Consulte a área de cobertura dos serviços móveis da Oi e saiba mais sobre os planos de 4G para você navegar com uma internet mais rápida. Serviços para celular pré, controle e pós-pago, roaming internacional e internet para seu tablet ou notebook." />
@@ -31,7 +31,7 @@ class Index extends React.Component {
         <link rel="stylesheet" href="/ArquivosEstaticos/oi/style/selectbox.css" type="text/css" media="screen" />
         <link rel="stylesheet" type="text/css" href="/ArquivosEstaticos/oi/style/ie.css" media="all" />
         <style type="text/css">.contentboxbottom, .pngFix, .sliderhome, .mainbgtop, .mainbgbottom, .aside-oqueprecisando, .destaques, .logomaefooter img, .logo img, .sitesoi, .socialnetoi, .sitemap .sitemapchild, .imgarea img, .lnkvoltarIe img</style>
-        <link rel="canonical" href="https://www.vvc.com.br/oi/vvc-pra-voce/planos-servicos/cobertura/" />
+        <link rel="canonical" href="https://www.vvcestudio.com.br/oi/vvc-pra-voce/planos-servicos/cobertura/" />
         <link rel="stylesheet" type="text/css" href="/ArquivosEstaticos/oi/style/social-media/social-media.css" />
         <noscript>In order to bring you the best possible user experience, this site uses Javascript. If you are seeing this message, it is likely that the Javascript option in your browser is disabled. For optimal viewing of this site, please ensure that Javascript is enabled for your browser.</noscript>
         <script type="text/javascript" language="JavaScript" src="/portal/jslib/form_state_manager.js"></script>
@@ -50,7 +50,7 @@ class Index extends React.Component {
         <script type="text/javascript">isIE6 = true;</script>
         <script type="text/javascript"></script>
         <script type="text/javascript" src="../assetsv5/js/cobertura.js"></script>
-        <script type="text/javascript" src="//service.maxymiser.net/api/us/vvc.com.br/7a7e6e/mmapi.js"></script>
+        <script type="text/javascript" src="//service.maxymiser.net/api/us/vvcestudio.com.br/7a7e6e/mmapi.js"></script>
       </head>
     );
   }

@@ -1,0 +1,26 @@
+.pagina {
+  margin: 30px;
+  width: 80%;
+
+  /*min-width: 50px;
+  min-height: 50px;*/
+  
+  color:#000;
+  font-size: 20px;
+  text-align: center; 
+ 
+  backdrop-filter: blur(5.4px);
+  -webkit-backdrop-filter: blur(5.4px);
+  box-shadow: 0 18px 20px rgba(0, 0, 0, 0.5);
+
+  padding: 3px;
+  background-image: linear-gradient(400deg, #bb6221, #ffef9b);
+  border-radius: 15px;
+}
+
+.paginaBody{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*gap: 0.5rem;*/
+}

@@ -15,7 +15,7 @@ function styleHomeSEO(varmodo){
     )
   }else{
     return(
-      <link rel="stylesheet" type="text/css" href="https://www.vvc.com.br/publicV2/client.css"/>
+      <link rel="stylesheet" type="text/css" href="https://www.vvcestudio.com.br/publicV2/client.css"/>
     )
   }
 }
@@ -37,7 +37,7 @@ const Home = function(props){
               <FavIcon />
               <meta name="description" content="Portal da vvc." />
               <meta name="robots" content="noindex" />
-              <link rel="canonical" href="https://www.vvc.com.br"/>
+              <link rel="canonical" href="https://www.vvcestudio.com.br"/>
             </Head>
             {styleHomeSEO(modo)}
             

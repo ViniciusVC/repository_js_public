@@ -1,16 +1,33 @@
 import {useState} from "react";
+import './App.css';
 import Header from './comp/header';
 import Footer from './comp/footer';
 import Janela from './comp/janela';
 import Responsivo from './comp/divresponsivo';
+import AlertPopUp from './comp/alertPopUp'; // Importar componente AlertPopUp.
 import api from "./services/api";
-//import logo from '../public/img/v0.png';
-import './App.css';
+
 
 function App() {
 
   const imgAvatar= "/public/img/v0.png";
 
+  // Tratando o Pop-Up de Alerta-------------------------------------
+  const [showPopUp, setShowPopUp] = useState(true); // Pop-Up inicia fechado.
+  const [popUpMessage, setPopUpMessage] = useState(''); // Mensagem do Pop-Up
+  
+  const showAlert = (message) => {
+    console.log("showAlert("+message+")");
+    setPopUpMessage(message); // Mudar mensagem do Pop-up.
+    setShowPopUp(true);
+  };
+  
+  const closePopUp = () => {
+    setShowPopUp(false);
+    setPopUpMessage('');
+  };
+
+  // Janela de Login
   const [inpEmailLogin, setInpEmailLogin] = useState('');
   const [inpPassLogin, setInpPassLogin] = useState('');
 
@@ -27,16 +44,16 @@ function App() {
 
   function verfLogin(){
     if (inpEmailLogin ===''){
-      alert("Preencha o campo e-mail.");
+      showAlert("Preencha o campo e-mail.");
       return false;
     }else if (inpPassLogin === ''){
-      alert("Preencha o campo senha.");
+      showAlert("Preencha o campo senha.");
       return false;
     }else if (isWeakPassword(inpPassLogin)) {
-      alert("Login ou senha incorretos. Tente novamente.");
+      showAlert("Login ou senha incorretos. Tente novamente.");
       return false;
     }else{
-      alert("verificando dados de login...");
+      showAlert("verificando dados de login...");
       return true;
     }
     
@@ -44,22 +61,22 @@ function App() {
 
   function verfRegister(){
     if (inpEmailRegister ===''){
-      alert("Preencha o campo e-mail.");
+      showAlert("Preencha o campo e-mail.");
       return false;  
     }else if (inpPassRegister === ''){
-      alert("Preencha o campo senha.");
+      showAlert("Preencha o campo senha.");
       return false;
     }else if (inpPass2Register === ''){
-      alert("Preencha o campo confirmação de senha.");
+      showAlert("Preencha o campo confirmação de senha.");
       return false;
     }else if (inpPass2Register !== inpPassRegister){
-      alert("Verifique a digitação da senha.");
+      showAlert("Verifique a digitação da senha.");
       return false;
     }else if (isWeakPassword(inpPassRegister)) {
-      alert("A senha não é forte o suficiente.");
+      showAlert("A senha não é forte o suficiente.");
       return false;
     }else{
-      alert("Salvando dados do registro...");
+      showAlert("Salvando dados do registro...");
       return true;
     }
   }
@@ -129,15 +146,15 @@ function App() {
           inpPassRegister
         });
         if(response.data.erro){
-            alert("Erro1: Ocorreu um erro ao enviar cadastro ao servidor. Tente novamente.");  
+          showAlert("Erro1: Ocorreu um erro ao enviar cadastro ao servidor. Tente novamente.");  
         }else{
-            alert("Cadastrado com sucesso.");
-            console.log("Cadastrado com sucesso.");
-            console.log(response.data);
-            openWinLogin();
+          showAlert("Cadastrado com sucesso.");
+          console.log("Cadastrado com sucesso.");
+          console.log(response.data);
+          openWinLogin();
         }
       }catch{
-          alert("Erro2: Ocorreu um erro ao enviar cadastro ao servidor. Tente novamente.");
+        showAlert("Erro2: Ocorreu um erro ao enviar cadastro ao servidor. Tente novamente.");
       }
         
 
@@ -157,16 +174,16 @@ function App() {
         });
         
         if(response.data.erro){
-            alert("Erro1: Ocorreu um erro ao logar. Tente novamente.");  
+            showAlert("Erro1: Ocorreu um erro ao logar. Tente novamente.");  
             console.log("[B1] Erro1: Ocorreu um erro ao logar. Tente novamente.");
             console.log(response.data.erro);
         }else{
-            alert("Logado.");
+            showAlert("Logado.");
             console.log("[B1] Logado.");
             console.log(response.data); //Hello World! Projeto DotNet API com login de usuário, usando o Identity API.
         }
       }catch(e){
-          alert("Erro2: Ocorreu um erro ao logar. Tente novamente.");
+          showAlert("Erro2: Ocorreu um erro ao logar. Tente novamente.");
           console.log("[B1] Erro2: Ocorreu um erro ao logar!!!!!!!!!!!!");
           console.log(e);
       }
@@ -178,13 +195,13 @@ function App() {
     try{
       const response = await api.post("logout", {});
       if(response.data.erro){
-          alert("Erro1: Ocorreu um erro ao deslogar.");  
+        showAlert("Erro1: Ocorreu um erro ao deslogar.");  
       }else{
-          alert("Deslogado.");
-          //setUsuario({});
+        showAlert("Deslogado.");
+        //setUsuario({});
       }
     }catch{
-        alert("Erro2: Ocorreu um erro ao deslogar.");  
+      showAlert("Erro2: Ocorreu um erro ao deslogar.");  
     }
     openWinLogin();
   }
@@ -290,6 +307,9 @@ function App() {
           )}
 
       </Janela>
+
+      {showPopUp && <AlertPopUp message={popUpMessage} onClose={closePopUp} />}
+
       <Footer/>
     </div>
   );

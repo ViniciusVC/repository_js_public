@@ -8,18 +8,18 @@ const HeaderMenu = props => {
                     <menu className="menu-deslogado sc-cHGsZl jmPZmE" data-context="header_menu">
                         <div className="menuitem sc-TOsTZ ixAXz"><a
                             className="btn-menu  sem-submenu null sc-bwzfXH iaXBsB"
-                            href="https://www.vvc.com.br/minha-oi/" data-item="INÍCIO" font-size="0.875rem"
+                            href="https://www.vvcestudio.com.br/meuvvc/" data-item="INÍCIO" font-size="0.875rem"
                             width="100%">INÍCIO</a></div>
                         <div className="menuitem sc-TOsTZ cMkdVA"><a
                             className="btn-menu  sem-submenu null sc-bwzfXH iaXBsB"
-                            href="https://minha.vvc.com.br/codigo-de-barras/" data-item="CONTAS E PAGAMENTOS"
+                            href="https://minha.vvcestudio.com.br/codigo-de-barras/" data-item="CONTAS E PAGAMENTOS"
                             font-size="0.875rem" width="100%">CONTAS E PAGAMENTOS</a></div>
                         <div className="menuitem sc-TOsTZ ehRVxW"><button
                             className="btn-menu  sem-submenu null sc-bdVaJa lbySAP" data-item="MEUS PRODUTOS"
                             font-size="0.875rem" width="100%">MEUS PRODUTOS</button></div>
                         <div className="menuitem sc-TOsTZ bhQqYh"><a
                             className="btn-menu  sem-submenu null sc-bwzfXH iaXBsB"
-                            href="https://www.vvc.com.br/recarga/" data-item="RECARGA" font-size="0.875rem"
+                            href="https://www.vvcestudio.com.br/recarga/" data-item="RECARGA" font-size="0.875rem"
                             width="100%">RECARGA</a></div>
                         <div className="menuitem sc-TOsTZ efGrHD"><a
                             className="btn-menu  tem-submenu null sc-bwzfXH iaXBsB" href="#"
@@ -34,7 +34,7 @@ const HeaderMenu = props => {
                                     <div className="col sc-jTzLTM imJzZn">
                                         <h3>AJUDA</h3>
                                         <div><a className="button-menu sc-bwzfXH iaXBsB"
-                                            href="http://faq.vvc.com.br/" font-size="0.875rem"
+                                            href="http://faq.vvcestudio.com.br/" font-size="0.875rem"
                                             width="100%">Dúvidas frequentes</a></div>
                                     </div>
                                     <div className="col sc-jTzLTM imJzZn">
@@ -43,10 +43,10 @@ const HeaderMenu = props => {
                                             width="100%">Consulta de
                                                         protocolo</button></div>
                                         <div><a className="button-menu sc-bwzfXH iaXBsB"
-                                            href="https://www.vvc.com.br/oi/vvc-pra-voce/atendimento/fale-com-a-oi/lojas-fisicas-da-oi/"
+                                            href="https://www.vvcestudio.com.br/oi/vvc-pra-voce/atendimento/fale-com-a-oi/lojas-fisicas-da-oi/"
                                             font-size="0.875rem" width="100%">Encontre sua loja</a></div>
                                         <div><a className="button-menu sc-bwzfXH iaXBsB" target="_blank"
-                                            href="https://www.vvc.com.br/minha-oi/fale-com-a-oi/"
+                                            href="https://www.vvcestudio.com.br/meuvvc/fale-com-a-oi/"
                                             font-size="0.875rem" width="100%">Telefones e postos</a></div>
                                         <div><button className="button-menu sc-bdVaJa lbySAP" font-size="0.875rem"
                                             width="100%">Consultar
@@ -55,14 +55,14 @@ const HeaderMenu = props => {
                                     <div className="col sc-jTzLTM imJzZn">
                                         <h3>SUPORTE TÉCNICO</h3>
                                         <div><a className="button-menu sc-bwzfXH iaXBsB"
-                                            href="https://www.vvc.com.br/app/tecnico-virtual/"
+                                            href="https://www.vvcestudio.com.br/app/tecnico-virtual/"
                                             font-size="0.875rem" width="100%">Técnico Virtual</a></div>
                                         <div><a className="button-menu sc-bwzfXH iaXBsB"
-                                            href="https://www.vvc.com.br/oi/vvc-pra-voce/planos-servicos/vvc-fixo/servicos/acompanhamento-do-vvc-fixo/"
+                                            href="https://www.vvcestudio.com.br/oi/vvc-pra-voce/planos-servicos/vvc-fixo/servicos/acompanhamento-do-vvc-fixo/"
                                             font-size="0.875rem" width="100%">Acompanhamento de instalação
                                                         Fixo</a></div>
                                         <div><a className="button-menu sc-bwzfXH iaXBsB"
-                                            href="https://minha.vvc.com.br/religar-servico/"
+                                            href="https://minha.vvcestudio.com.br/religar-servico/"
                                             font-size="0.875rem" width="100%">Estou sem serviço</a></div>
                                     </div>
                                 </div>
@@ -79,7 +79,7 @@ const HeaderMenu = props => {
                             <div className="submenu">
                                 <div className="col sc-jTzLTM imJzZn">
                                     <div><a className="button-menu sc-bwzfXH iaXBsB"
-                                        href="https://www.vvc.com.br/oi/vvc-pra-voce/planos-servicos/vvc-pontos/"
+                                        href="https://www.vvcestudio.com.br/oi/vvc-pra-voce/planos-servicos/vvc-pontos/"
                                         font-size="0.875rem" width="100%">Oi Pontos</a></div>
                                     <div><a className="button-menu sc-bwzfXH iaXBsB" target="_blank"
                                         href="https://oiwifi.com.br/" font-size="0.875rem" width="100%">Oi

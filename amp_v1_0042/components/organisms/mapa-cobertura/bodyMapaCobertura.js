@@ -14,7 +14,7 @@ const bodyMapaCobertura = props => {
                         width="940"
                         height="640"
                         frameBorder="no"
-                        src="//www.vvc.com.br/portal-vvc-cobertura/"
+                        src="//www.vvcestudio.com.br/portal-vvc-cobertura/"
                     />
                 </div>
             </div>

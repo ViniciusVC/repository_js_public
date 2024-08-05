@@ -1,8 +1,8 @@
-// layout dedo minha-oi pré login
+// layout dedo meuvvc pré login
 import React from 'react'
 import Line from '../../atoms/atLine/';
-import FooterPrimeiraCamada from '../../moleculas/minha-oi/moFooterPrimeiraCamada';
-import FooterSegundaCamada from '../../moleculas/minha-oi/moFooterSegundaCamada';
+import FooterPrimeiraCamada from '../../moleculas/meuvvc/moFooterPrimeiraCamada';
+import FooterSegundaCamada from '../../moleculas/meuvvc/moFooterSegundaCamada';
 import * as Util from '../../../controller/util.js';
 
 const footerminhavvc = props => {

@@ -35,7 +35,7 @@ class Hero01D extends React.Component {
                 <span class="afterPrice" data-reactid="215"><strong>,90</strong><br />
                   /mês<br />
                 </span></div>
-              <a class="banner button-cta" data-context="" href="https://www.vvc.com.br/detalhes-da-oferta/pos-pago_50gb_fid_brasil" data-reactid="216">Conheça a oferta
+              <a class="banner button-cta" data-context="" href="https://www.vvcestudio.com.br/detalhes-da-oferta/pos-pago_50gb_fid_brasil" data-reactid="216">Conheça a oferta
               </a>
               <div class="more" data-reactid="217">
                 <a data-context="" data-reactid="218"></a>

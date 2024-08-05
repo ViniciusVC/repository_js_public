@@ -22,7 +22,7 @@ const documentoscopia = function(props){
   // if( props.modo!=undefined){modo=props.modo};
   // var ajuda = "selfie";
   // if( props.ajuda!=undefined){ajuda=props.ajuda};
-  var canonical = 'https://www.vvc.com.br/documentoscopia/ajuda'+ajuda+'/';
+  var canonical = 'https://www.vvcestudio.com.br/documentoscopia/ajuda'+ajuda+'/';
 
   //   <Head>
   //   <title>Envio de documentos para cadastro</title>

@@ -1,0 +1,109 @@
+<h1>lingua iiiInstalando Angular iii Install Angular iii </h1>
+<br/>
+
+<p>
+  1º lingua iiiInstale o NodeJS iii Install NodeJS iii <br/> 
+  2º lingua iiiInstale a CLI do Angular globalmente no seu computador. iii Instale a CLI do Angular globalmente no seu computador. iii <br/>
+</p>
+          
+<app-janelacodigo  win-title = "Instalar o angular" win-text = "$ npm install -g angular/cli"/>
+ou
+<app-janelacodigo  win-title = "Instalar o angular" win-text = "$ sudo npm install -g angular/cli"/>
+ou
+<app-janelacodigo  win-title = "para instalar uma versão específica" win-text = "$ sudo npm install -g angular/cli17"/>
+
+<p>
+  3º Verifique a versão do angular que foi instalada.<br/>
+</p>
+<app-janelacodigo  win-title = "versão do angular" win-text = "$ ng version"/>
+  ou
+<app-janelacodigo  win-title = "versão do angular" win-text = "$ ng -v"/>
+
+<p>
+  4º Criar um novo projeto<br/>
+</p>
+
+<app-janelacodigo  win-title = "Criar projeto" win-text = "$ ng new nome_do_projeto"/>
+  Ou criar um projeto já com server site render.
+<app-janelacodigo  win-title = "Criar projeto com SSR" win-text = "$ ng new ssr"/>
+         
+<p>
+  Gostaria de ativar o preenchimento automático? Isso configurará seu terminal para que pressionar TAB enquanto digita comandos Angular CLI mostrará opções possíveis e argumentos de preenchimento automático. (Ativar o preenchimento automático modificará os arquivos de configuração em seu diretório inicial) (y/n)<br/>
+  Y<br/>
+  Você gostaria de compartilhar dados de uso de pseudônimos sobre este projeto com a equipe Angular<br/>
+  no Google de acordo com a Política de Privacidade do Google em https://policies.google.com/privacy. Para mais detalhes e como alterar esta configuração, consulte o diretório) (y/n)<br/>
+  N<br/>
+  Escolha o tipo de estilização [CSS/SCSS/Sass/Less]<br/>
+  SCSS<br/>
+  Do you want to enable Server-Side Rendering SSR (y/n)<br/>
+  Y<br/>
+</p>
+  
+<p>
+  5º Entre no diretório do projetocriado<br/>
+</p>
+
+<app-janelacodigo  win-title = "Entre no diretório" win-text = "$ cd nome_do_projeto"/>
+  
+6º Iniciar o servidor WEB local:<br/>
+<app-janelacodigo  win-title = "Iniciar servidor" win-text = "$ ng server"/>
+
+Ou
+<app-janelacodigo  win-title = "Iniciar servidor" win-text = "$ npm run start"/>
+
+<p>
+  Para rodar o projeto em outra prota:
+</p>
+<app-janelacodigo  win-title = "escolha uma porta" win-text = "ng serve --port 3333 -o"/>
+
+  
+<h3>Build</h3>
+<p>
+  Execute `ng build` para construir o projeto. Os artefatos de construção serão armazenados no diretório `dist/`.
+</p>
+<app-janelacodigo  win-title = "compilar projeto" win-text = "ng build"/>
+          
+<h3>Criar um novo componente</h3>
+Para criar um novo componente no Angular execute `ng g c diretorio/nomecomponete`.
+<p>
+  $ ng g c pasta/carrocel<br/>
+  ou<br/>
+  $ ng generate component pasta/carrocel<br/>
+</p>
+  
+<h3>Testes unitários</h3>
+<p>
+  Execute `ng test` para executar os testes de unidade via [Karma](https://karma-runner.github.io).
+</p>
+    
+<p>
+  ng test
+</p>
+  
+<h3>end-to-end tests</h3>
+<p>
+  Execute `ng e2e` para executar os testes ponta a ponta (end-to-end) através de uma plataforma de sua escolha.<br/>
+  Para usar este comando, você precisa primeiro adicionar um pacote que implemente recursos de teste ponta a ponta (end-to-end).
+</p>
+          
+<p>
+  ng e2e
+</p>
+  
+<h3>Help</h3>
+<p>
+  Para obter mais ajuda sobre o Angular CLI, use `ng help` ou confira o [Angular CLI Overview and Command Reference](https://angular.io/cli).
+</p>
+          
+<p>
+  ng help
+</p>
+  
+<h3>Instalar Material</h3>
+Usar a biblioteca Material, Com estilos prontos (https://material.angular.io/).
+<p>
+  ng add angular/material
+</p>
+Escolha o tema.<br/>
+Use os estilos de forma Global<br/>
+Escolha animaçõaes.<br/>

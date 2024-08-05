@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from 'next/head';
-import HeaderHtml from "../../moleculas/minha-oi/moHeaders/headerHtml";
+import HeaderHtml from "../../moleculas/meuvvc/moHeaders/headerHtml";
 // import Portabilidade from "../../organisms/vvc-com/portabilidade.js"
 import Header from '../../moleculas/headerParametrizado';
 import Body from "../../organisms/portabilidade/indice";
@@ -20,8 +20,8 @@ const portabilidade = props =>{
                 <FaviIcon />
                 <meta name="description" content="vvc.com ortabilidade" />
                 <meta name="robots" content="noindex" />
-                <link rel="canonical" href="https://www.vvc.com.br/portabilidade/"/>
-                <link rel="amphtml" href="/amp/minha-oi/atendimento-oi/"/>
+                <link rel="canonical" href="https://www.vvcestudio.com.br/portabilidade/"/>
+                <link rel="amphtml" href="/amp/meuvvc/atendimento-oi/"/>
                 <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.2.js"></script>
             </Head>
            

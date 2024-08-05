@@ -10,7 +10,7 @@ const Head = props => {
   console.log('Rodando /views/organisms/Head03.jsx - Layout OCC ');
   var varcharset = (this.props.JsonHead.charset == undefined) ? '' : this.props.JsonHead.charset;
   var vartitle = (this.props.JsonHead.title == undefined) ? 'Titulo da pagina' : this.props.JsonHead.title;
-  var varcanonical = (this.props.JsonHead.canonical == undefined) ? 'www.vvc.com.br' : this.props.JsonHead.canonical;
+  var varcanonical = (this.props.JsonHead.canonical == undefined) ? 'www.vvcestudio.com.br' : this.props.JsonHead.canonical;
   var varicon = (this.props.JsonHead.icon == undefined) ? 'vvc.ico' : this.props.JsonHead.icon;
   var vardescription = (this.props.JsonHead.description == undefined) ? 'Portal Oi' : this.props.JsonHead.description;
   var varrobots = (this.props.JsonHead.robots == undefined) ? ' ' : this.props.JsonHead.robots;

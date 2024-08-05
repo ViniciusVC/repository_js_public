@@ -3,7 +3,7 @@ import * as Util from '../../../controller/util.js';
 
 const btArrow = props => {
   var varColor = Util.validaProps(props.color,"#D82482");
-  // var varHref = "www.vvc.com.br";
+  // var varHref = "www.vvcestudio.com.br";
   // if(props.href!=undefined){varHref=props.href};
   // var varEstilo = "";
   // if(props.estilo!=undefined){varEstilo=props.estilo};

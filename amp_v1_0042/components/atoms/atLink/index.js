@@ -3,7 +3,7 @@ import * as Util from "../../../controller/util.js";
 
 const btSubmit = props => {
   var varValue = Util.validaProps(props.value, "");
-  var varHref = Util.validaProps(props.href, "www.vvc.com.br");
+  var varHref = Util.validaProps(props.href, "www.vvcestudio.com.br");
   var varEstilo = Util.validaProps(props.estilo, "");
   var varCor = Util.validaProps(props.cor, "#000000");
 

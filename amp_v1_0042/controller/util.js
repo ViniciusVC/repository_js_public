@@ -18,21 +18,21 @@ export const fontesCSS = () => {
 }
 
 export const fontesCSS1 = () => {
-  return ' @font-face { font-family:"SimplonBP-Regular"; src:url("https://www.vvc.com.br/publicV2/fonts/simplonbp-regular-webfont.woff"); } ';
+  return ' @font-face { font-family:"SimplonBP-Regular"; src:url("https://www.vvcestudio.com.br/publicV2/fonts/simplonbp-regular-webfont.woff"); } ';
 }
 
 export const fontesCSS2 = () => {
-  return ' @font-face { font-family:"Simplon-Headline"; src:url("https://www.vvc.com.br/publicV2/fonts/simplonvvc-headline-webfont.woff"); } ';
+  return ' @font-face { font-family:"Simplon-Headline"; src:url("https://www.vvcestudio.com.br/publicV2/fonts/simplonvvc-headline-webfont.woff"); } ';
 }
 
 export const fontesCSS3 = () => {
-  return ' @font-face { font-family:"Simplon-bold"; src:url("https://minhavvc-cliente.vvc.com.br/minha-oi/assets/fonts/simplonbp-bold-webfont.woff"); } ';
+  return ' @font-face { font-family:"Simplon-bold"; src:url("https://minhavvc-cliente.vvcestudio.com.br/meuvvc/assets/fonts/simplonbp-bold-webfont.woff"); } ';
 }
 
 export const fontesCSS4 = () => {
-  return ' @font-face { font-family: "Simplon-medium"; src: url("https://minhavvc-cliente.vvc.com.br/minha-oi/assets/fonts/simplonbp-medium-webfont.woff"); } ';
+  return ' @font-face { font-family: "Simplon-medium"; src: url("https://minhavvc-cliente.vvcestudio.com.br/meuvvc/assets/fonts/simplonbp-medium-webfont.woff"); } ';
 }
 
 export const fontesCSS5 = () => {
-  return ' @font-face { font-family: "Simplon-light"; src: url("https://minhavvc-cliente.vvc.com.br/minha-oi/assets/fonts/simplonbp-light-webfont.woff"); } ';
+  return ' @font-face { font-family: "Simplon-light"; src: url("https://minhavvc-cliente.vvcestudio.com.br/meuvvc/assets/fonts/simplonbp-light-webfont.woff"); } ';
 }

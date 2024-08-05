@@ -13,7 +13,7 @@ const Nav01 = function(props){
                   <nav className="main-menu">
                     <h3 className="hidden">Main Menu</h3>
                     <h2 className="logo">
-                      <a data-context="" href="https://www.vvc.com.br">
+                      <a data-context="" href="https://www.vvcestudio.com.br">
                         <span>
                           <Logo type="roxo01" width="40px"/>
                         </span>
@@ -29,10 +29,10 @@ const Nav01 = function(props){
                       <li className="primary medium-up"><a data-context="" href="/fixo/">Fixo</a></li>
                       
                       <li className="secondary large-up"><a data-context="" href="/recarga/">Recarga</a></li>
-                      <li className="secondary large-up"><a data-context="" href="/minha-oi/segunda-via/">2ª via</a></li>
+                      <li className="secondary large-up"><a data-context="" href="/meuvvc/segunda-via/">2ª via</a></li>
                       
-                      <li className="secondary extra-large-up"><a data-context="" href="/minha-oi/conta-online/">Conta Digital</a></li>
-                      <li className="secondary extra-large-up"><a data-context="" href="https://www.vvc.com.br/loja/">Smartphones</a></li>
+                      <li className="secondary extra-large-up"><a data-context="" href="/meuvvc/conta-online/">Conta Digital</a></li>
+                      <li className="secondary extra-large-up"><a data-context="" href="https://www.vvcestudio.com.br/loja/">Smartphones</a></li>
                       <li className="secondary extra-large-up"><a data-context="" href="/oi/celular-legal/">Celular Legal</a></li>
                       
                       <li className="medium-up search">
@@ -40,7 +40,7 @@ const Nav01 = function(props){
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 692 10 10" enable-background="new -10 692 10 10"><path d="M-9.8 701.8c.3.3.8.3 1.1 0l1.6-1.6.2-.2c.7.5 1.6.8 2.5.8 2.4 0 4.4-2 4.4-4.4 0-2.4-2-4.4-4.4-4.4s-4.4 2-4.4 4.4c0 .9.3 1.8.8 2.5-.1 0-.2.1-.2.2l-1.6 1.6c-.3.3-.3.8 0 1.1zm1.7-5.4c0-2 1.6-3.7 3.7-3.7s3.7 1.6 3.7 3.7-1.6 3.7-3.7 3.7-3.7-1.7-3.7-3.7z"/>
                         </svg>
                         </span>
-                        <a data-context="" href="https://www.vvc.com.br/faq/">BUSCA</a>
+                        <a data-context="" href="https://www.vvcestudio.com.br/faq/">BUSCA</a>
                       </li>
                       <Btnminhavvc></Btnminhavvc>
                       <li>
@@ -160,7 +160,7 @@ class Nav01 extends React.Component {
                   <nav class="main-menu">
                     <h3 class="hidden">Main Menu</h3>
                     <h2 class="logo">
-                      <a data-context="" href="https://www.vvc.com.br">
+                      <a data-context="" href="https://www.vvcestudio.com.br">
                       <span>
                       <Img src="/fontesoi/logo-vvc.svg" width="48" height="45" alt="Logo da Oi" title="Logo da Oi" class="" modo={VarModo}></Img>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 612 528.1" enable-background="new 0 0 612 528.1">
@@ -195,10 +195,10 @@ class Nav01 extends React.Component {
                       <li class="primary medium-up"><a data-context="" href="/fixo/">Fixo</a></li>
                       
                       <li class="secondary large-up"><a data-context="" href="/recarga/">Recarga</a></li>
-                      <li class="secondary large-up"><a data-context="" href="/minha-oi/segunda-via/">2ª via</a></li>
+                      <li class="secondary large-up"><a data-context="" href="/meuvvc/segunda-via/">2ª via</a></li>
                       
-                      <li class="secondary extra-large-up"><a data-context="" href="/minha-oi/conta-online/">Conta Digital</a></li>
-                      <li class="secondary extra-large-up"><a data-context="" href="https://www.vvc.com.br/loja/">Smartphones</a></li>
+                      <li class="secondary extra-large-up"><a data-context="" href="/meuvvc/conta-online/">Conta Digital</a></li>
+                      <li class="secondary extra-large-up"><a data-context="" href="https://www.vvcestudio.com.br/loja/">Smartphones</a></li>
                       <li class="secondary extra-large-up"><a data-context="" href="/oi/celular-legal/">Celular Legal</a></li>
                       
                       <li class="medium-up search">
@@ -206,9 +206,9 @@ class Nav01 extends React.Component {
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 692 10 10" enable-background="new -10 692 10 10"><path d="M-9.8 701.8c.3.3.8.3 1.1 0l1.6-1.6.2-.2c.7.5 1.6.8 2.5.8 2.4 0 4.4-2 4.4-4.4 0-2.4-2-4.4-4.4-4.4s-4.4 2-4.4 4.4c0 .9.3 1.8.8 2.5-.1 0-.2.1-.2.2l-1.6 1.6c-.3.3-.3.8 0 1.1zm1.7-5.4c0-2 1.6-3.7 3.7-3.7s3.7 1.6 3.7 3.7-1.6 3.7-3.7 3.7-3.7-1.7-3.7-3.7z"/>
                         </svg>
                         </span>
-                        <a data-context="" href="https://www.vvc.com.br/faq/">BUSCA</a>
+                        <a data-context="" href="https://www.vvcestudio.com.br/faq/">BUSCA</a>
                       </li>
-                      <li class="minhavvc oiPurple"><a data-context="" href="/minha-oi/"><span>Minha VVC</span></a></li>
+                      <li class="minhavvc oiPurple"><a data-context="" href="/meuvvc/"><span>Minha VVC</span></a></li>
                       <li>
                         <div class="tooltip-0800 hide">
                           <span class="label">

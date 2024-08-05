@@ -9,7 +9,7 @@ class Hero01E extends React.Component {
     return (
       
 <section class="slick-slide slick-cloned" data-index="3" tabIndex="-1" data-reactid="219">
-      {/*<section style="outline:none;background-image:url(https://www.vvc.com.br/publicV2/bg-minha-vvc-whatsapp-320.jpg);background-size:cover;" class="slick-slide slick-cloned" data-index="3" tabindex="-1" data-reactid="219">*/}            
+      {/*<section style="outline:none;background-image:url(https://www.vvcestudio.com.br/publicV2/bg-minha-vvc-whatsapp-320.jpg);background-size:cover;" class="slick-slide slick-cloned" data-index="3" tabindex="-1" data-reactid="219">*/}            
                   <h3 class="hidden" data-reactid="220">Slider de Ofertas</h3>
                   <div class="sliderr slide-wrapper" data-reactid="221">
                     <div class="container" data-reactid="222">

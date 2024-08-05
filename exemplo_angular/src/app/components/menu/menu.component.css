@@ -1,0 +1,22 @@
+.divmenu{
+    width: 100%;
+    height: 30px;
+    background-color: #00373a;
+    padding: 10px;
+    color:#f0cb65;
+    font-size: 12px;
+    text-align: center; 
+    border-bottom: solid 1px #f0cb65;
+}
+a{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color:#f0cb65;
+}
+.a:hover {
+    transition-duration: 1s;
+    color: #00373a;
+    background-color: #ffffff;
+    border: 1px solid #00373a;
+  }

@@ -2,7 +2,7 @@ import React from 'react';
 import { withAmp } from 'next/amp';
 import * as Util from '../../../../controller/util.js';
 
-import minhavvcHome from '../../../../components/templates/minha-oi/index.js';
+import minhavvcHome from '../../../../components/templates/meuvvc/index.js';
 
 const RotaIndexAMP = function(props){
   return(

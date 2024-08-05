@@ -21,7 +21,7 @@ const menuNav02A = props => {
                 <a href="/oi/sobre-a-oi" title="Sobre a Oi">Sobre a Oi</a>
               </li>
               <li className="">
-                <a href="http://ri.vvc.com.br" title="Investidores | Investors">Investidores | Investors</a>
+                <a href="http://ri.vvcestudio.com.br" title="Investidores | Investors">Investidores | Investors</a>
               </li>
             </ul>
           </nav>
@@ -58,7 +58,7 @@ class menuNav02A extends React.Component {
                 <a href="/oi/sobre-a-oi" title="Sobre a Oi">Sobre a Oi</a>
               </li>
               <li class="">
-                <a href="http://ri.vvc.com.br" title="Investidores | Investors">Investidores | Investors</a>
+                <a href="http://ri.vvcestudio.com.br" title="Investidores | Investors">Investidores | Investors</a>
               </li>
             </ul>
           </nav>

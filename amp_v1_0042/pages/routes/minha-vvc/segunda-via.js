@@ -1,5 +1,5 @@
 import React from 'react';
-import Home from '../../../components/templates/minha-oi/segunda-via.js';
+import Home from '../../../components/templates/meuvvc/segunda-via.js';
 import * as Util from '../../../controller/util.js';
 //import { withAmp } from 'next/amp';
 

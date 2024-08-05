@@ -1,5 +1,5 @@
 import React from 'react';
-import Ajuda from '../../../../components/templates/minha-oi/codigo-de-barras.js';
+import Ajuda from '../../../../components/templates/meuvvc/codigo-de-barras.js';
 import { withAmp } from 'next/amp';
 
 const RotaDocumentoscopiaAjuda = function(props){

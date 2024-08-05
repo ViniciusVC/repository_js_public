@@ -12,10 +12,10 @@ return(
   <div>
     <Head>
         <title>Página não encontrada</title>
-        <link rel="icon" href="https://www.vvc.com.br/fontesvvc/favicon.ico" />
+        <link rel="icon" href="https://www.vvcestudio.com.br/fontesvvc/favicon.ico" />
         <meta name="description" content="Pagina não encontrada." />
         <meta name="robots" content="noindex" />
-        <link rel="canonical" href="https://www.vvc.com.br/"/>
+        <link rel="canonical" href="https://www.vvcestudio.com.br/"/>
     </Head>
     <Header04 modo="html"></Header04>
     <Div display="horizontal">

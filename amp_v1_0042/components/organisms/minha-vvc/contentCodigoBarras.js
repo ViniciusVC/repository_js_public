@@ -12,9 +12,9 @@ const bodyCodigoBarras = function (props) {
             <div>
                 <h1 className="codBarrash1">Contas e Pagamentos</h1>
                 <p className='title'>Selecione o produto e informe os dados pra emitir o código de barras ou boleto.</p>
-                <BtLink href="https://www.vvc.com.br/minha-oi/codigo-de-barras/" value="Minha-Oi Codigo de Barras" estilo="rosa" />
+                <BtLink href="https://www.vvcestudio.com.br/meuvvc/codigo-de-barras/" value="meuvvc Codigo de Barras" estilo="rosa" />
                 <p className="title informacaoOiTVeFibra">A consulta ao código de barras não se aplica pra Oi TV e Fibra.</p>
-                <p className="title formasPagarConta">Veja outras <a href="/minha-oi/formas-de-pagamento/" className="formasPagarContaLink">formas de pagar sua conta.</a></p>
+                <p className="title formasPagarConta">Veja outras <a href="/meuvvc/formas-de-pagamento/" className="formasPagarContaLink">formas de pagar sua conta.</a></p>
             </div>
             
 
@@ -26,19 +26,19 @@ const bodyCodigoBarras = function (props) {
 
                 <div className='itemTexto'>
                     <Icon type="historico" color="#D82482" />
-                    <a className="" href="https://m.vvc.com.br/Portal/splash" >Histórico de contas</a>
+                    <a className="" href="https://m.vvcestudio.com.br/Portal/splash" >Histórico de contas</a>
                 </div>
                 <p className="textoOpaco">Consulte suas contas anteriores</p>
 
                 <div className='itemTexto'>
                     <Icon type="power" color="#D82482" />
-                    <a className="" href="https://www.vvc.com.br/minha-oi/religar-servico/" >Avisar pagamento</a>
+                    <a className="" href="https://www.vvcestudio.com.br/meuvvc/religar-servico/" >Avisar pagamento</a>
                 </div>
                 <p className="textoOpaco">Religue o seu serviço bloqueado</p>
 
                 <div className='itemTexto'>
                     <Icon type="invoiceOld" color="#D82482" />
-                    <a className="" href="https://m.vvc.com.br/Portal/splash ">PDF da conta</a>
+                    <a className="" href="https://m.vvcestudio.com.br/Portal/splash ">PDF da conta</a>
                 </div>
                 <p className="textoOpaco">2ª via detalhada da sua conta</p>
 
@@ -46,15 +46,15 @@ const bodyCodigoBarras = function (props) {
                 <p className='texto'>FACILIDADES PRA VOCÊ</p>
                 <div className='itemTexto'>
                     <Icon type="rechargeOld" color="#D82482" />
-                    <a className="" href="https://m.vvc.com.br/Portal/splash" >Débito automático</a>
+                    <a className="" href="https://m.vvcestudio.com.br/Portal/splash" >Débito automático</a>
                 </div>
                 <div className='itemTexto'>
                     <Icon type="contract" color="#D82482" />
-                    <a href="https://m.vvc.com.br/Portal/splash" >Conta Digital: sua conta por e-mail</a>
+                    <a href="https://m.vvcestudio.com.br/Portal/splash" >Conta Digital: sua conta por e-mail</a>
                 </div>
                 <div className='itemTexto'>
                     <Icon type="calendar" color="#D82482" />
-                    <a className="" href="https://m.vvc.com.br/Portal/splash" >Alterar data de vencimento</a>
+                    <a className="" href="https://m.vvcestudio.com.br/Portal/splash" >Alterar data de vencimento</a>
                 </div>
 
             </div>
@@ -62,23 +62,23 @@ const bodyCodigoBarras = function (props) {
             <style jsx>{`
                     @font-face {
                         font-family: 'SimplonBP-Regular';
-                        src: url('https://www.vvc.com.br/publicV2/fonts/simplonbp-regular-webfont.woff');
+                        src: url('https://www.vvcestudio.com.br/publicV2/fonts/simplonbp-regular-webfont.woff');
                     } 
                     @font-face {
                         font-family: 'Simplon-Headline';
-                        src: url('https://www.vvc.com.br/publicV2/fonts/simplonvvc-headline-webfont.woff');
+                        src: url('https://www.vvcestudio.com.br/publicV2/fonts/simplonvvc-headline-webfont.woff');
                     }
                     @font-face {
                         font-family: 'Simplon-bold';
-                        src: url('https://minhavvc-cliente.vvc.com.br/minha-oi/assets/fonts/simplonbp-bold-webfont.woff');
+                        src: url('https://minhavvc-cliente.vvcestudio.com.br/meuvvc/assets/fonts/simplonbp-bold-webfont.woff');
                     } 
                     @font-face {
                         font-family: 'Simplon-medium';
-                        src: url('https://minhavvc-cliente.vvc.com.br/minha-oi/assets/fonts/simplonbp-medium-webfont.woff');
+                        src: url('https://minhavvc-cliente.vvcestudio.com.br/meuvvc/assets/fonts/simplonbp-medium-webfont.woff');
                     } 
                     @font-face {
                         font-family: 'Simplon-light';
-                        src: url('https://minhavvc-cliente.vvc.com.br/minha-oi/assets/fonts/simplonbp-light-webfont.woff');
+                        src: url('https://minhavvc-cliente.vvcestudio.com.br/meuvvc/assets/fonts/simplonbp-light-webfont.woff');
                     }
                     .codConteiner{
                         margin: 0 auto;

@@ -1,0 +1,45 @@
+
+.atDivCodInterX{
+    padding-right: 0px;
+    margin-right:0px;
+    color:#888888;
+  }
+  
+  .atDivCodTitle{
+    padding-left: 0px;
+    margin-left:0px;
+    color:#888888;
+  }
+  
+  .atDivCodigoTop {
+    font-size: 17px;
+    font-family: sans-serif;
+    background-color: #282c45;
+    background-image: linear-gradient(45deg, #282c45, #4f4e64 );
+    border-top-left-radius :  12px;
+    border-top-right-radius :  12px;
+    padding: 10px;
+    box-sizing: border-box;
+  
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .atDivCodigo {
+    color:#00ff00;
+    padding : 10px;
+  }
+  
+  .atDivCodContorno{
+    font-size: 17px;
+    font-family: sans-serif;
+    background-color: #282c45;
+    background-image: linear-gradient(90deg, #100e16, #363046 );
+    border-radius : 12px;
+    display: block;
+    box-sizing: border-box;
+    -webkit-box-shadow: -9px 9px 20px rgba(1, 1, 1, 0.57);
+    -moz-box-shadow: -9px 9px 20px rgba(1, 1, 1, 0.57);
+    box-shadow: -9px 9px 20px rgba(1, 1, 1, 0.57);
+  }

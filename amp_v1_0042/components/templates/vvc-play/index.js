@@ -25,7 +25,7 @@ const Home = function (props) {
                     <FaviIcon />
                     <meta name="description" content="VVC Play" />
                     <meta name="robots" content="noindex" />
-                    <link rel="canonical" href="https://www.vvc.com.br/vvc-play" />
+                    <link rel="canonical" href="https://www.vvcestudio.com.br/vvc-play" />
                 </Head>
                 <HeaderParametrizado
                     backgroundColor="pink"
