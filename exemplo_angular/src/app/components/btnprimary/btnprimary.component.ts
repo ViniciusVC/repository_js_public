@@ -20,9 +20,12 @@ export class BtnprimaryComponent {
  @Input() loading: boolean = false;
  @Input() variant: btnVariants = "primary";
  @Output("submit") onSubmit = new EventEmitter();
-  
+
  submit(){
-  this.onSubmit.emit();
-  alert("ok");
+  console.log("A unica função deste botão é mostrar este alert.");
+  alert("A unica função deste botão é mostrar este alert.");
+  //this.onSubmit.emit();
  }
+
+ // A unica função deste botão é mostrar este alert.
 }

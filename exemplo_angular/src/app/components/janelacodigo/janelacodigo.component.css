@@ -3,15 +3,15 @@
     padding-right: 0px;
     margin-right:0px;
     color:#888888;
-  }
+}
   
-  .atDivCodTitle{
+.atDivCodTitle{
     padding-left: 0px;
     margin-left:0px;
     color:#888888;
-  }
+}
   
-  .atDivCodigoTop {
+.atDivCodigoTop {
     font-size: 17px;
     font-family: sans-serif;
     background-color: #282c45;
@@ -24,14 +24,14 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-  }
+}
   
-  .atDivCodigo {
+.atDivCodigo {
     color:#00ff00;
     padding : 10px;
-  }
+}
   
-  .atDivCodContorno{
+.atDivCodContorno{
     font-size: 17px;
     font-family: sans-serif;
     background-color: #282c45;
@@ -42,4 +42,4 @@
     -webkit-box-shadow: -9px 9px 20px rgba(1, 1, 1, 0.57);
     -moz-box-shadow: -9px 9px 20px rgba(1, 1, 1, 0.57);
     box-shadow: -9px 9px 20px rgba(1, 1, 1, 0.57);
-  }
+}

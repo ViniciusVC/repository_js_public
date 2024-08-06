@@ -1,10 +1,14 @@
 # Projeto Angular Teste1
 
-Primeiro teste com Angular. Criado em 25/01/2024.
+Exemplo spa com Angular.
 
 # Rodar projeto em desenvolvimento
 
 Para rodar um servidor de desenvolvimento. 
+
+> npm start
+
+ou 
 
 > ng serve
 
@@ -58,7 +62,15 @@ abreviado
 
 ## Build
 
-Execute `ng build` para construir o projeto. Os artefatos de construção serão armazenados no diretório `dist/`.
+Buildar o projeto para produção.
+
+> npm build
+
+ou
+
+> ng build
+
+Os arquivos gerados ficam no diretório `dist/`.
 
 
 

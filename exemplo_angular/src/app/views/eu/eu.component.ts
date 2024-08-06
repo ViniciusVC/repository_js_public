@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { GlobalService } from '../../global.service';
 
 @Component({
   selector: 'app-eu',
@@ -9,5 +10,16 @@ import { Component } from '@angular/core';
 })
 
 export class EuComponent {
+
+  constructor(private globalService: GlobalService) {  }
+
+  lingua(X:string,Y:string){
+    if(this.globalService.getLingua() == "en"){
+      return Y;
+    }else{
+      return X;
+    };
+  }
+
 
 }

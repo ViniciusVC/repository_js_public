@@ -1,9 +1,10 @@
-<h1>lingua iiiInstalando Angular iii Install Angular iii </h1>
+<h1>{{ lingua("Instalando Angular"," Install Angular")}}</h1>
 <br/>
-
 <p>
-  1º lingua iiiInstale o NodeJS iii Install NodeJS iii <br/> 
-  2º lingua iiiInstale a CLI do Angular globalmente no seu computador. iii Instale a CLI do Angular globalmente no seu computador. iii <br/>
+  1º {{ lingua("Instale o NodeJS"," Install NodeJS")}}
+</p>
+<p>
+  2º {{ lingua("Instale a CLI do Angular globalmente no seu computador."," Instale a CLI do Angular globalmente no seu computador.")}}
 </p>
           
 <app-janelacodigo  win-title = "Instalar o angular" win-text = "$ npm install -g angular/cli"/>
@@ -45,11 +46,11 @@ ou
 
 <app-janelacodigo  win-title = "Entre no diretório" win-text = "$ cd nome_do_projeto"/>
   
-6º Iniciar o servidor WEB local:<br/>
+<p>6º Iniciar o servidor WEB local:</p>
 <app-janelacodigo  win-title = "Iniciar servidor" win-text = "$ ng server"/>
 
 Ou
-<app-janelacodigo  win-title = "Iniciar servidor" win-text = "$ npm run start"/>
+<app-janelacodigo  win-title = "Iniciar servidor" win-text = "$ npm start"/>
 
 <p>
   Para rodar o projeto em outra prota:
@@ -57,53 +58,47 @@ Ou
 <app-janelacodigo  win-title = "escolha uma porta" win-text = "ng serve --port 3333 -o"/>
 
   
-<h3>Build</h3>
+<h2>Build</h2>
 <p>
-  Execute `ng build` para construir o projeto. Os artefatos de construção serão armazenados no diretório `dist/`.
+  Builar o projeto para produção. <br/>
+  Os arquivos exportados serão armazenados no diretório `dist/`.
 </p>
 <app-janelacodigo  win-title = "compilar projeto" win-text = "ng build"/>
           
-<h3>Criar um novo componente</h3>
-Para criar um novo componente no Angular execute `ng g c diretorio/nomecomponete`.
+<h2>Criar um novo componente</h2>
 <p>
-  $ ng g c pasta/carrocel<br/>
-  ou<br/>
-  $ ng generate component pasta/carrocel<br/>
+  Para  no Angular execute `ng g c diretorio/nomecomponete`.
 </p>
+<app-janelacodigo  win-title = "criar um novo componente" win-text = "$ ng g c pasta/carrocel"/>
+ou
+<app-janelacodigo  win-title = "criar um novo componente" win-text = "$ ng generate component pasta/carrocel"/>
+
   
-<h3>Testes unitários</h3>
+<h2>Testes unitários</h2>
 <p>
   Execute `ng test` para executar os testes de unidade via [Karma](https://karma-runner.github.io).
 </p>
-    
-<p>
-  ng test
-</p>
+<app-janelacodigo  win-title = "Testes unitários" win-text = "ng test"/>    
   
-<h3>end-to-end tests</h3>
+<h2>end-to-end tests</h2>
 <p>
   Execute `ng e2e` para executar os testes ponta a ponta (end-to-end) através de uma plataforma de sua escolha.<br/>
   Para usar este comando, você precisa primeiro adicionar um pacote que implemente recursos de teste ponta a ponta (end-to-end).
 </p>
           
-<p>
-  ng e2e
+<p> 
+  <app-janelacodigo  win-title = "Executar os testes ete" win-text = "ng e2e"/>    
 </p>
   
-<h3>Help</h3>
+<h2>Help</h2>
 <p>
   Para obter mais ajuda sobre o Angular CLI, use `ng help` ou confira o [Angular CLI Overview and Command Reference](https://angular.io/cli).
 </p>
-          
-<p>
-  ng help
-</p>
+<app-janelacodigo  win-title = "Help" win-text = "ng help"/>
   
-<h3>Instalar Material</h3>
-Usar a biblioteca Material, Com estilos prontos (https://material.angular.io/).
-<p>
-  ng add angular/material
-</p>
-Escolha o tema.<br/>
-Use os estilos de forma Global<br/>
-Escolha animaçõaes.<br/>
+<h2>Instalar Material</h2>
+<p>Usar a biblioteca Material, Com estilos prontos (https://material.angular.io/).</p>
+<app-janelacodigo  win-title = "Instalar Material" win-text = "ng add angular/material"/>    
+<p>Escolha o tema.</p>
+<p>Use os estilos de forma Global</p>
+<p>Escolha animaçõaes.</p>

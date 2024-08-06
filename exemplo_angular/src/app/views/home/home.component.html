@@ -1,17 +1,30 @@
-<div>    <h1>HOME</h1>
-    <p>Página inicial.</p>
+<div>    
+    <h1>HOME</h1>
     <p>
-        Este é meu projeto exemplo de SPA com Angular.<br/>
+        {{lingua("Página inicial.","Home page.")}}
+    </p>
+    
+    <div class="logoAngular" >
+        <app-logoangular/>
+    </div>
+   
+
+    <p>
+        {{lingua("Este é um projeto exemplo com Angular.","This is an example project with Angular.")}}
+        <br/>
         <br/>
         <a class="menulink" href="/">Home</a> <br/>
         <a class="menulink" href="/angular">Angular</a> <br/>
         <a class="menulink" href="/backup">Backup</a> <br/>
-        <a class="menulink" href="/games">games</a> <br/>
         <a class="menulink" href="/eu">eu</a> <br/>
     </p>
     <section>
-        <app-btnprimary btn-text="Um componente botão"></app-btnprimary>
+        <app-btnprimary btn-text="Um componente botão simples"/>
         <br/>
-        <app-btnprimary btn-text="Outro butão"></app-btnprimary>
+        <app-btnprimary btn-text="variant : primary" variant="primary"/>
+        <br/>
+        <app-btnprimary btn-text="variant secondary" variant="secondary"/>
+        
+        <app-btncomp btnText="Botão de ação" (newItemEvent)="handleEvent()"/>
     </section>
 </div>

@@ -1,5 +1,5 @@
 
-.btn{
+.btnComp{
     
     font-family: sans-serif;
     font-size: 1rem; /*16px*/
@@ -7,11 +7,11 @@
     
     background-color: #00373a;
     color: #f0cb65;
-  
     height: 3.8rem;
     text-align: center;
-    
-    width: 143px;
+    width: 100%;
+    max-width: 243px;
+
     text-decoration: none;
     border-radius: 4px;
     border: solid 1px #f0cb65;
@@ -24,37 +24,12 @@
     transition-duration: 1s;
   
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-
-    &:disabled{
-        opacity: 0.6;
-    }
-
-    &.primary{
-        background: -webkit-linear-gradient(180deg, #006c70, #409c90);
-        width: 243px;
-        font-size: 14px;
-    }
-    &.secundary{
-        background: #ffffff;
-        color: #00373a;
-        width: 143px;
-        font-size: 12px;
-        border: solid 1px #00373a;
-    }
 }
 
-.btn:hover {
+.btnComp:hover {
     transition-duration: 1s;
     color: #00373a;
     border: solid 1px #00373a;
     background-color: #ffffff;
     border: solid 1px #00373a;
-
-    &.secundary{
-        background: #00373a;
-        color: #f0cb65;
-        width: 143px;
-        font-size: 12px;
-        border: solid 1px #f0cb65;
-    }
 }
