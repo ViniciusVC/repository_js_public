@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+</head>
+<body>
+
+<!-- Importar biblioteca knockout.js -->
+<script src="knockout-3.3.0.js"></script>
+
+<!-- Exemplo de knockout js -->
+<!-- Working with Lists and Collections -->
+<div id="liveExample" class="liveExample">
+
+	<!-- Folders -->
+	<p>List mail</p>
+	<ul class="folders" data-bind="foreach: folders">
+		<li data-bind="text: $data, 
+				   css: { selected: $data == $root.chosenFolderId() },
+				   click: $root.goToFolder">
+		 </li>
+	</ul>
+
+	
+    <script type="text/javascript">
+		function WebmailViewModel() {
+			// Data
+			var self = this;
+			self.folders = ['Inbox', 'Archive', 'Sent', 'Spam'];
+			self.chosenFolderId = ko.observable();
+
+			// Behaviours
+			self.goToFolder = function(folder) { self.chosenFolderId(folder); };
+		};
+
+		ko.applyBindings(new WebmailViewModel());
+    </script>	
+
+</div>
+</body>

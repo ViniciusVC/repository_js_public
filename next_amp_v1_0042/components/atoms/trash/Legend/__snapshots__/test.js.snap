@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Legend > deve renderizar com a cor gradiente 1`] = `
+<legend
+  className="sc-bdVaJa dHluzZ"
+/>
+`;
+
+exports[`Legend > deve renderizar com a cor primaria 1`] = `
+<legend
+  className="sc-bdVaJa bILcnh"
+/>
+`;
+
+exports[`Legend > deve renderizar com o tema default 1`] = `
+<legend
+  className="sc-bdVaJa jelemA"
+/>
+`;

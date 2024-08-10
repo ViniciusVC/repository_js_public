@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+</head>
+<body>
+
+<!-- Importar biblioteca knockout.js -->
+<script src="knockout-3.3.0.js"></script>
+
+<!-- Exemplo de knockout js -->
+<!-- Working with Lists and Collections -->
+<div id="liveExample" class="liveExample">
+
+	<!-- Mails grid -->
+	<table class="mails" data-bind="with: chosenFolderData">
+		<thead><tr><th>From</th><th>To</th><th>Subject</th><th>Date</th></tr></thead>
+		<tbody data-bind="foreach: mails">
+			<tr>
+				<td data-bind="text: from"></td>
+				<td data-bind="text: to"></td>
+				<td data-bind="text: subject"></td>
+				<td data-bind="text: date"></td>
+			</tr>     
+		</tbody>
+	</table>
+
+
+	
+    <script type="text/javascript">
+		function WebmailViewModel() {
+			// Data
+			var self = this;
+			self.folders = ['Inbox', 'Archive', 'Sent', 'Spam'];
+			self.chosenFolderId = ko.observable();
+			self.chosenFolderData = ko.observable();
+
+			self.goToFolder = function(folder) { 
+				self.chosenFolderId(folder);
+				$.get('/mail', { folder: folder }, self.chosenFolderData);
+			};
+
+			self.goToFolder('Inbox');
+		};
+
+		ko.applyBindings(new WebmailViewModel());
+    </script>	
+
+</div>
+</body>

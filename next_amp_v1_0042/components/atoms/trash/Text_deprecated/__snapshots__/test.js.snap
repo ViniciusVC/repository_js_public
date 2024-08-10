@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Widget > deve aceitar um tema 1`] = `
+<div
+  className="widget sc-bdVaJa pmLHA"
+/>
+`;
+
+exports[`Widget > deve renderizar com o tema default 1`] = `
+<div
+  className="widget sc-bdVaJa ewtYAA"
+/>
+`;
+
+exports[`Widget > deve renderizar com um elemento filho 1`] = `
+<div
+  className="widget sc-bdVaJa ewtYAA"
+>
+   Test 
+</div>
+`;

@@ -1,3 +1,0 @@
-'http://api.openweathermap.org/data/2.5/weather?q=SaoPaulo,BR&units=metric&APPID={{{{APIKEY}}}}'
-
-Substitua {{{{APIKEY}}}} pela sua chave de API

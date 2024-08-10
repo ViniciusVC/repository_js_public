@@ -1,0 +1,120 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	</head>
+	<body class="contanier" ng-app="aplicacao">
+		<div class="header-inner">
+			<h1 style="text-align: center; color: blue;">
+				Bem Vindo ao Curso de Desenvolvimento WEB com Angular JS v1.
+			</h1>
+		</div>
+		<div ng-controller="PrimeiroController" class="well">
+			<h3>Olá, {{nome}} seja bem vindo!</h3>
+
+			<div ng-class="{'panel panel-primary':iniciado, 'panel panel-danger':!iniciado}">
+				<div class="panel-heading">
+					<h3 class="panel-title">Situação do Curso</h3>
+				</div>
+				<div class="panel-body">
+					<p ng-show="iniciado">Curso em Andamento!</p>
+					<p ng-hide="iniciado">Curso Finalizado!</p>
+					<p ng-if="!iniciado">Aguarde o próximo curso!</p>
+					<p>Preço do curso: {{valor | currency : 'R$ '}} - (sem filtro: {{valor}})</p>
+					<p>Última atualização {{hoje | date: 'dd/MM/yyyy'}} - (sem filtro: {{hoje}})</p>
+				</div>
+			</div>
+
+			<div>
+				<label>Definir Preço:</label>
+				<input type="number" id="valor" name="valor" ng-model="valor">
+			</div>
+			<h3>Alunos Cadastrados</h3>
+			<div>
+				<label>Filtrar por nome:</label>
+				<input type="text" ng-model="filtro">
+			</div>
+
+			<div class="table-responsive">
+				<table class="table table-striped">
+					<tr>
+				    	<th ng-click="ordenarPorNome()">
+					    	Nome
+				    	</th>
+						<th ng-click="ordenarPorIdade()">
+					    	idade
+				    	</th>
+				  	</tr>
+					<tr ng-repeat="aluno in alunos | filter: filtro">
+				    	<td>
+				    		{{aluno.nome}}
+				    	</td>
+						<td>
+				    		{{aluno.idade}}
+				    	</td>
+					</tr>
+				</table>
+			</div>
+
+			<button ng-show="iniciado" ng-click="finalizar()" class="btn btn-danger">
+				Finalizar
+			</button>
+			<button ng-hide="iniciado" ng-click="iniciar()" class="btn btn-success">
+				Iniciar
+			</button>
+			<h3>Nova Inscrição do Curso</h3>
+			<form name="form_1">
+
+				<div class="row">
+					<div class="row-md-4">
+						<div class="form-group form-group-default">
+							<label>Nome</label>
+							<input class="form-control" type="text" id="nome_aluno" name="nome_aluno" ng-model="nome_aluno" ng-readonly="!iniciado" ng-minlength="3">
+						</div>
+					</div>
+
+					<div class="row-md-4">
+						<div class="form-group form-group-default"></div>
+							<label>Idade</label>
+							<input class="form-control" type="number" id="idade_aluno" name="idade_aluno" ng-model="idade_aluno" ng-readonly="!iniciado">
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="row-md-4">
+						<button ng-click="submeter()" class="btn btn-primary" ng-disabled="iniciado">
+							Adicionar
+						</button>
+					</div>
+				</div>
+
+			</form>
+		</div>
+
+		<div class="well" ng-controller="PrevisaoTempoController">
+			<h3>Demostrando o ng-resouce</h3>
+			<h3>Previsão do tempo</h3>
+			<h4>São Paulo, Basil</h4>
+			<h4>Local : {{tempo.name}}</h4>
+			<h4>Temperatura {{ tempo.main.temp}}</h4>
+			<h4>Mínima: {{ tempo.main.temp.min}} C e Máxima: {{ tempo.main.temp.max}}</h4>
+		</div>
+
+		<div class="container-fluid container-fixed-lg footer">
+			<div class="copyright sm-text-center">	
+				<p class="small no-margin pull-left sm-pull-reset">
+					<span class="hint-text">AngularJS v1.3.15 (2014 Descontinuado) - Bootstrap v0.12.1 (2015) </span>
+				</p>
+			</div>
+		</div>
+
+		<script src="scripts/libs/angular.js"></script>
+		<script src="scripts/libs/ngResource.js"></script>
+		<script src="scripts/app.js"></script>
+		<script src="scripts/primeiro-controller.js"></script>
+		<script src="scripts/previsao-tempo-controller.js"></script>
+	</body>
+</html>

@@ -12,27 +12,27 @@ https://github.com/ViniciusVC/repository_js_public
 ## Projetos neste repositorio:
 ```
 │
-├── 📂 /amp_v1_0042
-│   (NextJS - ReactJS - AMP - JS)
-│
-│
-├── 📂 /curso_angular_moocs_ggte_unicamp
-│   (AngularJS 1 - Bootstrap - JS) 
-│
-│
-├── 📂 /curso_angular_moocs_ggte_unicamp_aula_3
-│   (AngularJS 1 - Bootstrap - JS) 
-│
-│
-├── 📂 /exemplo_angular
+├── 📂 /angular_exemplo
 │   (SPA com Angular) 
 │
 │
-├── 📂 /exemplo_next_js
+├── 📂 AngularV1_estudo
+│   (AngularJS 1 - Bootstrap - JS) 
+│
+│
+├── 📂 AngularV1_estudo2
+│   (AngularJS 1 - Bootstrap - JS) 
+│
+│
+├── 📂 /next_amp_v1_0042
+│   (NextJS - ReactJS - AMP - JS)
+│
+│
+├── 📂 /next_js_exemplo
 │   (Exemplo NextJS)
 │
 │
-├── 📂 /exemplo_typeScript
+├── 📂 /typeScript_exemplo
 │   (Exemplo typeScripte)
 │
 │

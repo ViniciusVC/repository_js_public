@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+</head>
+<body>
+
+<!-- Importar biblioteca knockout.js -->
+<script src="knockout-3.3.0.js"></script>
+
+<!-- Exemplo de knockout js -->
+<div id="liveExample" class="liveExample">
+    <p>
+	<!-- Binding attributes declaratively link DOM elements whth model properties -->
+	
+    Choose a ticket class:
+    <select data-bind="options: tickets, 
+                       optionsCaption: 'Choose...',
+                       optionsText: 'name',
+                       value: chosenTicket"></select>
+                       
+    <button data-bind="enable: chosenTicket, 
+                       click: resetTicket">Clear</button>
+    </p>                   
+    
+	<p data-bind="with: chosenTicket">
+        You have chosen <b data-bind="text: name"></b>
+        ($<span data-bind="text: price"></span>)    
+    </p>
+	
+    <script type="text/javascript">
+		// Your view model holds the Ul's underliying date and behaviors
+        function TicketsViewModel() {
+            this.tickets = [
+                { name: "Economy", price: 199.95 },
+                { name: "Business", price: 449.22 },
+                { name: "First Class", price: 1199.99 }
+            ];
+            this.chosenTicket = ko.observable();
+            this.resetTicket = function() { this.chosenTicket(null) }
+        }
+        ko.applyBindings(new TicketsViewModel(), document.getElementById("liveExample"));
+		// Activates Knockout
+    </script>	
+
+<!-- Encapsulando dado e comportamento em uma view model, você tem fundação limpa e extensível no qual para construir UIs sofisticadas sem se perder em um emaranhado de event handlers e atualizações manuais de DOM. -->
+</div>
+</body>

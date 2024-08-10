@@ -1,0 +1,28 @@
+<div>    
+    <h1>HOME</h1>
+    <p>
+        {{lingua("Página inicial.","Home page.")}}
+    </p>
+    
+
+   
+
+    <p>
+        {{lingua("Este é um projeto exemplo com Angular.","This is an example project with Angular.")}}
+        <br/>
+        <br/>
+        <a class="menulink" href="/">Home</a> <br/>
+        <a class="menulink" href="/angular">Angular</a> <br/>
+        <a class="menulink" href="/backup">Backup</a> <br/>
+        <a class="menulink" href="/eu">eu</a> <br/>
+    </p>
+    <section>
+        <app-btnprimary btn-text="Um componente botão simples"/>
+        <br/>
+        <app-btnprimary btn-text="variant : primary" variant="primary"/>
+        <br/>
+        <app-btnprimary btn-text="variant secondary" variant="secondary"/>
+        
+        <app-btncomp btnText="Botão de ação" (newItemEvent)="handleEvent()"/>
+    </section>
+</div>

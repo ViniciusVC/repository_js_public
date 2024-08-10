@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+</head>
+<body>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 300 300">
+  <circle fill="#FFFFFF"
+        stroke="#000"
+        cx="28.1"
+        cy="28.1"
+		r="27.6"
+		/>
+  <polyline 
+		fill="#FFFFFF"
+        stroke="#000"
+		fill="black"
+        cx="30"
+        cy="30"
+		points="100,10 40,198 190,78 10,78 160,198"
+		/>
+  <line fill="#FFFFFF"
+        stroke="#000"
+        cx="5"
+        cy="5"
+        points="1,1 40,198"
+		/>
+  <rect fill="#FFFFFF"
+        stroke="#000"
+		width="100"
+		height="100" 
+		/>
+  <ellipse fill="#FFFFFF"
+        stroke="#000"
+        cx="0"
+        cy="0"
+		rx="100"
+		ry="50"
+		style="fill:yellow;stroke:purple;stroke-width:2"
+		/>
+  <path fill="#FFFFFF"
+      stroke="#000"
+      d="M55.7,28.1 c0,15.2-12.4,27.6-27.6,27.6 S0.5,43.3,0.5,28.1 S12.9,0.5,28.1,0.5 S55.7,12.9,55.7,28.1z"
+	  />
+</svg>
+<!-- Importar biblioteca knockout.js -->
+<script src="knockout-3.3.0.js"></script>
+
+<!-- Exemplo de knockout js -->
+<div id="liveExample" class="liveExample">
+    <p>
+
+		<!-- This is a *view* - HTML markup that defines the appearance of your UI -->
+		<p>First name: <strong data-bind="text:firstName">Blablabla</strong></p>
+		<p>Last name: <strong data-bind="text:lastName">Blablabla</strong></p>
+
+    <script type="text/javascript">
+		// This is a simple *viewmodel* - JavaScript that defines the data and behavior of your UI
+		function AppViewModel() {
+			this.firstName = "Vinicius";
+			this.lastName = "Coutinho";
+		}
+
+		// Activates knockout.js
+		ko.applyBindings(new AppViewModel());
+    </script>	
+
+<!-- Encapsulando dado e comportamento em uma view model, você tem fundação limpa e extensível no qual para construir UIs sofisticadas sem se perder em um emaranhado de event handlers e atualizações manuais de DOM. -->
+</div>
+</body>

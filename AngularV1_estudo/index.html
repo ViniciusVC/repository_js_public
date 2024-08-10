@@ -1,0 +1,59 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	</head>
+	<body class="contanier" ng-app="aplicacao">
+		<div class="header-inner">
+			<h1 style="text-align: center; color: blue;">
+				Bem Vindo ao Curso de Desenvolvimento WEB com Angular JS
+			</h1>
+		</div>
+		<div ng-controller="PrimeiroController" class="well">
+			<h3>Olá, {{nome}} seja bem vindo!</h3>
+			<div ng-class="{'panel panel-primary':iniciado, 'panel panel-danger':!iniciado}">
+				<div class="panel-heading">
+					<h3 class="panel-title">Situação do Curso</h3>
+				</div>
+				<div class="panel-body">
+					<p ng-show="iniciado">Curso em Andamento!</p>
+					<p ng-hide="iniciado">Curso Finalizado!</p>
+					<p ng-if="!iniciado">Aguarde o próximo curso!</p>
+				</div>
+			</div>
+			<h3>Alunos Cadastrados</h3>
+			<div class="table-responsive">
+				<table class="table table-striped">
+					<tr>
+				    	<th>
+					    	Nome
+				    	</th>
+				  	</tr>
+					<tr ng-repeat="aluno in alunos">
+				    	<td>
+				    		{{aluno}}
+				    	</td>
+					</tr>
+				</table>
+			</div>
+			<button ng-show="iniciado" ng-click="finalizar()" class="btn btn-danger">
+				Finalizar
+			</button>
+			<button ng-hide="iniciado" ng-click="iniciar()" class="btn btn-success">
+				Iniciar
+			</button>			
+		</div>
+		<div class="container-fluid container-fixed-lg footer">
+			<div class="copyright sm-text-center">	
+				<p class="small no-margin pull-left sm-pull-reset">
+					<span class="hint-text">Copyright @ 2015</span>
+				</p>
+			</div>
+		</div>
+		<script src="scripts/libs/angular.js"></script>
+		<script src="scripts/app.js"></script>
+		<script src="scripts/primeiro-controller.js"></script>
+	</body>
+</html>

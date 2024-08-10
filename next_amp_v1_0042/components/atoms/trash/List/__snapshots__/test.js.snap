@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Listview > deve renderizar conforme snapshot 1`] = `
+<ul
+  className="sc-bdVaJa jaybQV"
+>
+  children
+</ul>
+`;
