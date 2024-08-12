@@ -1,0 +1,25 @@
+.moldura-center{
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 10px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  
+
+}
+
+.moldura-body{
+  margin: 0px;
+  width: 80%;
+  height: 100%;
+  max-width: 800px;
+  padding: 20px;
+  padding-top: 10px;
+  background: linear-gradient(#ffff88, #bd994c);
+  border: 3px solid #ffffff;
+  text-align: center;
+  box-shadow: 1px 3px 8px rgba(0,0,0, 1.5);
+}

@@ -1,0 +1,75 @@
+.App-Imagem {
+  height: 30vmin;
+  pointer-events: none;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.cenario{
+  background-image: url('/public/cenario.jpg');
+  background-repeat: no-repeat;
+  width: 100%; 
+  height: 100%; 
+  background-size: 100%;
+}
+
+.center-buton {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0px;
+}
+
+.button{
+  font-size: 14px;
+  color: #ffff00;
+  background-color: #004088;
+  width: 100%;
+  max-width: 200px;
+  padding: 14px;
+  margin: 4px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border: 3px solid #ffff00;
+  border-radius: 15px;
+  box-shadow: 1px 3px 8px rgba(0,0,0, 1.5);
+}
+
+.Justificado{
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.Link-Lista{
+  text-decoration: none;
+  font-size: 14px;
+  color: #004088;
+  background-color: #ffff00;
+  background: linear-gradient(#ffff33, #ff5500);
+  width: 90%;
+  /*max-width: 200px;*/
+  padding: 5px;
+  margin: 4px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  
+  border-radius: 15px;
+  border: 3px solid #004088;
+  box-shadow: 1px 3px 8px rgba(0,0,0, 1.5);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

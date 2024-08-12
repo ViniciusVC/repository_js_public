@@ -1,0 +1,51 @@
+.Justificado{
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-Colecao-item{
+  width: 30%;
+}
+.colecao-Imagem{
+  width: 100%;
+}
+
+.Bt-Capturar{
+  text-decoration: none;
+  font-size: 14px;
+  color: #004088;
+  background-color: #ffff00;
+  background: linear-gradient(#ffff33, #ff5500);
+  width: 90%;
+  /*max-width: 200px;*/
+  padding: 5px;
+  margin: 4px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  
+  border-radius: 15px;
+  border: 3px solid #004088;
+  box-shadow: 1px 3px 8px rgba(0,0,0, 1.5);
+}
+
+.Bt-libertar{
+  text-decoration: none;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #ff0000;
+  background: linear-gradient(#ff3300, #ff0000);
+  width: 90%;
+  /*max-width: 200px;*/
+  padding: 5px;
+  margin: 4px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  
+  border-radius: 15px;
+  border: 3px solid #ffffff;
+  box-shadow: 1px 3px 8px rgba(0,0,0, 1.5);
+}

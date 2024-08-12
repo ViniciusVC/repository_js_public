@@ -1,0 +1,54 @@
+
+.terreno-Captura{
+  width: 100%;
+  /*
+  max-width: 500px;
+  height: 700px;
+  */
+  margin : 0px;
+  top: 0px;
+  background-image: url('/public/caminho3.jpg');
+  background-repeat: no-repeat;
+  background-size:100%;
+  justify-content:left;
+  text-align: left;
+}
+
+.Justificado{
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.div-img-captura{
+  width: 10%;
+}
+
+.img-captura-poke{
+  width: 100%;
+}
+
+.positcaptura1{
+  margin-left: 85%;
+}
+.positcaptura2{
+  margin-top: 5%;
+  margin-left: 20%;
+}
+.positcaptura3{
+  margin-top: 10%;
+  margin-left: 70%;
+}
+.positcaptura4{
+  margin-left: 20%;
+}
+.positcaptura5{
+
+  margin-top: 10%;
+  margin-left: 60%;
+}
+.positcaptura6{
+  margin-top: -10%;
+  margin-left: 10%;
+}

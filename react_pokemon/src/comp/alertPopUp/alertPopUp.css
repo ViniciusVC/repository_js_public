@@ -12,7 +12,7 @@
   }
   
   .popup-content {
-    min-width: 200px;
+    /*min-width: 200px;*/
     background: #006400;
     padding: 20px;
     border-radius: 8px;
