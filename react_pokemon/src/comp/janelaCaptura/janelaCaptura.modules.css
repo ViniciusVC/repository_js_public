@@ -1,13 +1,9 @@
 
-.terreno-Captura{
+.terrenoCaptura{
   width: 100%;
-  /*
-  max-width: 500px;
-  height: 700px;
-  */
   margin : 0px;
   top: 0px;
-  background-image: url('/public/caminho3.jpg');
+  background-image: url('~/public/img/caminho3.jpg');
   background-repeat: no-repeat;
   background-size:100%;
   justify-content:left;
@@ -21,11 +17,11 @@
   justify-content: center;
 }
 
-.div-img-captura{
+.divImgCaptura{
   width: 10%;
 }
 
-.img-captura-poke{
+.imgCapturaPoke{
   width: 100%;
 }
 

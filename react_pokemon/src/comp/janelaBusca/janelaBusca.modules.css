@@ -1,21 +1,13 @@
-.App-Imagem {
+.BuscaImagem {
   height: 30vmin;
   pointer-events: none;
 }
 
-.App-link {
+.AppLink {
   color: #61dafb;
 }
 
-.cenario{
-  background-image: url('/public/cenario.jpg');
-  background-repeat: no-repeat;
-  width: 100%; 
-  height: 100%; 
-  background-size: 100%;
-}
-
-.center-buton {
+.centerButon {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -39,14 +31,14 @@
   box-shadow: 1px 3px 8px rgba(0,0,0, 1.5);
 }
 
-.Justificado{
+.buscaJustificado{
   width: 100%;
   display: flex;
   text-align: center;
   justify-content: center;
 }
 
-.Link-Lista{
+.LinkLista{
   text-decoration: none;
   font-size: 14px;
   color: #004088;
@@ -63,6 +55,10 @@
   border-radius: 15px;
   border: 3px solid #004088;
   box-shadow: 1px 3px 8px rgba(0,0,0, 1.5);
+}
+
+.buscaColuna {
+  width: 45%;
 }
 
 @keyframes App-logo-spin {

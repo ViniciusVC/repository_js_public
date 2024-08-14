@@ -5,6 +5,9 @@ Projeto exemplo React consultando API Pokeapi (sem Next).
 
 Repositorio Github: https://github.com/ViniciusVC/repository_js_public/tree/main/eact_pokemon
 
+Jogue em: https://vvcestudio.com.br/pt/play/pokemon
+
+
 ## Clonando Projeto
 
 ```
@@ -39,16 +42,13 @@ Edite os arquivos app.js, index.html e index.js.
 Instalar biblioteca de requisição HTTP:
 > npm install axios
 
-API usada para:
-```
-https://pokeapi.co/api/v2/pokemon/{nome do pokemon}
+Instalar o styled-components:
+>npm install styled-components --save
 
-pokemon/ditto, 
-pokemon-species/aegislash, 
-type/3, 
-ability/battle-armor, 
-or pokemon?limit=100000&offset=0.
-```
+
+## API
+
+API usada no projeto: https://pokeapi.co/
 
 
 # build

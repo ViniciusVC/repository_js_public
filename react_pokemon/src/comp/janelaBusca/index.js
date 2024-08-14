@@ -1,14 +1,16 @@
 // Janela Busca Pokemmon
 import {React, useState, useContext } from "react";
-import './janelaBusca.css';
+import './janelaBusca.modules.css';
 import api from "../../services/api"; // Importar configurações do Axios
 //import AlertPopUp from '../alertPopUp'; // Importar componente AlertPopUp.
 import { DBcacheContext } from "../../context/DBcacheContext.js";
 import Moldura from "../moldura/index.js";
 
+import Barrinha from "../barrinhas/index.js";
+
 function JanelaBusca({showAlert}) {
 
-  const { dbcache, setDbcache } = useContext(DBcacheContext);
+  const { dbcache } = useContext(DBcacheContext);
 
   // Lista-cacheada-de-pokemmons------------------------------------------------  
     const addCachePokemmons = (newItem) => {
@@ -102,7 +104,7 @@ function JanelaBusca({showAlert}) {
 
   return (
     <>
-      <h1>Pesquise um Pokemmon</h1>
+      <h1>Pesquise um Pokemon</h1>
       <Moldura>
               <p>Digite um id:</p>
               <input 
@@ -111,7 +113,7 @@ function JanelaBusca({showAlert}) {
               value={input}
               onChange={(e)=> setInput(e.target.value)}
               />
-              <div className="center-buton">
+              <div className="centerButon">
                 <button className="button" onClick={handleSerch}>
                   Busca
                 </button>
@@ -119,43 +121,41 @@ function JanelaBusca({showAlert}) {
       </Moldura>
 
           {Object.keys(dbcache.CachePokemmons).length > 0 && ( 
-
+            <>
               <Moldura>
-                <div className="Justificado">
-                  <div>
+                <div className="buscaJustificado">
+                  <div className="buscaColuna">
                     <h1>
                       {dbcache.CachePokemmons[indexPokemonAtual].name}
                     </h1>
-                    <img src={dbcache.CachePokemmons[indexPokemonAtual].shiny} className="App-Imagem" alt="mini personagem" />
+                    <img src={dbcache.CachePokemmons[indexPokemonAtual].shiny} className="BuscaImagem" alt="mini personagem" />
                   </div>
-                  <div>
+                  <div className="buscaColuna">
                     Nome : {dbcache.CachePokemmons[indexPokemonAtual].name} <br/>
                     Id : {dbcache.CachePokemmons[indexPokemonAtual].id} <br/>
                     Order : {dbcache.CachePokemmons[indexPokemonAtual].order} <br/>
-                    vida : {dbcache.CachePokemmons[indexPokemonAtual].vida} <br/>
-                    Ataque : {dbcache.CachePokemmons[indexPokemonAtual].ataque} <br/>
-                    Defesa : {dbcache.CachePokemmons[indexPokemonAtual].defesa} <br/>
-                    Super-Ataque : {dbcache.CachePokemmons[indexPokemonAtual].superAtaque} <br/>
-                    Super-Defesa : {dbcache.CachePokemmons[indexPokemonAtual].superDefesa} <br/>
-                    Velocidade : {dbcache.CachePokemmons[indexPokemonAtual].velocidade} <br/>
-                    Index : {dbcache.CachePokemmons[indexPokemonAtual].index}                   
+                    <div><Barrinha legenda="vida" valor={dbcache.CachePokemmons[indexPokemonAtual].vida}/></div>
+                    <div><Barrinha legenda="Ataque" valor={dbcache.CachePokemmons[indexPokemonAtual].ataque}/></div>
+                    <div><Barrinha legenda="Defesa" valor={dbcache.CachePokemmons[indexPokemonAtual].defesa}/></div>
+                    <div><Barrinha legenda="Super-Ataque" valor={dbcache.CachePokemmons[indexPokemonAtual].superAtaque}/></div>
+                    <div><Barrinha legenda="Super-Defesa" alor={dbcache.CachePokemmons[indexPokemonAtual].superDefesa}/></div>
+                    <div><Barrinha legenda="Velocidade" valor={dbcache.CachePokemmons[indexPokemonAtual].velocidade}/></div>
+                    Index : {dbcache.CachePokemmons[indexPokemonAtual].index}   
                   </div>
                 </div>
-                shiny : {dbcache.CachePokemmons[indexPokemonAtual].shiny}
               </Moldura>
+
+              <Moldura>
+                <h3>Historico de pokemons:</h3>
+                <p>Acesso rápido</p>
+                  {dbcache.CachePokemmons.map((item, indice) => (
+                        <button className="LinkLista" onClick={()=>setIndexPokemonAtual(indice)}>
+                          <b>{"["+indice+"]"+item.id+"-"+item.name+"."}</b>
+                        </button>
+                  ))}
+              </Moldura>
+            </>
           )}
-
-
-      <Moldura>
-        <h3>Historico de pokemons:</h3>
-        <p>Acesso rápido</p>
-          {dbcache.CachePokemmons.map((item, indice) => (
-                <button className="Link-Lista" onClick={()=>setIndexPokemonAtual(indice)}>
-                  <b>{"["+indice+"]"+item.id+"-"+item.name+"."}</b>
-                </button>
-          ))}
-      </Moldura>
-
     </>
   )
 }

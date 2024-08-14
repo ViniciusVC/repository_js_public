@@ -1,6 +1,6 @@
 //import './header.css';
 import {React} from "react";
-
+import './header.modules.css';
 
 function Header({menuClick}) {
 
@@ -19,21 +19,28 @@ function Header({menuClick}) {
     menuClick(temp);
   };
 
-
+  const setJanelaSobre = () => {
+    let temp = "JanelaSobre";
+    menuClick(temp);
+  };
+  
 
   return (
-    <header className="App-header">
-        <img src="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png" className="App-logo" alt="logo" />      
-        <br/>
-        <a href="#" onClick={setJanelaCaptura}>
+    <header className="AppHeader">
+        <img src="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png" className="AppLogo" alt="logo" />
+        <br/> 
+        <a href="#" className="HeaderMenuItem" onClick={setJanelaCaptura}>
           Captura
-        </a > | 
-        <a href="#" onClick={setJanelaColecao}>
+        </a > 
+        <a href="#" className="HeaderMenuItem" onClick={setJanelaColecao}>
           Coleção
-        </a > | 
-        <a href="#" onClick={setJanelaBusca}>
+        </a > 
+        <a href="#" className="HeaderMenuItem" onClick={setJanelaBusca}>
           Busca
-        </a> |
+        </a>
+        <a href="#" className="HeaderMenuItem" onClick={setJanelaSobre}>
+          Sobre
+        </a>
     </header>
   )
 }

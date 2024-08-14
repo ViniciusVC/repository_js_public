@@ -1,5 +1,8 @@
+
+// Janela de Captura pokemons
+
 import {React, useState, useContext } from 'react';
-import './janelaCaptura.css'; // Estilos personalizados para a pop-up
+import './janelaCaptura.modules.css'; // Estilos personalizados para a pop-up
 import api from "../../services/api"; // Importar configurações do Axios
 import Moldura from "../moldura/index.js";
 import { DBcacheContext } from "../../context/DBcacheContext.js";
@@ -11,7 +14,7 @@ const JanelaCaptura = ({menuClick, showAlert}) => {
  
   // Lista-cacheada-de-pokemmons------------------------------------------------  
   const addCachePokemmons = (newItem) => {
-    if(newItem.index == dbcache.CachePokemmons.length){
+    if(newItem.index === dbcache.CachePokemmons.length){
       console.log("ERRO! Corrigido index.")
       newItem.index = dbcache.CachePokemmons.length
     }
@@ -30,7 +33,7 @@ const JanelaCaptura = ({menuClick, showAlert}) => {
       return
     }
 
-    if(dbcache.sorteio==0){
+    if(dbcache.sorteio===0){
       dbcache.sorteio = Math.floor(Math.random() * 920) + 1;
     }else{
       dbcache.sorteio=dbcache.sorteio+133
@@ -128,14 +131,14 @@ const JanelaCaptura = ({menuClick, showAlert}) => {
     
   async function capturar(num){
 
-    if(num==0){
+    if(num===0){
       showAlert("Erro! Pokemon não existe.")
     }
     console.log("Capiturar "+num)
     let TodosSlotvagos = true;
     let slotvago = false;
     for (let iFor = 0; iFor < 3; iFor++) {
-      if(dbcache.Colecao[iFor].name==""){
+      if(dbcache.Colecao[iFor].name===""){
         slotvago = true;
       }else{
         TodosSlotvagos = false;
@@ -150,7 +153,7 @@ const JanelaCaptura = ({menuClick, showAlert}) => {
       // Capitura primeiro Pokemon
       //dbcache.Colecao[0]=dbcache.Capturar[num]
 
-      if(dbcache.Capturar[num].name==""){
+      if(dbcache.Capturar[num].name===""){
         showAlert("Ocorreu um erro! Pokemon não cacheado.")
         return
       }
@@ -168,7 +171,7 @@ const JanelaCaptura = ({menuClick, showAlert}) => {
       dbcache.Colecao[0].superDefesa=dbcache.Capturar[num].superDefesa
       dbcache.Colecao[0].velocidade=dbcache.Capturar[num].velocidade
 
-      if(dbcache.Colecao[0].name==""){
+      if(dbcache.Colecao[0].name===""){
         showAlert("Ocorreu um erro capturando primeiro Pokemon!")
         return
       }
@@ -179,8 +182,8 @@ const JanelaCaptura = ({menuClick, showAlert}) => {
       // Zerar pokemom do terreno.
       dbcache.Capturar[num].id=0
       dbcache.Capturar[num].name=""
-      dbcache.Capturar[num].sprites="pokeboll.gif"
-      dbcache.Capturar[num].shiny="pokeboll.gif"
+      dbcache.Capturar[num].sprites="./pokeboll.gif"
+      dbcache.Capturar[num].shiny="./pokeboll.gif"
 
       // Abrir janela Coleção.
       let temp = "JanelaColecao";
@@ -198,8 +201,8 @@ const JanelaCaptura = ({menuClick, showAlert}) => {
 
         // Zera o pokemon no terreno de captura.
         dbcache.Capturar[num].name=""
-        dbcache.Capturar[num].sprites="pokeboll.gif"
-        dbcache.Capturar[num].shiny="pokeboll.gif"
+        dbcache.Capturar[num].sprites="./pokeboll.gif"
+        dbcache.Capturar[num].shiny="./pokeboll.gif"
 
         // Escolha um pokemom para a batalha.
         let temp = "JanelaColecaoBatalha";
@@ -218,76 +221,76 @@ const JanelaCaptura = ({menuClick, showAlert}) => {
     <>
       <h1>CAPTURA</h1>
       <Moldura>
-      <p>Escolha um pokemons para pegar.</p>
-      <div className="terreno-Captura">
-          <div className="positcaptura1 div-img-captura">
-            {dbcache.Capturar[0].name!=="" && ( 
-            <a href="#" onClick={()=>capturar(0)} >
-              <img src={dbcache.Capturar[0].sprites} className="img-captura-poke" alt="o"/>
-            </a>
-            )}
-            {dbcache.Capturar[0].name=="" && ( 
-              <p>x</p>
-            )}
-          </div>
-          <div className="positcaptura2 div-img-captura">
-            {dbcache.Capturar[1].name!=="" && ( 
-            <a  href="#" onClick={()=>capturar(1)} >
-              <img src={dbcache.Capturar[1].sprites} className="img-captura-poke" alt="o"/>
-            </a>
-            )}
-            {dbcache.Capturar[1].name=="" && ( 
-              <p>x</p>
-            )}
-          </div>
-          <div className="positcaptura3 div-img-captura">
-            {dbcache.Capturar[2].name!=="" && ( 
-            <a  href="#" onClick={()=>capturar(2)}>
-              <img src={dbcache.Capturar[2].sprites}  className="img-captura-poke" alt="o"/>
-            </a>
-            )}
-            {dbcache.Capturar[2].name=="" && ( 
-              <p>x</p>
-            )}                        
-          </div>
-          <div className="positcaptura4 div-img-captura">
-            {dbcache.Capturar[3].name!=="" && ( 
-            <a  href="#" onClick={()=>capturar(3)}>
-              <img src={dbcache.Capturar[3].sprites}  className="img-captura-poke" alt="o"/>
-            </a>
-            )}
-            {dbcache.Capturar[3].name=="" && ( 
-              <p>x</p>
-            )}
-          </div>
-          <div className="positcaptura5 div-img-captura">
-            {dbcache.Capturar[4].name!=="" && ( 
-            <a  href="#" onClick={()=>capturar(4)} >
-              <img src={dbcache.Capturar[4].sprites} className="img-captura-poke" alt="o"/>
-            </a>
-            )}
-            {dbcache.Capturar[4].name=="" && ( 
-              <p>x</p>
-            )}
-          </div>
-          <div className="positcaptura6 div-img-captura">
-            {dbcache.Capturar[5].name!=="" && ( 
-            <a  href="#" onClick={()=>capturar(5)}>
-              <img src={dbcache.Capturar[5].sprites} className="img-captura-poke" alt="o"/>
-            </a>
-            )}
-            {dbcache.Capturar[5].name=="" && ( 
-              <p>x</p>
-            )}
-          </div>
-      </div>
-      Seu nivel de treinador permite treinar 3 Pokemons.
+        <p>Escolha um pokemons para pegar.</p>
+        <div className="terrenoCaptura">
+            <div className="positcaptura1 divImgCaptura">
+              {dbcache.Capturar[0].name!=="" && ( 
+              <a href="#" onClick={()=>capturar(0)} >
+                <img src={dbcache.Capturar[0].sprites} className="imgCapturaPoke" alt="o"/>
+              </a>
+              )}
+              {dbcache.Capturar[0].name==="" && ( 
+                <p>x</p>
+              )}
+            </div>
+            <div className="positcaptura2 divImgCaptura">
+              {dbcache.Capturar[1].name!=="" && ( 
+              <a  href="#" onClick={()=>capturar(1)} >
+                <img src={dbcache.Capturar[1].sprites} className="imgCapturaPoke" alt="o"/>
+              </a>
+              )}
+              {dbcache.Capturar[1].name==="" && ( 
+                <p>x</p>
+              )}
+            </div>
+            <div className="positcaptura3 divImgCaptura">
+              {dbcache.Capturar[2].name!=="" && ( 
+              <a  href="#" onClick={()=>capturar(2)}>
+                <img src={dbcache.Capturar[2].sprites}  className="imgCapturaPoke" alt="o"/>
+              </a>
+              )}
+              {dbcache.Capturar[2].name==="" && ( 
+                <p>x</p>
+              )}                        
+            </div>
+            <div className="positcaptura4 divImgCaptura">
+              {dbcache.Capturar[3].name!=="" && ( 
+              <a  href="#" onClick={()=>capturar(3)}>
+                <img src={dbcache.Capturar[3].sprites}  className="imgCapturaPoke" alt="o"/>
+              </a>
+              )}
+              {dbcache.Capturar[3].name==="" && ( 
+                <p>x</p>
+              )}
+            </div>
+            <div className="positcaptura5 divImgCaptura">
+              {dbcache.Capturar[4].name!=="" && ( 
+              <a  href="#" onClick={()=>capturar(4)} >
+                <img src={dbcache.Capturar[4].sprites} className="imgCapturaPoke" alt="o"/>
+              </a>
+              )}
+              {dbcache.Capturar[4].name==="" && ( 
+                <p>x</p>
+              )}
+            </div>
+            <div className="positcaptura6 divImgCaptura">
+              {dbcache.Capturar[5].name!=="" && ( 
+              <a  href="#" onClick={()=>capturar(5)}>
+                <img src={dbcache.Capturar[5].sprites} className="imgCapturaPoke" alt="o"/>
+              </a>
+              )}
+              {dbcache.Capturar[5].name==="" && ( 
+                <p>x</p>
+              )}
+            </div>
+        </div>
+        Seu nivel de treinador permite treinar 3 Pokemons.
       </Moldura>
 
       <Moldura>
         <h3>Pokemons disponíveis:</h3>
           {dbcache.Capturar.map((item, indice) => (
-              <button className="Link-Lista" onClick={()=>capturar(indice)}>
+              <button className="LinkLista" onClick={()=>capturar(indice)}>
                 <b>{"["+indice+"]id:"+item.id+"-"+item.name+"."+item.index}</b>
               </button>
           ))}

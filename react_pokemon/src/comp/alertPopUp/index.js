@@ -1,12 +1,12 @@
 import React from 'react';
-import './alertPopUp.css'; // Estilos personalizados para a pop-up
+import './alertPopUp.modules.css'; // Estilos personalizados para a pop-up
 
 const aletPopUp = ({ message, onClose }) => {
   return (
-    <div className="popup-overlay">
-      <div className="popup-content">
+    <div className="popupOverlay">
+      <div className="popupContent">
         <p><b>{message}</b></p>
-        <div className="center-buton">
+        <div className="popupcenterButton">
           <button onClick={onClose} className="button">
             Voltar
           </button>

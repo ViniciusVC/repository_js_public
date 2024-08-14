@@ -12,6 +12,7 @@ import JanelaBatalha from './comp/janelaBatalha'; // Importar componente JanelaB
 import JanelaColecao from './comp/janelaColecao'; // Importar componente JanelaColecao.
 import JanelaColecaoBatalha from './comp/janelaColecaoBatalha'; // Importar componente JanelaColecao.
 import JanelaBusca from './comp/janelaBusca'; // Importar componente JanelaBusca.
+import JanelaSobre from './comp/janelaSobre'; // Importar componente JanelaSobre.
 
 import { DBcacheContext } from './context/DBcacheContext';
 
@@ -71,6 +72,9 @@ export default function App() {
         )}
         { janelaAberta == "JanelaBusca" && ( 
           <JanelaBusca showAlert={buscaAlert} />
+        )}
+        { janelaAberta == "JanelaSobre" && ( 
+          <JanelaSobre />
         )}
       </div>
       <br/>.<br/>

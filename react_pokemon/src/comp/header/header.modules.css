@@ -1,0 +1,30 @@
+.AppHeader {
+    width: 100%;
+    background-color: red;
+    color:yellow;
+    font-size: 20px;
+    text-align: center; 
+}
+
+.AppLogo{
+    width: 40%;
+    max-width: 300px;
+}
+
+.HeaderMenuItem{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color:#ffff33;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.HeaderMenuItem:hover {
+    color: #004088;
+    background-color: #ffff87;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+  }
+
+
+/* #ff5500);*/

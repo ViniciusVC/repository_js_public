@@ -1,18 +1,29 @@
-.Justificado{
+
+.colecaoCentraliza{
   width: 100%;
   display:flex;
   justify-content: center;
   align-items: center;
+
 }
 
-.div-Colecao-item{
+.colecaoJustificado{
+  width: 100%;
+  max-width: 800px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.divColecaoItem{
   width: 30%;
 }
-.colecao-Imagem{
-  width: 100%;
+.colecaoImagem{
+  width: 90%;
 }
 
-.Bt-Capturar{
+.BtCapturar{
   text-decoration: none;
   font-size: 14px;
   color: #004088;
@@ -31,7 +42,7 @@
   box-shadow: 1px 3px 8px rgba(0,0,0, 1.5);
 }
 
-.Bt-libertar{
+.BtLibertar{
   text-decoration: none;
   font-size: 14px;
   color: #ffffff;

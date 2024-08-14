@@ -1,5 +1,5 @@
 import {React, useState, useContext } from 'react';
-//import './janelaColecao.css'; // Estilos personalizados para a pop-up
+//import './janelaColecaoBatalha.modules.css'; // Estilos personalizados para a pop-up
 import Moldura from "../moldura/index.js";
 import { DBcacheContext } from "../../context/DBcacheContext.js";
 
@@ -26,7 +26,7 @@ const JanelaColecaoBatalha = ({menuClick, showAlert}) => {
         <div className="Justificado">
 
           {dbcache.Colecao[0].name !== "" && ( 
-          <div className="div-Colecao-item">
+          <div className="divColecaoItem">
             <Moldura>
               
                 <>
@@ -39,12 +39,12 @@ const JanelaColecaoBatalha = ({menuClick, showAlert}) => {
           </div>
           )}
           {dbcache.Colecao[1].name !== "" && ( 
-          <div className="div-Colecao-item">
+          <div className="divColecaoItem">
             <Moldura>
               
                 <>
                     <h3>{dbcache.Colecao[1].name}</h3><br/>
-                    <img src={dbcache.Colecao[1].shiny} className="colecao-Imagem" alt="mini personagem" />
+                    <img src={dbcache.Colecao[1].shiny} className="colecaoImagem" alt="mini personagem" />
                     <button onClick={()=>escolhido(1)}>ESCOLHO</button>
                 </>
               
@@ -52,12 +52,12 @@ const JanelaColecaoBatalha = ({menuClick, showAlert}) => {
           </div>
           )}
           {dbcache.Colecao[2].name !== "" && ( 
-          <div className="div-Colecao-item">
+          <div className="divColecaoItem">
             <Moldura>
              
                 <>
                     <h3>{dbcache.Colecao[2].name}</h3><br/>
-                    <img src={dbcache.Colecao[2].shiny} className="colecao-Imagem" alt="mini personagem" />
+                    <img src={dbcache.Colecao[2].shiny} className="colecaoImagem" alt="mini personagem" />
                     <button onClick={()=>escolhido(2)}>ESCOLHO</button>
                 </>
               

@@ -1,4 +1,4 @@
-.popup-overlay {
+.popupOverlay {
     position: fixed;
     top: 0;
     left: 0;
@@ -11,7 +11,7 @@
     z-index: 1000;
   }
   
-  .popup-content {
+  .popupContent {
     /*min-width: 200px;*/
     background: #006400;
     padding: 20px;
@@ -25,7 +25,7 @@
     align-items: center;
   }
 
-  .popup-center-buton {
+  .popupCenterButton {
     width: 100%;
     display: flex;
     justify-content: center;
