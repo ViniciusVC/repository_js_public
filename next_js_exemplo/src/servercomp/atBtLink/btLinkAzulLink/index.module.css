@@ -1,0 +1,10 @@
+.btLinkbutazulLink {
+  color: #000000;
+  text-decoration: none;
+  outline: 0;
+  box-sizing: border-box;
+  font-style: normal;
+}
+.btLinkbutazulLink:hover {
+  color: #0073b1;
+}

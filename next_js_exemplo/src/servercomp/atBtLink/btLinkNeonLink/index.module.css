@@ -1,0 +1,10 @@
+.btLinkNeonLink {
+  color: #00ffea;
+  text-decoration: none;
+  outline: 0;
+  box-sizing: border-box;
+  font-style: normal;
+}
+.btLinkNeonLink:hover {
+  color: #ffffff;
+}

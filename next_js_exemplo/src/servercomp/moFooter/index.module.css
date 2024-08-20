@@ -1,0 +1,32 @@
+.footerMenu{
+    padding-top: 15px;
+    padding-bottom : 10px;
+  }
+  /*
+  .logo{
+    margin:0px;
+    padding-top: 10px;
+
+    animation-duration: 3s;
+    animation-name: slideinSombra;
+  }
+  */
+  .logo {
+    position: relative;
+  }
+
+  .footerColuna{
+    min-width: 155px;
+  }
+  .FooterdoSite{
+    right: 0px;
+    float: right;
+    padding-top: 15px;
+    text-align: right;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .logo {
+      filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
+    }
+  }

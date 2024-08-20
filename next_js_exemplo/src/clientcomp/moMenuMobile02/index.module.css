@@ -1,0 +1,45 @@
+.contMenuMobile{
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #FFF;
+  animation: abremenu 1s ease 0s 1 normal none running;
+}
+
+@keyframes abremenu{
+  0% {
+    left: -100px;
+    opacity: 0;
+  }
+  100% {
+    left: 0px;
+    opacity: 1;
+  }
+}
+.lightboxMenu {
+  margin : 10px;
+  height: 100vh;
+  width: 86vw;
+  transition: all 0.3s ease 0s;
+  overflow-y: scroll;
+  padding: 10px;
+}
+
+.closeMenu {
+  margin-bottom : 20px;
+  border-left:100px;
+  top:5px;
+  font-family: arial;    
+  position: relative;
+  flex-direction: row-reverse;
+  display: flex;
+  padding: 0px;
+}
+
+.btMenu{
+  font-size: 25px;
+  color: black;
+}

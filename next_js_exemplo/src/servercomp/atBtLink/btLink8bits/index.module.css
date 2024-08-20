@@ -1,0 +1,28 @@
+.btLink8bit {
+  font-family: "Press Start 2P", monospace;
+  display: block;
+  background-color: #ac1100;
+  color: #ffffff;
+  font-size: 1rem; /*16px*/
+  height: 30px;
+  text-align: center;
+  max-width: 200px;
+  text-decoration: none;
+  border: solid 3px #ffffff;
+  border-bottom: solid 3px #000;
+  border-right: solid 3px #000;
+  cursor: pointer;
+  outline: 0;
+  margin: 0;
+  padding: 5px;
+  box-sizing: border-box;
+  font-style: normal;
+}
+.btLink8bit:hover {
+  background-color: #44eeff;
+  color: #ac1100;
+  border: solid 3px #000;
+  border-bottom: solid 3px #fff;
+  border-right: solid 3px #fff;
+
+}

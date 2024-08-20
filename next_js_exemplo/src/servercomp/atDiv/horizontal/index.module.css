@@ -1,0 +1,5 @@
+.atDivHorizontal {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
