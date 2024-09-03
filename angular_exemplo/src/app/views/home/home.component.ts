@@ -22,16 +22,17 @@ import { GlobalService } from '../../global.service';
 export class HomeComponent {
 
   handleEvent(){
-    console.log("Componente pai - EVENTO!")
+    console.log("EVENTO!")
     alert("Tudo ok.")
   }
 
-  constructor(private globalService: GlobalService) { 
-    this.globalService.setLingua("en")
-   }
+  //constructor(private globalService: GlobalService) { 
+  //  this.globalService.setLingua("en")
+  //}
 
   lingua(X:string,Y:string){
-    if(this.globalService.getLingua() == "en"){
+    //if(this.globalService.getLingua() == "en"){
+    if(GlobalService.getLingua() == "en"){
       return Y;
     }else{
       return X;

@@ -6,7 +6,7 @@ const aletPopUp = ({ message, onClose }) => {
     <div className="popupOverlay">
       <div className="popupContent">
         <p><b>{message}</b></p>
-        <div className="popupcenterButton">
+        <div className="popupCenterButton">
           <button onClick={onClose} className="button">
             Voltar
           </button>

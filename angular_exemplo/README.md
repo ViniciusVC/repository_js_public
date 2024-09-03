@@ -1,6 +1,6 @@
-# Projeto Angular Teste1
+# Angular Exemplo
 
-Exemplo spa com Angular.
+Exemplo SPA com Angular 17.
 
 # Rodar projeto em desenvolvimento
 

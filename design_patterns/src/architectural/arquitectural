@@ -1,0 +1,19 @@
+# Padrão Arquitetural
+
+## CQRS
+Command and Query Responsibility Segregation, 
+
+Segregação de responsabilidade de Consulta e Comando
+Modelo para consulta e gravação de dados.
+
+Um padrão que separa as operações de leitura e atualização para um armazenamento de dados.
+
+A implementação do CQRS em seu aplicativo pode maximizar seu desempenho, escalabilidade e segurança.
+
+Alterar e consultar dados ao mesmo tempo pode até parecer "simultâneo" em alguns casos, mas quando se aumenta o número de usuários isso pode ser uma dor de cabeça gigante. 
+
+Não caia mais nos mesmos problemas que muitos outros projetos de software já passaram.
+
+Por isso existem os patterns.
+
+A CQRS é um pattern arquitetural já consolidado há muito tempo criado justamente para resolver essa situação.

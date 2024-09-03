@@ -5,15 +5,17 @@
     font-size: 12px;
     text-align: center; 
 }
-a{
+
+.menulink:hover {
+    transition-duration: 1s;
+    color: #00373a;
+    background-color: #f0cb65;
+    border: 1px solid #00373a;
+  }
+
+.menulink{
     padding-left: 10px;
     padding-right: 10px;
     text-decoration: none;
     color:#f0cb65;
 }
-.a:hover {
-    transition-duration: 1s;
-    color: #00373a;
-    background-color: #ffffff;
-    border: 1px solid #00373a;
-  }
