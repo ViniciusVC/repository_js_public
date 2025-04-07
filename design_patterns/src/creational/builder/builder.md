@@ -15,9 +15,9 @@ Esse padrão é especialmente útil quando a criação de um objeto envolve múl
 
 * Rodar exemplo de BUILDER em JavaScript:
 
-> node ./creational/builder/JavaScript/exemplo_builder01.js
+> node ./src/creational/builder/JavaScript/index.js
 
 
 * Rodar exemplo de BUILDER em TypeScript:
 
-> npx tsx ./creational/builder/TypeScript/index.ts
+> npx tsx ./src/creational/builder/TypeScript/index.ts

@@ -67,3 +67,24 @@ Para acessar o BUILD por um servidor estático:
 >  npm install -g serve
 
 >  serve -s build
+
+
+# Rodar Integrado
+
+1º Entrar no projeto react:
+> cd repository_js_public/react_login_avatar
+2º Rodar pojeto react em dev.
+>  npm start
+
+3º Abrir projeto API DotNet
+> cd VVCDotNetAPILogin
+4º Rodar pojeto API DotNet
+> dotnet run
+
+3º Abrir projeto Proxy Reverso DotNet 
+> cd ReverseProxy
+4º Rodar pojeto Proxy Reverso DotNet 
+> dotnet run
+
+5º Acessar projeto 
+> http://localhost:3000/

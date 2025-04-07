@@ -18,6 +18,7 @@ cd repository_js_public/react_pokemon
 # Rodar
 
 Rodar o servidor de desenvolvimento.
+
 >  npm start
 
 http://localhost:3000/
@@ -28,9 +29,11 @@ http://localhost:3000/
 ## Criando projeto
 
 Criar projeto ReactJS
+
 > npx create-react-app react_pokemon
 
 Entrar no diretório do projeto.
+
 > cd react_pokemon
 
 Os codigos estão no diretório /SRC.
@@ -54,6 +57,7 @@ API usada no projeto: https://pokeapi.co/
 # build
 
 Quando terminar gere um build.
+
 > npm rum build
 
 Uma pasta Dist será criada.

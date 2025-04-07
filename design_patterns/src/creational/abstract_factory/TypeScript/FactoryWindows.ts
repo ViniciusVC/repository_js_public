@@ -11,6 +11,9 @@ import {WindowsWindow} from "./WindowsWindow";
  As classes WindowsButton, WindowsWindow, MacOSButton, e MacOSWindow implementam essa interface.
  Concrete Factories: 
  WindowsFactory e MacOSFactory implementam a interface GUIFactory e são responsáveis pela criação dos produtos concretos.
+
+ * Concrete Factories (WindowsFactory, MacOSFactory): 
+ Essas classes concretas implementam a fabrica abstrata (GUIFactory) e criam os objetos especificos.
 */
 
 export class WindowsFactory implements GUIFactory {

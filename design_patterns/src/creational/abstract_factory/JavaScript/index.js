@@ -52,6 +52,7 @@ class GUIFactory {
   
 // Concrete Factories
 class WindowsFactory extends GUIFactory {
+  // Concrete Factories: WindowsFactory e MacOSFactory implementam a interface GUIFactory e sao responsaveis pela criacao dos produtos concretos.
     createButton() {
       return new WindowsButton();
     }
@@ -62,6 +63,7 @@ class WindowsFactory extends GUIFactory {
 }
   
 class MacOSFactory extends GUIFactory {
+  // Concrete Factories: WindowsFactory e MacOSFactory implementam a interface GUIFactory e sao responsaveis pela criacao dos produtos concretos.
     createButton() {
       return new MacOSButton();
     }
@@ -80,12 +82,13 @@ function clientCode(factory) {
     window.render();
 }
   
-// Testando com diferentes fabricas
+// Testando com fabrica Win
 clientCode(new WindowsFactory());
   // Output:
   // Renderizando um botao estilo Windows.
   // Renderizando uma janela estilo Windows.
-  
+
+// Testando com fabrica MacOS
 clientCode(new MacOSFactory());
   // Output:
   // Renderizando um botao estilo MacOS.
@@ -103,8 +106,6 @@ As classes WindowsButton, WindowsWindow, MacOSButton, e MacOSWindow implementam 
 * Interface GUIFactory: 
 Define os metodos que cada fabrica concreta precisa implementar (createButton e createWindow).
 
-* Concrete Factories: 
-WindowsFactory e MacOSFactory implementam a interface GUIFactory e sao responsaveis pela criacao dos produtos concretos.
 
 * Funcao Cliente (clientCode): 
 Funciona da mesma forma que em JavaScript, usando a fabrica abstrata para criar os produtos, sem depender de implementacoes concretas.

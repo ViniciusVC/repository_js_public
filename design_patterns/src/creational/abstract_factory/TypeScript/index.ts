@@ -33,8 +33,7 @@ Essas classes definem a interface dos produtos (botoes, janelas) e da fabrica ab
 * Classes concretas (WindowsButton, WindowsWindow, MacOSButton, MacOSWindow): 
 Essas sao as implementacoes especificas para cada sistema operacional.
 
-* Concrete Factories (WindowsFactory, MacOSFactory): 
-Essas classes concretas implementam a fabrica abstrata (GUIFactory) e criam os objetos especificos.
+
 
 * Funcao Cliente (clientCode): 
 Esta funcao utiliza a fabrica abstrata para criar os objetos sem se preocupar com as classes concretas, permitindo flexibilidade para trocar as implementacoes facilmente.

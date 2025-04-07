@@ -1,6 +1,6 @@
 // Exemplo de Injecao de Dependancia
 
-console.log("Exemplo de Injeção de Dependência com TypeScript.");
+console.log("Exemplo de Injecao de Dependencia com TypeScript.");
 
 class Turbinar {
     start(): void {
