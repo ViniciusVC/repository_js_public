@@ -1,5 +1,5 @@
 # repository_js_public
-Agrupamento de projetos com JavaScript
+Repositório que reúne projetos, exemplos e estudos relacionados ao ecossistema JavaScript. Os diretórios abrangem aplicações e experimentos com Angular, AngularJS, React, React Native, Next.js, Vue.js, TypeScript, KnockoutJS e padrões de projeto, além de exemplos que integram APIs.
 
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) 
@@ -12,7 +12,6 @@ Agrupamento de projetos com JavaScript
 ![Next](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 
 
-
 ## GitHub : 
 
 https://github.com/ViniciusVC/repository_js_public
@@ -21,51 +20,59 @@ https://github.com/ViniciusVC/repository_js_public
 ## Projetos neste repositorio:
 ```
 │
-├── 📂 /angular_exemplo
+├── 📂 angular_exemplo
 │   (SPA com Angular) 
 │
 │
-├── 📂 AngularV1_estudo
+├── 📂 angular_v1_estudo
 │   (AngularJS 1 - Bootstrap - JS) 
 │
 │
-├── 📂 AngularV1_estudo2
+├── 📂 angular_v1_estudo2
 │   (AngularJS 1 - Bootstrap - JS) 
 │
 │
-├── 📂 /next_amp_v1_0042
+├── 📂 design_patterns
+│   (Estudos e exemplos de padrões de projeto)
+│
+│
+├── 📂 KnockoutJS
+│   (Exemplos com KnockoutJS)
+│
+│
+├── 📂 next_amp_v1_0042
 │   (NextJS - ReactJS - AMP - JS)
 │
 │
-├── 📂 /next_js_exemplo
+├── 📂 next_js_exemplo
 │   (Exemplo NextJS)
 │
 │
-├── 📂 /typeScript_exemplo
-│   (Exemplo typeScripte)
+├── 📂 typeScript_exemplo
+│   (Exemplo TypeScript)
 │
 │
-├── 📂 /react_login_avatar
+├── 📂 react_login_avatar
 │   (Login APP React a uma API DotNet - controle de acesso)
 │  
 │
-├── 📂 /react_native_test_a
+├── 📂 react_native_test_a
 │   (Estudo React Native)
 │
 │
-├── 📂 /react_pokemon
+├── 📂 react_pokemon
 │   (Exemplo simples de SPA ReactJS usando API Pokemon)
 │
 │ 
-├── 📂 /react_puro_busca
+├── 📂 react_puro_busca
 │   (Exemplo simples de SPA ReactJS usando API CPF)
 │
 │ 
-├── 📂 /vue_js_node
-│   (Exemplo de SPA com Vue no Node.)
+├── 📂 vue_js_classico
+│   (Vue.js 2 e 3 com Bootstrap)
 │
-│ 
-├── 📂 /VueJS_classico
-    (Vue.JS 2 e 3. Não renderizado + Bootstrap v0.12.1)
+│
+└── 📂 vue_js_node
+    (Exemplo de SPA com Vue no Node.)
 
 ```
